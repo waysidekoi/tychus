@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
   spec.add_dependency "nokogiri", "~> 1.6.3"
+  spec.add_dependency "addressable", "~> 2.3.6"
 end
