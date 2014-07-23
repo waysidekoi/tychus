@@ -1,0 +1,3 @@
+describe Tychus do
+end
+
