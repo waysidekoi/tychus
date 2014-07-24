@@ -1,5 +1,6 @@
 require 'tychus'
 require 'webmock/rspec'
+require 'rspec/its'
 require 'vcr'
 require 'pry'
 

@@ -1,7 +1,8 @@
 module Tychus
 module Parsers
 
-  class AllrecipesParser < Base
+  # Allrecipes uses schema.org's recipe microformat
+  class AllrecipesParser < SchemaOrgParser
     def self.uri_host
       "allrecipes.com"
     end

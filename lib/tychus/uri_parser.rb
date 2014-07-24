@@ -1,17 +1,19 @@
 # This will attempt to resolve a host for the uri
-# by first attempting to resolve its canonical uri (if it exists) else
-# uses Addressable::URI#parse
+# by first attempting to resolve its canonical uri (if it exists)
+# and then will return the uri's host and the parsed nokogiri object
+# Since in order to get the canonical uri, we have to use Nokogiri to 
+# find a link tag, is it too much to expect this class to act as an
+# uri parser (using Addressable) and a Nokogiri object maker?
 
 require 'addressable/uri'
 require 'open-uri'
-require 'nokogiri'
-require 'active_support/core_ext/object/blank.rb'
 
 module Tychus
   class URIResolver
-    attr_reader :doc, :schema_org_canonical_uri_property, :open_graph_canonical_uri_property
+    attr_reader :uri, :doc
 
     def initialize(uri)
+      @uri = uri
       @schema_org_canonical_uri_property = 'link[rel="canonical"]'
       @open_graph_canonical_uri_property = 'meta[property="og:url"]'
       @doc = Nokogiri::HTML(open(uri))
@@ -20,11 +22,9 @@ module Tychus
     def resolve_uri
       # try to retrieve host from canonical uri in markup
       # else resort to given uri
-      full_uri = canonical_uri(schema_org_canonical_uri_property).presence || \
-      canonical_uri(open_graph_canonical_uri_property).presence || \
-      uri
-
-      Addressable::URI.parse(full_uri).host
+      canonical_uri(schema_org_canonical_uri_property).presence || \
+      canonical_uri(open_graph_canonical_uri_property) || \
+      Addressible::URI.parse(uri).host
     end
 
     def canonical_uri(property)
