@@ -7,6 +7,7 @@ module Parsers
 
   Recipe = Struct.new(*Base.recipe_attributes) do
     alias_method :yield, :recipe_yield
+    alias_method :instructions, :recipe_instructions
   end
 
 end

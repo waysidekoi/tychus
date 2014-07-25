@@ -22,6 +22,7 @@ module Parsers
         total_time
         recipe_yield
         ingredients
+        recipe_instructions
       ]
     end
 
@@ -47,6 +48,12 @@ module Parsers
       recipe_doc.css(itemprop_node_for(:author)).first.content
     end
 
+    def parse_recipe_instructions
+      # strip empty strings, clean carriage returns (\r\n), reject last
+      # "Kitchen Friendly View" element
+      recipe_doc.css(itemprop_node_for(:recipeInstructions)).css('[itemprop="recipeInstructions"]').first.element_children.map{|x|x.content.squeeze(" ").split("\r\n\s\r\n\s")}.flatten.reject(&:blank?)[0..-2]
+    end
+
     def parse_name
       # is it always first?
       recipe_doc.css(itemprop_node_for(:name)).first.content
@@ -59,7 +66,7 @@ module Parsers
     end
 
     def parse_ingredients
-      # is it always first?
+      # NOT FIRST
       recipe_doc.css(itemprop_node_for(:ingredients)).map{|ingredient_node| ingredient_node.element_children.map(&:content).join(" ")}.reject(&:blank?)
     end
 
