@@ -5,8 +5,17 @@ module Parsers
     attr_reader :uri, :recipe_doc, :recipe
 
     def self.recipe_attributes
+      # TODO: clear up these attributes. Are they used? Real example to
+      # verify?
+        # recipeType
+        # photo
+        # published
+        # summary
+        # review - see schema.org/Review
       %i[
         name
+        author
+        prep_time
       ]
     end
 
@@ -27,9 +36,20 @@ module Parsers
       recipe
     end
 
+    def parse_author
+      # is it always first?
+      recipe_doc.css(itemprop_node_for(:author)).first.content
+    end
+
     def parse_name
       # is it always first?
       recipe_doc.css(itemprop_node_for(:name)).first.content
+    end
+
+    def parse_prep_time
+      # is it always first?
+      # leverage iso8601
+      recipe_doc.css(itemprop_node_for(:prepTime)).first["datetime"]
     end
 
     def recipe_attributes
