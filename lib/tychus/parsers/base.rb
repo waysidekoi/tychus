@@ -17,22 +17,22 @@ module Parsers
       %i[
         name
         author
+        description
         prep_time
         cook_time
         total_time
         recipe_yield
         ingredients
         recipe_instructions
+        image
       ]
     end
 
     def initialize(uri)
       @uri = uri
       @recipe = Recipe.new
-    end
-
-    def doc
-      Nokogiri::HTML(open(uri))
+      @doc = Nokogiri::HTML(open(uri))
+      @recipe_doc = @doc.css(self.class.root_doc)
     end
 
     def parse
@@ -48,6 +48,10 @@ module Parsers
       recipe_doc.css(itemprop_node_for(:author)).first.content
     end
 
+    def parse_description
+      # is it always first?
+      recipe_doc.css(itemprop_node_for(:description)).first.content
+    end
     def parse_recipe_instructions
       # strip empty strings, clean carriage returns (\r\n), reject last
       # "Kitchen Friendly View" element
@@ -63,6 +67,11 @@ module Parsers
       # is it always first?
       # leverage iso8601
       recipe_doc.css(itemprop_node_for(:cookTime)).first["datetime"]
+    end
+
+    def parse_image
+      # is it always first?
+      recipe_doc.css(itemprop_node_for(:image)).first['src']
     end
 
     def parse_ingredients
@@ -89,10 +98,6 @@ module Parsers
 
     def recipe_attributes
       self.class.recipe_attributes
-    end
-
-    def recipe_doc
-      @recipe_doc ||= doc.css(self.class.root_doc)
     end
 
   end
