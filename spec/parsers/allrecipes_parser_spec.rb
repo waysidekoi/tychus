@@ -35,9 +35,7 @@ describe Tychus::Parsers::AllrecipesParser do
   its(:cook_time) { is_expected.to eq("PT50M") }
   its(:total_time) { is_expected.to eq("PT1H10M") }
   its(:yield) { is_expected.to eq("1 - 9 inch pie") }
-  its(:recipe_yield) { is_expected.to eq("1 - 9 inch pie") }
   its(:ingredients) { is_expected.to eq(ingredients) }
-  its(:recipe_instructions) { is_expected.to eq(instructions) }
   its(:instructions) { is_expected.to eq(instructions) }
   its(:image) { is_expected.to eq("http://images.media-allrecipes.com/userphotos/250x250/00/14/23/142350.jpg") }
   its(:description) { is_expected.to eq("\"A delicious chicken pie made from scratch with carrots, peas and celery.\"") }
