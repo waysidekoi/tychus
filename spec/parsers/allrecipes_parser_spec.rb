@@ -1,6 +1,7 @@
 describe Tychus::Parsers::AllrecipesParser do
-  # self.class?
   subject { Tychus.parse(allrecipes_uri) }
+  # 7/26/14 source:
+  # http://allrecipes.com/Recipe/Chicken-Pot-Pie-IX/Detail.aspx?soid=recs_recipe_2
   let(:allrecipes_uri) { File.expand_path("../../fixtures/allrecipes.html", __FILE__) }
   let(:ingredients) {
     [

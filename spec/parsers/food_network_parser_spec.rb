@@ -6,6 +6,8 @@ describe Tychus::Parsers::FoodNetworkParser do
     # tag that also references her TV show and episode the recipe
     # appeared. #parse_author may be complex for this edge case
     # NOTE: author is formatted using schema.org/Person
+
+    # 7/26/14 source: http://www.foodnetwork.com/recipes/ina-garten/grilled-panzanella-recipe.html?ic1=obinsite^
     let(:food_network_uri) { File.expand_path("../../fixtures/food_network_single_ingredients_group.html", __FILE__) }
     let(:ingredients) {
       [
