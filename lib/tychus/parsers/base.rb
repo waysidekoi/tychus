@@ -4,7 +4,7 @@ module Tychus
 module Parsers
 
   class Base
-    attr_reader :uri, :recipe_doc, :recipe
+    attr_reader :uri, :doc, :recipe_doc, :recipe
 
     def self.recipe_attributes
       # TODO: clear up these attributes. Are they used? Real example to
@@ -52,10 +52,26 @@ module Parsers
       # is it always first?
       recipe_doc.css(itemprop_node_for(:description)).first.content
     end
+
     def parse_recipe_instructions
-      # strip empty strings, clean carriage returns (\r\n), reject last
-      # "Kitchen Friendly View" element
-      recipe_doc.css(itemprop_node_for(:recipeInstructions)).css('[itemprop="recipeInstructions"]').first.element_children.map{|x|x.content.squeeze(" ").split("\r\n\s\r\n\s")}.flatten.reject(&:blank?)[0..-2]
+      # strip empty strings, drop trailing whitespace, clean carriage returns (\r\n)
+      #
+      # Allrecipes: <li><span>lorem ipsum</span></li>
+      # FoodNetwork: <p>lorem ipsum</p>
+      # reject headers such as "Directions" and divs such as .categories for Foodnetwork recipes
+      reject_regex = /^(h.|div)$/
+
+      clean_instructions(recipe_doc
+        .css(itemprop_node_for(:recipeInstructions))
+        .first
+        .element_children
+        .reject { |node| node.name =~ reject_regex }
+        .map do |node|
+          node.content
+            .squeeze(" ")
+            .rstrip
+            .split("\r\n\s\r\n\s")
+        end.flatten.reject(&:blank?))
     end
 
     def parse_name
@@ -66,7 +82,7 @@ module Parsers
     def parse_cook_time
       # is it always first?
       # leverage iso8601
-      recipe_doc.css(itemprop_node_for(:cookTime)).first["datetime"]
+      parse_duration(recipe_doc.css(itemprop_node_for(:cookTime)).first)
     end
 
     def parse_image
@@ -76,13 +92,32 @@ module Parsers
 
     def parse_ingredients
       # NOT FIRST
-      recipe_doc.css(itemprop_node_for(:ingredients)).map{|ingredient_node| ingredient_node.element_children.map(&:content).join(" ")}.reject(&:blank?)
+      recipe_doc
+        .css(itemprop_node_for(:ingredients))
+        .map do |ingredient_node|
+          ingredient_node
+            .element_children
+            .map(&:content)
+            .join(" ")
+        end.reject(&:blank?)
     end
 
     def parse_prep_time
       # is it always first?
       # leverage iso8601
-      recipe_doc.css(itemprop_node_for(:prepTime)).first["datetime"]
+      parse_duration(recipe_doc.css(itemprop_node_for(:prepTime)).first)
+    end
+
+    def parse_duration(node)
+      # Allrecipes - 'time' element
+      # Foodnetwork - 'meta' element (std according to
+      # Schema.org/Recipe)
+      case node.name
+      when "meta"
+        node.attr('content')
+      when "time"
+        node.attr('datetime')
+      end
     end
 
     def parse_recipe_yield
@@ -93,7 +128,7 @@ module Parsers
     def parse_total_time
       # is it always first?
       # leverage iso8601
-      recipe_doc.css(itemprop_node_for(:totalTime)).first["datetime"]
+      parse_duration(recipe_doc.css(itemprop_node_for(:totalTime)).first)
     end
 
     def recipe_attributes
@@ -102,12 +137,9 @@ module Parsers
 
   end
 
-  class NullObject
-    def method_missing(*args, &block)
-      nil
-    end
+  def clean_instructions(obj)
+    obj
   end
 
 end
 end
-

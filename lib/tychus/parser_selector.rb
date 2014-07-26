@@ -1,7 +1,8 @@
 module Tychus
   class ParserSelector
     PARSERS = [
-      Tychus::Parsers::AllrecipesParser
+      Tychus::Parsers::AllrecipesParser,
+      Tychus::Parsers::FoodNetworkParser
     ]
 
     def self.resolve_parser(host)
