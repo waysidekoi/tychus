@@ -35,7 +35,7 @@ module Parsers
       # reject headers such as "Directions" and divs such as .categories for Foodnetwork recipes
       reject_regex = /^(h.|div)$/
 
-      clean_instructions(itemprop_node_for(:recipeInstructions)
+      itemprop_node_for(:recipeInstructions)
         .element_children
         .reject { |node| node.name =~ reject_regex }
         .map do |node|
@@ -43,7 +43,7 @@ module Parsers
             .squeeze(" ")
             .rstrip
             .split("\r\n\s\r\n\s")
-        end.flatten.reject(&:blank?))
+        end.flatten.reject(&:blank?)
     end
 
     def parse_cook_time
@@ -88,7 +88,6 @@ module Parsers
     def parse_prep_time
       parse_duration(itemprop_node_for(:prepTime))
     end
-
 
     def parse_recipe_yield
       itemprop_node_for(:recipeYield).content

@@ -6,8 +6,9 @@ module Parsers
       "allrecipes.com"
     end
 
-    def clean_instructions(instructions)
+    def parse_recipe_instructions
       #reject last "Kitchen Friendly View" element
+      instructions = super
       instructions[0..-2]
     end
   end
