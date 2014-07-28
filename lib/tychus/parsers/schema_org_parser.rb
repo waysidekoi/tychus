@@ -23,7 +23,7 @@ module Parsers
     end
 
     def itemprop_node_for(property)
-      "[itemprop='#{property}']"
+      recipe_doc.css("[itemprop='#{property}']").first || NullObject.new
     end
 
     def self.review_doc

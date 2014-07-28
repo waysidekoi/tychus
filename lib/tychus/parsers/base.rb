@@ -37,20 +37,20 @@ module Parsers
 
     def parse
       recipe_attributes.each do |attr|
-        value = __send__("parse_#{attr}")
-        recipe.__send__("#{attr}=", value)
+        property_value = __send__("parse_#{attr}")
+        recipe.__send__("#{attr}=", Value(property_value))
       end
       recipe
     end
 
     def parse_author
       # is it always first?
-      recipe_doc.css(itemprop_node_for(:author)).first.content
+      itemprop_node_for(:author).content
     end
 
     def parse_description
       # is it always first?
-      recipe_doc.css(itemprop_node_for(:description)).first.content
+      itemprop_node_for(:description).content
     end
 
     def parse_recipe_instructions
@@ -61,9 +61,7 @@ module Parsers
       # reject headers such as "Directions" and divs such as .categories for Foodnetwork recipes
       reject_regex = /^(h.|div)$/
 
-      clean_instructions(recipe_doc
-        .css(itemprop_node_for(:recipeInstructions))
-        .first
+      clean_instructions(itemprop_node_for(:recipeInstructions)
         .element_children
         .reject { |node| node.name =~ reject_regex }
         .map do |node|
@@ -76,24 +74,24 @@ module Parsers
 
     def parse_name
       # is it always first?
-      recipe_doc.css(itemprop_node_for(:name)).first.content
+      itemprop_node_for(:name).content
     end
 
     def parse_cook_time
       # is it always first?
       # leverage iso8601
-      parse_duration(recipe_doc.css(itemprop_node_for(:cookTime)).first)
+      parse_duration(itemprop_node_for(:cookTime))
     end
 
     def parse_image
       # is it always first?
-      recipe_doc.css(itemprop_node_for(:image)).first['src']
+      itemprop_node_for(:image).attr('src')
     end
 
     def parse_ingredients
       # NOT FIRST
       recipe_doc
-        .css(itemprop_node_for(:ingredients))
+        .css('[itemprop="ingredients"]')
         .map do |ingredient_node|
           ingredient_node
             .element_children
@@ -105,7 +103,7 @@ module Parsers
     def parse_prep_time
       # is it always first?
       # leverage iso8601
-      parse_duration(recipe_doc.css(itemprop_node_for(:prepTime)).first)
+      parse_duration(itemprop_node_for(:prepTime))
     end
 
     def parse_duration(node)
@@ -113,32 +111,46 @@ module Parsers
       # Foodnetwork - 'meta' element (std according to
       # Schema.org/Recipe)
       case node.name
-      when "meta"
+      when "meta", "span"
         node.attr('content')
       when "time"
         node.attr('datetime')
+      else
+        NullObject.new
       end
     end
 
     def parse_recipe_yield
       # is it always first?
-      recipe_doc.css(itemprop_node_for(:recipeYield)).first.content
+      itemprop_node_for(:recipeYield).content
     end
 
     def parse_total_time
       # is it always first?
       # leverage iso8601
-      parse_duration(recipe_doc.css(itemprop_node_for(:totalTime)).first)
+      parse_duration(itemprop_node_for(:totalTime))
     end
 
     def recipe_attributes
       self.class.recipe_attributes
     end
 
+    def clean_instructions(obj)
+      obj
+    end
+
+    def Value(obj)
+      case obj
+      when NullObject then nil
+      else obj
+      end
+    end
   end
 
-  def clean_instructions(obj)
-    obj
+  class NullObject
+    def method_missing(*args, &block)
+      self
+    end
   end
 
 end

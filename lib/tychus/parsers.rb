@@ -2,6 +2,7 @@ require_relative 'parsers/base'
 require_relative 'parsers/schema_org_parser'
 require_relative 'parsers/allrecipes_parser'
 require_relative 'parsers/food_network_parser'
+require_relative 'parsers/kraft_recipes_parser'
 
 module Tychus
 module Parsers

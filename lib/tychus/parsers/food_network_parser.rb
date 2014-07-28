@@ -7,9 +7,7 @@ module Parsers
 
     def parse_author
       # in the case of an author advertising her TV show
-      recipe_doc
-        .css(itemprop_node_for(:author))
-        .first
+      itemprop_node_for(:author)
         .css('span')
         .first
         .content
@@ -25,7 +23,7 @@ module Parsers
     def parse_ingredients
       # NOT FIRST
       recipe_doc
-        .css(itemprop_node_for(:ingredients))
+        .css('[itemprop="ingredients"]')
         .map { |node| node.content.lstrip.squeeze(" ").chomp } 
     end
 
