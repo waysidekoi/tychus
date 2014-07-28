@@ -11,10 +11,10 @@ module Tychus
   class URIResolver
     attr_reader :doc, :schema_org_canonical_uri_property, :open_graph_canonical_uri_property
 
-    def initialize(uri)
+    def initialize(uri, doc=nil)
       @schema_org_canonical_uri_property = 'link[rel="canonical"]'
       @open_graph_canonical_uri_property = 'meta[property="og:url"]'
-      @doc = Nokogiri::HTML(open(uri))
+      @doc ||= Nokogiri::HTML(open(uri))
     end
 
     def resolve_uri
@@ -24,7 +24,7 @@ module Tychus
       canonical_uri(open_graph_canonical_uri_property).presence || \
       uri
 
-      Addressable::URI.parse(full_uri).host
+      Addressable::URI.parse(full_uri)
     end
 
     def canonical_uri(property)
