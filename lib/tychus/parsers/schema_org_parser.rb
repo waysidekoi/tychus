@@ -27,25 +27,6 @@ module Parsers
       itemprop_node_for(:description).content
     end
 
-    def parse_recipe_instructions
-      # strip empty strings, drop trailing whitespace, clean carriage returns (\r\n)
-      #
-      # Allrecipes: <li><span>lorem ipsum</span></li>
-      # FoodNetwork: <p>lorem ipsum</p>
-      # reject headers such as "Directions" and divs such as .categories for Foodnetwork recipes
-      reject_regex = /^(h.|div)$/
-
-      itemprop_node_for(:recipeInstructions)
-        .element_children
-        .reject { |node| node.name =~ reject_regex }
-        .map do |node|
-          node.content
-            .squeeze(" ")
-            .rstrip
-            .split("\r\n\s\r\n\s")
-        end.flatten.reject(&:blank?)
-    end
-
     def parse_cook_time
       # leverage iso8601
       parse_duration(itemprop_node_for(:cookTime))
@@ -87,6 +68,25 @@ module Parsers
 
     def parse_prep_time
       parse_duration(itemprop_node_for(:prepTime))
+    end
+
+    def parse_recipe_instructions
+      # strip empty strings, drop trailing whitespace, clean carriage returns (\r\n)
+      #
+      # Allrecipes: <li><span>lorem ipsum</span></li>
+      # FoodNetwork: <p>lorem ipsum</p>
+      # reject headers such as "Directions" and divs such as .categories for Foodnetwork recipes
+      reject_regex = /^(h.|div)$/
+
+      itemprop_node_for(:recipeInstructions)
+        .element_children
+        .reject { |node| node.name =~ reject_regex }
+        .map do |node|
+          node.content
+            .squeeze(" ")
+            .rstrip
+            .split("\r\n\s\r\n\s")
+        end.flatten.reject(&:blank?)
     end
 
     def parse_recipe_yield
