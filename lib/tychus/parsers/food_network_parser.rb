@@ -7,6 +7,7 @@ module Parsers
 
     def parse_author
       # in the case of an author advertising her TV show
+      # TODO: test case where the author is _not_
       itemprop_node_for(:author)
         .css('span')
         .first
@@ -21,17 +22,10 @@ module Parsers
     end
 
     def parse_ingredients
-      # NOT FIRST
       recipe_doc
         .css('[itemprop="ingredients"]')
         .map { |node| node.content.lstrip.squeeze(" ").chomp } 
     end
-
-    def clean_instructions(obj)
-      #TODO: what is best pattern to share this behavior?
-      obj
-    end
-
   end
 end
 end
