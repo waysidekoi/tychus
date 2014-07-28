@@ -14,6 +14,10 @@ module Parsers
       strip_video_object_microformat
     end
 
+    def itemprop_node_for(property)
+      recipe_doc.css("[itemprop='#{property}']").first || NullObject.new
+    end
+
     def parse_author
       itemprop_node_for(:author).content
     end
@@ -42,13 +46,23 @@ module Parsers
         end.flatten.reject(&:blank?))
     end
 
-    def parse_name
-      itemprop_node_for(:name).content
-    end
-
     def parse_cook_time
       # leverage iso8601
       parse_duration(itemprop_node_for(:cookTime))
+    end
+
+    def parse_duration(node)
+      # Allrecipes - 'time' element
+      # Foodnetwork - 'meta' element (std according to
+      # Schema.org/Recipe)
+      case node.name
+      when "meta", "span"
+        node.attr('content')
+      when "time"
+        node.attr('datetime')
+      else
+        NullObject.new
+      end
     end
 
     def parse_image
@@ -67,23 +81,14 @@ module Parsers
         end.reject(&:blank?)
     end
 
+    def parse_name
+      itemprop_node_for(:name).content
+    end
+
     def parse_prep_time
       parse_duration(itemprop_node_for(:prepTime))
     end
 
-    def parse_duration(node)
-      # Allrecipes - 'time' element
-      # Foodnetwork - 'meta' element (std according to
-      # Schema.org/Recipe)
-      case node.name
-      when "meta", "span"
-        node.attr('content')
-      when "time"
-        node.attr('datetime')
-      else
-        NullObject.new
-      end
-    end
 
     def parse_recipe_yield
       itemprop_node_for(:recipeYield).content
@@ -102,9 +107,6 @@ module Parsers
       recipe_doc.css(video_object_doc).remove
     end
 
-    def itemprop_node_for(property)
-      recipe_doc.css("[itemprop='#{property}']").first || NullObject.new
-    end
   end
 
 end

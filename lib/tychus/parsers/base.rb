@@ -35,6 +35,10 @@ module Parsers
       @recipe_doc = @doc.css(root_doc)
     end
 
+    def clean_instructions(obj)
+      obj
+    end
+
     def parse
       recipe_attributes.each do |attr|
         property_value = __send__("parse_#{attr}")
@@ -45,10 +49,6 @@ module Parsers
 
     def recipe_attributes
       self.class.recipe_attributes
-    end
-
-    def clean_instructions(obj)
-      obj
     end
 
     def Value(obj)
