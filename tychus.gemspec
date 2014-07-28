@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Tychus::VERSION
   spec.authors       = ["Wayne Yang"]
   spec.email         = ["waysidekoi@gmail.com"]
-  spec.summary       = %q{Blog scraper of recipes}
-  spec.homepage      = ""
+  spec.summary       = %q{Web recipe parser}
+  spec.homepage      = "http://waysidekoi.github.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
