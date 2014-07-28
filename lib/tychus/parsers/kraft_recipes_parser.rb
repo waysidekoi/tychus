@@ -3,7 +3,7 @@ module Parsers
 
   class KraftRecipesParser < SchemaOrgParser
 
-    def self.uri_root
+    def self.uri_host
       "kraftrecipes.com"
     end
 
