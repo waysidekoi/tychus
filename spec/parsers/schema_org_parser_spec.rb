@@ -1,7 +1,11 @@
 describe Tychus::Parsers::SchemaOrgParser do
   context "on creation" do
-    let(:allrecipes_uri) { File.expand_path("../../fixtures/allrecipes.html", __FILE__) }
-    let(:parser) { Tychus::Parsers::AllrecipesParser.new(allrecipes_uri) }
+    let(:allrecipes_uri) { 'http://allrecipes.com/Recipe/Chicken-Pot-Pie-IX/Detail.aspx' }
+    let(:parser) do
+      VCR.use_cassette("allrecipes_1") do
+        Tychus::Parsers::AllrecipesParser.new(allrecipes_uri)
+      end
+    end
 
     it "strips the Review microformat from node to prevent name collisions with item properties of different microformats" do
       expect(parser.recipe_doc.css(parser.review_doc)).to be_empty

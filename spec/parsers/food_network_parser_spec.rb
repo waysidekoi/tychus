@@ -1,14 +1,17 @@
 describe Tychus::Parsers::FoodNetworkParser do
-  subject { Tychus::Parsers::FoodNetworkParser.new(food_network_uri) }
-
   context "When the page has a single ingredients group" do
     # NOTE: this specific uri has an author who's hidden in an anchor
     # tag that also references her TV show and episode the recipe
     # appeared. #parse_author may be complex for this edge case
     # NOTE: author is formatted using schema.org/Person
 
-    # 7/26/14 source: http://www.foodnetwork.com/recipes/ina-garten/grilled-panzanella-recipe.html?ic1=obinsite^
-    let(:food_network_uri) { File.expand_path("../../fixtures/food_network_single_ingredients_group.html", __FILE__) }
+    subject do
+      VCR.use_cassette("food_network_single_ingredients_group_1") do
+        Tychus::Parsers::FoodNetworkParser.new(food_network_uri)
+      end
+    end
+
+    let(:food_network_uri) { "http://www.foodnetwork.com/recipes/ina-garten/grilled-panzanella-recipe.html?ic1=obinsite" }
     let(:ingredients) {
       [
         "Good olive oil",

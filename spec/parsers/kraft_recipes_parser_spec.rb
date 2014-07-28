@@ -3,9 +3,13 @@ describe Tychus::Parsers::KraftRecipesParser do
     Tychus::Parsers::NullObject
   end
 
-  subject { Tychus::Parsers::KraftRecipesParser.new(kraft_recipes_uri) }
+  subject do
+    VCR.use_cassette("kraft_recipes_1") do
+      Tychus::Parsers::KraftRecipesParser.new(kraft_recipes_uri)
+    end
+  end
 
-  let(:kraft_recipes_uri) { File.expand_path("../../fixtures/kraftrecipes.html", __FILE__) }
+  let(:kraft_recipes_uri) { "http://www.kraftrecipes.com/recipes/sweet-bbq-chicken-kabobs-92092.aspx" }
 
   let(:ingredients) {
     [

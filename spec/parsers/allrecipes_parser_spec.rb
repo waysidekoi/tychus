@@ -1,8 +1,10 @@
-describe Tychus::Parsers::AllrecipesParser do
-  subject { Tychus.parse(allrecipes_uri) }
-  # 7/26/14 source:
-  # http://allrecipes.com/Recipe/Chicken-Pot-Pie-IX/Detail.aspx?soid=recs_recipe_2
-  let(:allrecipes_uri) { File.expand_path("../../fixtures/allrecipes.html", __FILE__) }
+describe Tychus::Parsers::AllrecipesParser, :vcr do
+  subject do
+    VCR.use_cassette("allrecipes_1") do
+      Tychus.parse(allrecipes_uri)
+    end
+  end
+  let(:allrecipes_uri) { 'http://allrecipes.com/Recipe/Chicken-Pot-Pie-IX/Detail.aspx' }
   let(:ingredients) {
     [
       "1 pound skinless, boneless chicken breast halves - cubed",
@@ -41,4 +43,3 @@ describe Tychus::Parsers::AllrecipesParser do
   its(:image) { is_expected.to eq("http://images.media-allrecipes.com/userphotos/250x250/00/14/23/142350.jpg") }
   its(:description) { is_expected.to eq("\"A delicious chicken pie made from scratch with carrots, peas and celery.\"") }
 end
-
