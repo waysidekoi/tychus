@@ -1,6 +1,14 @@
 # Tychus
 
-TODO: Write a gem description
+Recipe parser supporting microformats for:
+
+  * [Schema.org/Recipe](https://support.google.com/webmasters/answer/173379?hl=en)
+
+Compatible with:
+  
+  * [Allrecipes](http://allrecipes.com)
+  * [Food Network](http://www.foodnetwork.com)
+  * [Kraft Recipes](http://www.kraftrecipes.com)
 
 ## Installation
 
@@ -18,7 +26,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+'require tychus'   
+recipe = Tychus.parse('http://allrecipes.com/Recipe/Chicken-Pot-Pie-IX/Detail.aspx?soid=recs_recipe_2')
+
+recipe.name
+=> "Chicken Pot Pie IX"
+recipe.author
+=> "Robbie Rice"
+recipe.description
+=> "\"A delicious chicken pie made from scratch with carrots, peas and celery.\""
+recipe.ingredients
+=> ["1 pound skinless, boneless chicken breast halves - cubed", "1 cup sliced carrots", "1 cup frozen green peas", "1/2 cup sliced celery", "1/3 cup butter", "1/3 cup chopped onion", "1/3 cup all-purpose flour", "1/2 teaspoon salt", "1/4 teaspoon black pepper", "1/4 teaspoon celery seed", "1 3/4 cups chicken broth", "2/3 cup milk", "2 (9 inch) unbaked pie crusts"]
+```
 
 ## Contributing
 
