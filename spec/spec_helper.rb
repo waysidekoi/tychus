@@ -5,7 +5,7 @@ require 'vcr'
 require 'pry'
 
 VCR.configure do |c|
-  c.cassette_library_dir = 'fixtures/cassettes'
+  c.cassette_library_dir = 'spec/fixtures/cassettes'
   c.hook_into :webmock
 end
 
