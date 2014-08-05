@@ -11,6 +11,18 @@ module Parsers
       instructions = super
       instructions[0..-2]
     end
+
+    def parse_ingredients
+      # NOT FIRST
+      recipe_doc
+        .css('[itemprop="ingredients"]')
+        .map do |ingredient_node|
+          ingredient_node
+            .element_children
+            .map(&:content)
+            .join(" ")
+        end.reject(&:blank?)
+    end
   end
 
 end
