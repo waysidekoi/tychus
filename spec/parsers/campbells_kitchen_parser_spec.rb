@@ -1,5 +1,6 @@
 describe Tychus::Parsers::CampbellsKitchenParser do
   before { pending "Does NOT use schema.org microformat" }
+
   subject do
     VCR.use_cassette("campbells_kitchen_1") do
       Tychus::Parsers::CampbellsKitchenParser.new(campbells_kitchen_uri)
