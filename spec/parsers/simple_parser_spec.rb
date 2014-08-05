@@ -15,12 +15,6 @@ describe Tychus::Parsers::SimpleParser do
          "1/2 cup shredded Cheddar cheese (about 2 ounces)"
         ]
       },
-      {
-        url: "http://asideofsweet.com/black-cherry-buttermilk-ice-cream/",
-        cassette: "a_side_of_sweet",
-        ingredients: [
-        ]
-      }
     ]
   }
 
