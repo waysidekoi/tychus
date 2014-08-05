@@ -54,12 +54,7 @@ module Parsers
       # NOT FIRST
       recipe_doc
         .css('[itemprop="ingredients"]')
-        .map do |ingredient_node|
-          ingredient_node
-            .element_children
-            .map(&:content)
-            .join(" ")
-        end.reject(&:blank?)
+        .map(&:content)
     end
 
     def parse_name
