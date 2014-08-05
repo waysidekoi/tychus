@@ -8,9 +8,18 @@ module Tychus
     ]
 
     def self.resolve_parser(meta_object)
-      PARSERS.detect do |parser|
+      parser = PARSERS.detect do |parser|
         meta_object.to_s =~ %r[#{parser.uri_host}]
       end
+
+      if parser.blank?
+        if meta_object.schema_org_microformat?
+          return Tychus::Parsers::SchemaOrgParser
+        end
+
+        raise("No parser found")
+      end
+      parser
     end
 
   end
