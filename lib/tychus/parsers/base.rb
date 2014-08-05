@@ -32,7 +32,7 @@ module Parsers
       @uri = uri
       @recipe = Recipe.new
       @doc = Nokogiri::HTML(open(uri))
-      @recipe_doc = @doc.css(root_doc)
+      @recipe_doc = root_doc ? @doc.css(root_doc) : @doc
     end
 
     def clean_instructions(obj)
@@ -49,6 +49,10 @@ module Parsers
 
     def recipe_attributes
       self.class.recipe_attributes
+    end
+
+    def root_doc
+      nil
     end
 
     def Value(obj)
