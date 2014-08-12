@@ -1,0 +1,796 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://somethingnewfordinner.com/recipe/cherry-panna-cotta/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Tue, 12 Aug 2014 15:59:43 GMT
+      X-Pingback:
+      - http://somethingnewfordinner.com/xmlrpc.php
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - Keep-Alive
+      Set-Cookie:
+      - X-Mapping-mknjaipp=F2A6FE5686218C93B55ABF63AA54999F; path=/
+      - bb2_screener_=1407859184+107.188.57.175+107.188.57.175; path=/
+    body:
+      encoding: UTF-8
+      string: "<!doctype html>\r\n<html dir=\"ltr\" lang=\"en-US\">\r\n<head>\r\n\t\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t
+        \ \r\n\t\t<title>Fresh cherry panna cotta - Something New For Dinner</title>\r\n\t\t\r\n\t
+        \   <!-- Stylesheets -->\r\n\t\t<link rel=\"stylesheet\" href=\"http://somethingnewfordinner.com/wp-content/themes/food-recipes/style.css\"
+        type=\"text/css\" media=\"all\" />\r\n\t\t\r\n\t\t<!-- Example Stylesheets
+        To Write Your Own Styles - remove comments and you will see blue skin -->\t\t\r\n\t
+        \   <!--<link rel=\"stylesheet\" href=\"http://somethingnewfordinner.com/wp-content/themes/food-recipes/skin/blue/blue.css\"
+        type=\"text/css\" media=\"all\" />-->\t\r\n\t\t\r\n\t\t<link rel=\"pingback\"
+        href=\"http://somethingnewfordinner.com/xmlrpc.php\" />\r\n\t\t<link rel=\"alternate\"
+        type=\"application/rss+xml\" title=\"Something New For Dinner &#8211; Healthy
+        Dinner Recipes, Meal Ideas &amp; Cooking Tips\" href=\"http://somethingnewfordinner.com/feed/\"
+        />\r\n\t\t<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Something
+        New For Dinner &#8211; Healthy Dinner Recipes, Meal Ideas &amp; Cooking Tips\"
+        href=\"http://somethingnewfordinner.com/feed/atom/\" />\t\t\t\t\r\n\t\t\r\n\t\t\t\t<!--
+        FAVICON -->\r\n\t\t<link rel=\"shortcut icon\" href=\"http://somethingnewfordinner.com/wp-content/uploads/2012/05/SNFD_favicon4.png\"
+        />\r\n\t\t        \r\n        <link href='http://fonts.googleapis.com/css?family=Nixie+One|Open+Sans+Condensed:300,700,300italic'
+        rel='stylesheet' type='text/css'>\r\n        <meta name=\"google-site-verification\"
+        content=\"GAPANwDzzTFqut8Rw_ra9vRWnBH53rlsDs_wppOCGgM\" />\r\n        \r\n
+        \       <script type=\"text/javascript\" src=\"//use.typekit.net/tqw8ifr.js\"></script>\r\n\t\t<script
+        type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\r\n\t\t\r\n\t\t
+        \   <link rel='stylesheet' id='popup_domination-css'  href='http://somethingnewfordinner.com/wp-content/plugins/popup-domination/themes/multi-input-wide-light/lightbox.css'
+        type='text/css' media='all' />\n    <script type=\"text/javascript\">\n      var
+        popup_domination_admin_ajax = 'http://somethingnewfordinner.com/wp-admin/admin-ajax.php',popup_domination
+        = {\"defaults\":[],\"delay\":30,\"cookie_time\":3,\"center\":\"Y\",\"cookie_path\":\"\\/\",\"show_opt\":\"open\",\"show_anim\":\"open\",\"linkclick\":\"popup-domination-link\",\"unload_msg\":\"\",\"impression_count\":0,\"redirect\":\"\",\"splitcookie\":false,\"conversionpage\":\"\",\"campaign\":\"\",\"popupid\":\"1\",\"close_option\":\"true\",\"output\":\"<div
+        class=\\\"popup-dom-lightbox-wrapper\\\" id=\\\"popup_domination_lightbox_wrapper\\\"
+        style=\\\"display:none\\\">\\n\\t<div class=\\\"lightbox-overlay\\\"><\\/div>\\n\\t<div
+        class=\\\"lightbox-main lightbox-color-black\\\">\\n\\t\\t<a href=\\\"#\\\"
+        class=\\\"lightbox-close\\\" id=\\\"popup_domination_lightbox_close\\\"><span>Close<\\/span><\\/a>\\n\\t\\t<div
+        class=\\\"lightbox-top\\\">\\n\\t\\t\\t<div class=\\\"lightbox-top-content
+        cf\\\">\\n\\t\\t\\t\\t<p class=\\\"heading\\\">Sign up for free weekly recipes
+        and cooking tips:<\\/p>\\n\\t\\t\\t\\t<div class=\\\"bullet-listx\\\">\\n
+        \                   <ul class=\\\"bullet-list\\\">                        <li>Latest
+        recipes every Monday<\\/li>                        <li>Multi-recipe menu plans<\\/li>
+        \                       <li>Mini-lessons on ingredients, tools and methods<\\/li>
+        \                   <\\/ul>\\n\\t\\t\\t\\t\\t<div class=\\\"clear\\\"><\\/div>\\n\\t\\t\\t\\t<\\/div>\\n\\t\\t\\t<\\/div>\\n\\t\\t<\\/div>\\n\\t\\t\\t\\t<div
+        class=\\\"lightbox-bottom\\\">\\n\\t\\t\\t<div class=\\\"lightbox-signup-panel\\\">\\n\\t\\t\\t\\t<div
+        class=\\\"wait\\\" style=\\\"display:none;\\\"><img src=\\\"http:\\/\\/somethingnewfordinner.com\\/wp-content\\/plugins\\/popup-domination\\/css\\/images\\/wait.gif\\\"
+        \\/><\\/div>\\n\\t            <div class=\\\"form\\\">\\n\\t                <div>\\n\\t
+        \                   <input class=\\\"provider\\\" type=\\\"hidden\\\" name=\\\"provider\\\"
+        value=\\\"mc\\\" \\/><input class=\\\"listid\\\" type=\\\"hidden\\\" name=\\\"listid\\\"
+        value=\\\"9987f7a6d4\\\" \\/><input class=\\\"listname\\\" type=\\\"hidden\\\"
+        name=\\\"listname\\\" value=\\\"Website Subscribe List\\\" \\/><input class=\\\"mailingid\\\"
+        type=\\\"hidden\\\" name=\\\"mailingid\\\" value=\\\"3\\\" \\/><input class=\\\"mailnotify\\\"
+        type=\\\"hidden\\\" name=\\\"mailnotify\\\" value=\\\"kim@somethingnewfordinner.com\\\"
+        \\/><input class=\\\"campaignid\\\" type=\\\"hidden\\\" name=\\\"campaignid\\\"
+        value=\\\"1\\\" \\/><input class=\\\"campname\\\" type=\\\"hidden\\\" name=\\\"campname\\\"
+        value=\\\"Home 1\\\" \\/><input class=\\\"custom_id1\\\" type=\\\"hidden\\\"
+        name=\\\"custom1\\\" value=\\\"LNAME\\\" \\/><input type=\\\"text\\\" class=\\\"name\\\"
+        placeholder=\\\"Your First Name...\\\" name=\\\"FNAME\\\" \\/><input type=\\\"text\\\"
+        class=\\\"custom1_input\\\" placeholder=\\\"Your Last Name.....\\\" name=\\\"LNAME\\\"
+        \\/><input type=\\\"text\\\" class=\\\"email\\\" placeholder=\\\"Your Email
+        Address...\\\" name=\\\"EMAIL\\\" \\/>\\t                    <input type=\\\"submit\\\"
+        value=\\\"SIGN UP NOW\\\" src=\\\"http:\\/\\/somethingnewfordinner.com\\/wp-content\\/plugins\\/popup-domination\\/themes\\/multi-input-wide-light\\/images\\/trans.png\\\"
+        class=\\\"orange-button\\\" \\/>\\n\\t                    <p class=\\\"secure\\\"><img
+        src=\\\"http:\\/\\/somethingnewfordinner.com\\/wp-content\\/plugins\\/popup-domination\\/themes\\/multi-input-wide-light\\/images\\/lightbox-secure.png\\\"
+        alt=\\\"lightbox-secure\\\" width=\\\"16\\\" height=\\\"15\\\" \\/> Your information
+        will never be shared.<\\/p>\\n\\t                <\\/div>\\n\\t            <\\/div>\\n\\t\\t\\t<\\/div>\\n\\t\\t<\\/div>\\n\\t\\t\\t\\t\\t<\\/div>\\n<\\/div>\"},
+        popup_non = 'false';\n    </script>\n        <link rel=\"alternate\" type=\"application/rss+xml\"
+        title=\"Something New For Dinner - Healthy Dinner Recipes, Meal Ideas &amp;
+        Cooking Tips &raquo; Feed\" href=\"http://somethingnewfordinner.com/feed/\"
+        />\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Something
+        New For Dinner - Healthy Dinner Recipes, Meal Ideas &amp; Cooking Tips &raquo;
+        Comments Feed\" href=\"http://somethingnewfordinner.com/comments/feed/\" />\n<link
+        rel=\"alternate\" type=\"application/rss+xml\" title=\"Something New For Dinner
+        - Healthy Dinner Recipes, Meal Ideas &amp; Cooking Tips &raquo; Cherry panna
+        cotta Comments Feed\" href=\"http://somethingnewfordinner.com/recipe/cherry-panna-cotta/feed/\"
+        />\n<style type=\"text/css\">\n\n</style><link rel='stylesheet' id='flick-css'
+        \ href='http://somethingnewfordinner.com/wp-content/plugins/mailchimp//css/flick/flick.css?ver=3.4.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='mailchimpSF_main_css-css'
+        \ href='http://somethingnewfordinner.com/?mcsf_action=main_css&#038;ver=3.4.1'
+        type='text/css' media='all' />\n<!--[if IE]>\n<link rel='stylesheet' id='mailchimpSF_ie_css-css'
+        \ href='http://somethingnewfordinner.com/wp-content/plugins/mailchimp/css/ie.css?ver=3.4.1'
+        type='text/css' media='all' />\n<![endif]-->\n<link rel='stylesheet' id='contact-form-7-css'
+        \ href='http://somethingnewfordinner.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.5.2'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='foobox-1-3-1-min-css'
+        \ href='http://somethingnewfordinner.com/wp-content/plugins/foobox/css/foobox-1.3.1.min.css?ver=1.3.5.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='nivoslider-css'
+        \ href='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/nivo-slider/nivo-slider.css?ver=3.4.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='prettyPhoto-css'
+        \ href='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/prettyPhoto/css/prettyPhoto.css?ver=3.4.1'
+        type='text/css' media='all' />\n<script type='text/javascript' src='http://somethingnewfordinner.com/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/mailchimp/js/scrollTo.js?ver=1.2.10'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.40.0-2013.08.13'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar mailchimpSF = {\"ajax_url\":\"http:\\/\\/somethingnewfordinner.com\\/\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/mailchimp/js/mailchimp.js?ver=1.2.10'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.20'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/mailchimp//js/datepicker.js?ver=3.4.1'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/jquery.validate.js?ver=1.5.2'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/jquery.form.js?ver=2.93'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/jquery.easing.1.3.js?ver=1.3'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/jquery.backgroundPosition.js?ver=1.22'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.1.3'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/jquery-ui-1.8.16.custom.min.js?ver=1.8.16'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/jquery.cycle.js?ver=2.9993'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/nivo-slider/jquery.nivo.slider.js?ver=2.7.1'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/accordion-slider.js?ver=1.0'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-includes/js/comment-reply.js?ver=3.4.1'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/popup-domination/js/lightbox.js?ver=3.3'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/popup-domination/inc/flowplayer/example/flowplayer-3.2.6.min.js?ver=3.0'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/popup-domination/inc/flowplayer/example/flowplayer.ipad-3.2.2.min.js?ver=3.0'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/popup-domination/js/placeholder.jquery.js?ver=3.0'></script>\n<link
+        rel=\"EditURI\" type=\"application/rsd+xml\" title=\"RSD\" href=\"http://somethingnewfordinner.com/xmlrpc.php?rsd\"
+        />\n<link rel=\"wlwmanifest\" type=\"application/wlwmanifest+xml\" href=\"http://somethingnewfordinner.com/wp-includes/wlwmanifest.xml\"
+        /> \n<link rel='prev' title='Roasted tomato and burrata bruschetta' href='http://somethingnewfordinner.com/recipe/roasted-tomato-and-burrata-bruschetta/'
+        />\n<link rel='next' title='Peach, caramelized onion &amp; goat cheese crostini'
+        href='http://somethingnewfordinner.com/recipe/peach-caramelized-onion-goat-cheese-crostini/'
+        />\n<meta name=\"generator\" content=\"WordPress 3.4.1\" />\n\n<!-- Bad Behavior
+        2.2.15 run time: 109.783 ms -->\n<script type=\"text/javascript\">\n<!--\nfunction
+        bb2_addLoadEvent(func) {\n\tvar oldonload = window.onload;\n\tif (typeof window.onload
+        != 'function') {\n\t\twindow.onload = func;\n\t} else {\n\t\twindow.onload
+        = function() {\n\t\t\toldonload();\n\t\t\tfunc();\n\t\t}\n\t}\n}\n\nbb2_addLoadEvent(function()
+        {\n\tfor ( i=0; i < document.forms.length; i++ ) {\n\t\tif (document.forms[i].method
+        == 'post') {\n\t\t\tvar myElement = document.createElement('input');\n\t\t\tmyElement.setAttribute('type',
+        'hidden');\n\t\t\tmyElement.name = 'bb2_screener_';\n\t\t\tmyElement.value
+        = '1407859184 107.188.57.175 107.188.57.175';\n\t\t\tdocument.forms[i].appendChild(myElement);\n\t\t}\n\t}\n});\n//
+        --></script>\n\t\t\t<script type=\"text/javascript\">\n\t\tjQuery(function($)
+        {\n\t\t\t$('.date-pick').datepicker({\n\t\t\t\tautoFocusNextInput: true,\n\t\t\t\tconstrainInput:
+        false,\n\t\t\t\tchangeMonth: true,\n\t\t\t\tchangeYear: true,\n\t\t\t\tbeforeShow:
+        function(input, inst) { $('#ui-datepicker-div').addClass('show'); },\n\t\t\t\tdateFormat:
+        'yy/mm/dd',\n\t\t\t});\t\t\t\n\t\t\t\n\t\t\td = new Date();\n\t\t\t$('.birthdate-pick').datepicker({\n\t\t\t\tautoFocusNextInput:
+        true,\n\t\t\t\tconstrainInput: false,\n\t\t\t\tchangeMonth: true,\n\t\t\t\tchangeYear:
+        false,\n\t\t\t\tminDate: new Date(d.getFullYear(), 1-1, 1),\n\t\t\t\tmaxDate:
+        new Date(d.getFullYear(), 12-1, 31),\n\t\t\t\tbeforeShow: function(input,
+        inst) { $('#ui-datepicker-div').removeClass('show'); },\n\t\t\t\tdateFormat:
+        'mm/dd',\n\t\t\t});\n\t\t\t\n\t\t\t\t\n\t\t});\n\t</script>\n\t<link rel='canonical'
+        href='http://somethingnewfordinner.com/recipe/cherry-panna-cotta/' />\n<script
+        type=\"text/javascript\" src=\"http://somethingnewfordinner.com/wp-content/plugins/ziplist-recipe-plugin/zlrecipe_print.js\"></script>\n<link
+        charset=\"utf-8\" href=\"http://www.zlcdn.com/stylesheets/minibox/zlrecipe-std.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\n<!-- All in One SEO Pack 2.1.3
+        by Michael Torbert of Semper Fi Web Design[136,250] -->\n<meta name=\"description\"
+        content=\"Cherry panna cotta makes a wonderful, cool, summer dessert. Best
+        of all, it can be made ahead of time.\" />\n\n<meta name=\"keywords\" content=\"panna
+        cotta, cherries, italian desserts, gluten free dessert, cherry desserts, cherry
+        panna cotta, easy panna cotta, something new for dinner,cherries,cherry desserts,cherry
+        panna cotta,easy panna cotta,gluten-free dessert,italian desserts\" />\n\n<link
+        rel=\"canonical\" href=\"http://somethingnewfordinner.com/recipe/cherry-panna-cotta/\"
+        />\n<!-- /all in one seo pack -->\n  <script>\r\n \r\n  jQuery( document ).ready(function()
+        {\r\n\r\njQuery(\"form.wpcf7-form input#contact-name\").each(function() {\r\n//
+        clear form field on focus and restore if empty\r\n        var default_value
+        = this.value;\r\n\tjQuery(this).focus(function(){\r\n\t   if(this.value ==
+        default_value) {this.value = '';}\r\n    });\r\n        jQuery(this).blur(function(){\r\n
+        \           if(this.value == '') {this.value = default_value;}\r\n       });\r\n});\r\n\r\njQuery(\"form.wpcf7-form
+        input#contact-email\").each(function() {\r\n// clear form field on focus and
+        restore if empty\r\n        var default_value = this.value;\r\n\tjQuery(this).focus(function(){\r\n\t
+        \  if(this.value == default_value) {this.value = '';}\r\n    });\r\n        jQuery(this).blur(function(){\r\n
+        \           if(this.value == '') {this.value = default_value;}\r\n       });\r\n});\r\njQuery(\"form.wpcf7-form
+        input#contact-captcha-field\").each(function() {\r\n// clear form field on
+        focus and restore if empty\r\n        var default_value = this.value;\r\n\tjQuery(this).focus(function(){\r\n\t
+        \  if(this.value == default_value) {this.value = '';}\r\n    });\r\n        jQuery(this).blur(function(){\r\n
+        \           if(this.value == '') {this.value = default_value;}\r\n       });\r\n});\r\njQuery(\"form.wpcf7-form
+        textarea#contact-message\").each(function() {\r\n// clear form field on focus
+        and restore if empty\r\n        var default_value = this.value;\r\n\tjQuery(this).focus(function(){\r\n\t
+        \  if(this.value == default_value) {this.value = '';}\r\n    });\r\n        jQuery(this).blur(function(){\r\n
+        \           if(this.value == '') {this.value = default_value;}\r\n       });\r\n});\r\n\r\n
+        \ });\r\n \r\n  </script>\r\n  \r\n  <script>(function() {\r\n  var _fbq =
+        window._fbq || (window._fbq = []);\r\n  if (!_fbq.loaded) {\r\n    var fbds
+        = document.createElement('script');\r\n    fbds.async = true;\r\n    fbds.src
+        = '//connect.facebook.net/en_US/fbds.js';\r\n    var s = document.getElementsByTagName('script')[0];\r\n
+        \   s.parentNode.insertBefore(fbds, s);\r\n    _fbq.loaded = true;\r\n  }\r\n
+        \ _fbq.push(['addPixelId', '1487785044768982']);\r\n})();\r\nwindow._fbq =
+        window._fbq || [];\r\nwindow._fbq.push(['track', 'PixelInitialized', {}]);\r\n</script>\r\n<noscript><img
+        height=\"1\" width=\"1\" border=\"0\" alt=\"\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=1487785044768982&amp;ev=NoScript\"
+        /></noscript>\r\n  \r\n      <script type=\"text/javascript\">\r\n      var
+        heap=heap||[];heap.load=function(a){window._heapid=a;var b=document.createElement(\"script\");b.type=\"text/javascript\",b.async=!0,b.src=(\"https:\"===document.location.protocol?\"https:\":\"http:\")+\"//cdn.heapanalytics.com/js/heap.js\";var
+        c=document.getElementsByTagName(\"script\")[0];c.parentNode.insertBefore(b,c);var
+        d=function(a){return function(){heap.push([a].concat(Array.prototype.slice.call(arguments,0)))}},e=[\"identify\",\"track\"];for(var
+        f=0;f<e.length;f++)heap[e[f]]=d(e[f])};\r\n      heap.load(\"1381277830\");\r\n
+        \   </script>\r\n    \r\n    <script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n
+        \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n
+        \ ga('create', 'UA-35591666-1', 'somethingnewfordinner.com');\r\n  ga('send',
+        'pageview');\r\n\r\n</script>\r\n  \r\n<link rel=\"author\" href=\"https://plus.google.com/+Somethingnewfordinner/posts\"/>\r\n</head>\r\n<!--[if
+        lt IE 7 ]> <body class=\"single single-recipe postid-7107 ie6\"> <![endif]-->\r\n<!--[if
+        IE 7 ]>    <body class=\"single single-recipe postid-7107 ie7\"> <![endif]-->\r\n<!--[if
+        IE 8 ]>    <body class=\"single single-recipe postid-7107 ie8\"> <![endif]-->\r\n<!--[if
+        IE 9 ]>    <body class=\"single single-recipe postid-7107 ie9\"> <![endif]-->\r\n<!--[if
+        (gt IE 9)|!(IE)]><!--> <body class=\"single single-recipe postid-7107\">  <!--<![endif]-->\r\n\r\n<!--
+        ============= HEADER STARTS HERE ============== -->\r\n\t\t<div id=\"header-wrapper\">\r\n\t\t\t\t\r\n\t\t
+        \       <div id=\"header\">\r\n                \t<!-- WEBSITE SEARCH STARTS
+        HERE -->    \t\r\n\t\t\t\t\t<div class=\"top-search clearfix\">\r\n\t\t\t\t\t\t<form
+        action=\"http://somethingnewfordinner.com\" id=\"searchform\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t<input
+        type=\"text\" name=\"s\" id=\"s\" class=\"field\" value=\"Search for\" />\r\n\t\t\t\t\t\t\t\t\t\t<input
+        type=\"submit\" name=\"s_submit\" id=\"s-submit\" value=\"\" />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t</form>\r\n\r\n\t\t\t\t\t</div><!--
+        end of top-search div-->\r\n                    \r\n\t\t\t\t\t<!-- WEBSITE
+        LOGO -->\r\n\t\t\t\t\t\t<a href=\"http://somethingnewfordinner.com\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        align=\"center\"><img src=\"http://somethingnewfordinner.com/wp-content/uploads/2012/05/SNFD_logo.jpg\"
+        alt=\"Something New For Dinner &#8211; Healthy Dinner Recipes, Meal Ideas
+        &amp; Cooking Tips\" class=\"logo\" /></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t
+        \           \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t</div><!--
+        end of header div -->\r\n\t\t\t\t\r\n\t\t\t\t\r\n                <!-- NAVIGATION
+        BAR STARTS HERE -->\r\n\t\t        <div id=\"nav-wrap\">\r\n\t\t\t\t\t\t<div
+        class=\"inn-nav clearfix\">\r\n\t\t                \t\t\r\n\t\t                        <!--
+        MAIN NAVIGATION STARTS HERE -->\r\n                                <ul id=\"menu-top-nav\"
+        class=\"nav\"><li id=\"menu-item-11\" class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-11\"><a href=\"http://somethingnewfordinner.com/\">HOME</a></li>\n<li
+        id=\"menu-item-31\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-31\"><a href=\"http://somethingnewfordinner.com/recipes/\">RECIPES</a>\n<ul
+        class=\"sub-menu\">\n\t<li id=\"menu-item-1181\" class=\"menu-item menu-item-type-taxonomy
+        menu-item-object-course menu-item-1181\"><a href=\"http://somethingnewfordinner.com/course/appetizer/\">Appetizer</a></li>\n\t<li
+        id=\"menu-item-1182\" class=\"menu-item menu-item-type-taxonomy menu-item-object-course
+        menu-item-1182\"><a href=\"http://somethingnewfordinner.com/course/breakfast/\">Breakfast</a></li>\n\t<li
+        id=\"menu-item-1183\" class=\"menu-item menu-item-type-taxonomy menu-item-object-course
+        current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-1183\"><a
+        href=\"http://somethingnewfordinner.com/course/dessert/\">Dessert</a></li>\n\t<li
+        id=\"menu-item-1184\" class=\"menu-item menu-item-type-taxonomy menu-item-object-course
+        menu-item-1184\"><a href=\"http://somethingnewfordinner.com/course/dinner/\">Dinner</a></li>\n\t<li
+        id=\"menu-item-1961\" class=\"menu-item menu-item-type-taxonomy menu-item-object-course
+        menu-item-1961\"><a href=\"http://somethingnewfordinner.com/course/drinks/\">Drinks</a></li>\n\t<li
+        id=\"menu-item-1186\" class=\"menu-item menu-item-type-taxonomy menu-item-object-course
+        menu-item-1186\"><a href=\"http://somethingnewfordinner.com/course/lunch/\">Lunch</a></li>\n\t<li
+        id=\"menu-item-1187\" class=\"menu-item menu-item-type-taxonomy menu-item-object-course
+        menu-item-1187\"><a href=\"http://somethingnewfordinner.com/course/snacks/\">Snacks</a></li>\n</ul>\n</li>\n<li
+        id=\"menu-item-22\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-22\"><a href=\"http://somethingnewfordinner.com/our-story/\">OUR
+        STORY</a></li>\n<li id=\"menu-item-28\" class=\"menu-item menu-item-type-post_type
+        menu-item-object-page current_page_parent menu-item-28\"><a href=\"http://somethingnewfordinner.com/blog/\">BLOG</a></li>\n<li
+        id=\"menu-item-3684\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-3684\"><a href=\"http://somethingnewfordinner.com/store/\">STORE</a></li>\n<li
+        id=\"menu-item-1251\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-1251\"><a href=\"http://somethingnewfordinner.com/contact/\">CONTACT</a></li>\n</ul>\t\t\t\t\t\t\t\t<!--
+        MAIN NAVIGATION ENDS HERE -->\r\n\t\t                        \r\n\t\t\t\t\t\t\t\t\r\n\t\t
+        \                       <!-- SOCIAL NAVIGATION -->\r\n                              \r\n
+        \                               <div class=\"social-nav\">\r\n \t\t\t\t\t\t\t\t\t<a
+        class=\"social-padding\" href=\"http://pinterest.com/newfordinner/\"><img
+        src=\"http://somethingnewfordinner.com/wp-content/uploads/2012/09/pinterest.png\"
+        /></a>\r\n                                    <a class=\"social-padding\"
+        href=\"https://www.facebook.com/somethingnewfordinner\"><img src=\"http://somethingnewfordinner.com/wp-content/uploads/2012/09/facebook.png\"
+        /></a>\r\n                                    <a class=\"social-padding\"
+        href=\"https://twitter.com/NewForDinner\"><img src=\"http://somethingnewfordinner.com/wp-content/uploads/2012/09/twitter.png\"
+        /></a>\r\n                                    <a href=\"http://plus.google.com/+Somethingnewfordinner\"><img
+        src=\"http://somethingnewfordinner.com/wp-content/uploads/2012/10/g+.jpg\"
+        /></a>\r\n                                </div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t</div><!--
+        end of nav-wrap -->\r\n\t\t\t\t<!-- NAVIGATION BAR ENDS HERE -->\r\n\t\t\r\n\t\t</div><!--
+        end of header-wrapper div -->\r\n\r\n<!-- ============= HEADER ENDS HERE ==============
+        -->\r\n\r\n\r\n\r\n<!-- ============= CONTAINER STARTS HERE ==============
+        -->\r\n\t\t\r\n        <div id=\"container\">\r\n                \r\n                        \r\n\t\t
+        \       <!-- ============= CONTENT AREA STARTS HERE ============== -->\r\n\t\t\t\t<div
+        id=\"content\" class=\"clearfix\">\r\n                <span class=\"grey-container-divider\"></span>\t\t\t\t\t\t<div
+        id=\"left-area\" class=\"clearfix hrecipe\" itemscope itemtype=\"http://schema.org/Recipe\">\r\n
+        \                       \t\t\r\n                                <!-- Starting
+        Default Loop -->                        \t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t
+        \                           \t\t<h2 class=\"title fn\" itemprop=\"name\" >Cherry
+        panna cotta</h2>\r\n\t\t\t\t\t\t\t\t\t\t<!-- for Schema.org microdata -->\r\n\t\t\t\t\t\t\t\t\t\t<meta
+        itemprop=\"datePublished\" content=\"2014-08-04\" />\r\n\t\t\t\t\t\t\t\t\t\t<span
+        class=\"published\">2014-08-04</span>\r\n\t\t\t\t\t\t\t\t\t\t<meta itemprop=\"image\"
+        content=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-1-250x212.jpg\"
+        /> \t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<!--
+        Recipe Single Image -->\r\n\t\t  \t\t\t\t\t\t\t\t<div class=\"single-img-box\">\r\n\t\t
+        \ \t\t\t\t\t\t\t\t\t\t<div class=\"single-slider\" >\r\n                                                \t\t<img
+        width=\"480\" height=\"400\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-1.jpg\"
+        class=\"photo\" alt=\"Fresh cherry panna cotta 1\" title=\"Fresh cherry panna
+        cotta 1\" /><img width=\"480\" height=\"400\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-2.jpg\"
+        class=\"photo\" alt=\"Fresh cherry panna cotta 2\" title=\"Fresh cherry panna
+        cotta 2\" /><img width=\"480\" height=\"400\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-3.jpg\"
+        class=\"photo\" alt=\"Fresh cherry panna cotta 3\" title=\"Fresh cherry panna
+        cotta 3\" /><img width=\"480\" height=\"400\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-4.jpg\"
+        class=\"photo\" alt=\"Fresh cherry panna cotta 4\" title=\"Fresh cherry panna
+        cotta 4\" /><img width=\"480\" height=\"400\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-5.jpg\"
+        class=\"photo\" alt=\"Fresh cherry panna cotta 5\" title=\"Fresh cherry panna
+        cotta 5\" /><img width=\"480\" height=\"400\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-6.jpg\"
+        class=\"photo\" alt=\"Fresh cherry panna cotta 6\" title=\"Fresh cherry panna
+        cotta 6\" />\t\t  \t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t  \t\t\t\t\t\t\t\t\t\t<div
+        class=\"img-nav\"></div>\r\n\t\t  \t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<!--
+        Recipe Categorization Information -->\r\n\t\t\t\t\t\t\t\t\t\t<ul class=\"recipe-cat-info
+        clearfix\">\r\n\t\t\t\t\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t\tCuisine:
+        <a href=\"http://somethingnewfordinner.com/cuisine/italian/\" rel=\"tag\">Italian</a>\t\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t
+        Course: <a href=\"http://somethingnewfordinner.com/course/dessert/\" rel=\"tag\">Dessert</a>\t\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t\tSkill
+        Level: <a href=\"http://somethingnewfordinner.com/skill-level/easy/\" rel=\"tag\">Easy</a>\t\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t</ul>\r\n
+        \                                       \t\t\r\n\t\t\t\t\t\t\t\t\t\t<!-- Recipe
+        Information -->\r\n\t\t\t\t\t\t\t\t\t\t<ul class=\"recipe-info clearfix\">\r\n\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t\t\t\t\t\t\t\t<li class=\"servings\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<strong
+        class=\"name\">Servings :</strong>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"value\">6</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+        class=\"prep-time\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<strong class=\"name\">Prep
+        Time :</strong>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"value\">30m</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+        class=\"cook-time\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<strong class=\"name\">Cook
+        Time :</strong>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"value\">20m</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+        class=\"ready-in\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<strong class=\"name\">Ready
+        In :</strong>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"value\">50m</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \                                               <li><div class=\"share\">\n\t<a
+        class=\"facebook\" onclick=\"window.open('http://www.facebook.com/share.php?u=http://somethingnewfordinner.com/recipe/cherry-panna-cotta/','facebook','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return
+        false;\" href=\"http://www.facebook.com/share.php?u=http://somethingnewfordinner.com/recipe/cherry-panna-cotta/\"
+        title=\"Cherry panna cotta\"  target=\"960development\"></a>\n\t<a class=\"google\"
+        href=\"https://m.google.com/app/plus/x/?v=compose&amp;content=Cherry+panna+cotta%20-%20http://somethingnewfordinner.com/recipe/cherry-panna-cotta/\"
+        onclick=\"window.open('https://m.google.com/app/plus/x/?v=compose&amp;content=Cherry+panna+cotta
+        - http://somethingnewfordinner.com/recipe/cherry-panna-cotta/','gplusshare','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return
+        false;\"></a>\n    <a class=\"twitter\" onclick=\"window.open('http://twitter.com/home?status=Cherry+panna+cotta
+        - http://somethingnewfordinner.com/recipe/cherry-panna-cotta/','twitter','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return
+        false;\" href=\"http://twitter.com/home?status=Cherry+panna+cotta%20-%20http://somethingnewfordinner.com/recipe/cherry-panna-cotta/\"
+        title=\"Cherry panna cotta\" target=\"960development\"></a>\n                                                     \n
+        \   <a class=\"print\" href=\"javascript:window.print()\" title=\"Print\"></a>\n\t\t<a
+        href=\"http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fsomethingnewfordinner.com%2Frecipe%2Fcherry-panna-cotta%2F&media=http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-1.jpg&description=Cherry
+        panna cotta\" class=\"pin-it-button\" count-layout=\"horizontal\">Pin It</a>\n</div></li>\r\n
+        \                                               <li></li>\r\n\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t
+        \                                     \r\n\t\t  \t\t\t\t\t\t\t\t<div class=\"info-left
+        instructions\" itemprop=\"about\">\t\t\t\t\t\t\t\t\t\t\t\t\r\n                                                  <h3>If
+        you love cherries&#8230;</h3>\n<p>You will love this panna cotta. I recently
+        served this at a dinner party and one 70-something year old gentleman told
+        me over and over that this panna cotta was the best thing he had ever put
+        in his mouth.</p>\n<h3>Summer cherries</h3>\n<p>One of the best things about
+        summer is the cherries. And it is not just that cherries taste wonderful,
+        but they have fabulous health benefits that qualify them as a true superfood.
+        Check out <a href=\"http://somethingnewfordinner.com/inspiring-ingredients/why-you-should-eat-cherries/\">my
+        post on cherries</a> for information on the different types of cherries, cherry
+        health benefits as well as tips and tools for pitting them.</p>\n<h3>Lemon
+        and vanilla</h3>\n<p>Just about everything is better with lemon and vanilla,
+        including this panna cotta. I put vanilla in both the panna cotta base as
+        well as the cherry compote. I use either <a href=\"http://www.amazon.com/gp/product/B00992RFZS/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00992RFZS&amp;linkCode=as2&amp;tag=somnewfordin-20&amp;linkId=5XWYM6ORZOV726PP\">vanilla
+        beans</a> (my favorite) or <a href=\"http://www.amazon.com/gp/product/B002HQE11O/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B002HQE11O&amp;linkCode=as2&amp;tag=somnewfordin-20&amp;linkId=EXLCCLMGYT7TGM2U\">vanilla
+        paste</a> (handy, delicious and a little cheaper). I use one long strip of
+        lemon zest to flavor the compote as well as some fresh lemon juice.</p>\n<p>Note:
+        1 vanilla bean = 3 T vanilla paste.</p>\n<h3>Make ahead</h3>\n<p>The nice
+        thing about panna cotta is it can be made in advance. Panna cotta needs a
+        few hours in the fridge to set up before serving. I like to make it a day
+        or two ahead of time when I serve it at a dinner party so I don&#8217;t have
+        to think about dessert come the day of the party. The cherry compote can also
+        be made a day or two in advance.</p>\n<h3>Gluten-free</h3>\n<p>Like all panna
+        cotta, this dessert is gluten-free.</p>\n<h3 class=\"blue\">Ingredients</h3><ul><li
+        class=\"ingredient\">2 T water</li><li class=\"ingredient\">1 1/2 t unflavored
+        gelatin</li><li class=\"ingredient\">1 1/2 T vanilla bean paste, divided</li><li
+        class=\"ingredient\">2 cups whipping cream</li><li class=\"ingredient\">1
+        1/4 cup plain greek yogurt</li><li class=\"ingredient\">1/2 cup sugar</li><li
+        class=\"ingredient\">2 cups fresh pitted cherries</li><li class=\"ingredient\">1/8
+        to 1/4 cup sugar, depending on the sweetness of your cherries</li><li class=\"ingredient\">4\"
+        x 1\" strip of lemon zest</li><li class=\"ingredient\">1T lemon juice</li><li
+        class=\"ingredient\">1/4 cup water</li><li class=\"ingredient\">6 sprigs of
+        mint for garnish</li></ul>\n<h3 class=\"blue\">Instructions</h3><h4 class=\"red\">Step
+        1</h4><p class=\"instructions\">Put water in a small bowl and sprinkle with
+        gelatin. Set aside for 15 minutes until softened.</p><h4 class=\"red\">Step
+        2</h4><p class=\"instructions\">In a large bowl, whisk 1 cup whipping cream
+        and yogurt together. Set aside.</p><h4 class=\"red\">Step 3</h4><p class=\"instructions\">Over
+        medium heat, put remaining cream, 1/2 cup sugar and 1 T vanilla paste in a
+        small sauce pan. Stir until sugar is dissolved and cream begins to simmer.
+        Remove from heat.\r\n</p><h4 class=\"red\">Step 4</h4><p class=\"instructions\">Add
+        the gelatin to the hot cream pan mixture and stir to dissolve the gelatin
+        into the cream. Add hot cream and gelatin mixture to bowl of cream and yogurt,
+        and stir to combine. Divide mixture into individual serving cups. Let cool
+        to room temperature and  cover with plastic wrap. Refrigerate at least 3 hours
+        or overnight.</p><h4 class=\"red\">Step 5</h4><p class=\"instructions\">Make
+        the compote by putting the cherries, vanilla paste, sugar, lemon zest, lemon
+        juice and water in a sauce pan. Bring to a boil and reduce heat to medium.
+        Cook, stirring occasionally until the liquid thickens, about 15 minutes. Remove
+        from heat and discard the strip of lemon zest. Let cool and refrigerate until
+        ready to serve.</p><h4 class=\"red\">Step 6</h4><p class=\"instructions\">Before
+        serving spoon the cherry compote on top of each of the cups of panna cotta,
+        dividing the compote evenly between the cups. Serve with a sprig of mint.</p>\n\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \r\n\t\t\t\t\t\t\t\t\t\t\t\t  <div class=\"recipe-tags clearfix\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"type\"> Recipe Type: <a href=\"http://somethingnewfordinner.com/recipe-type/dairy/\"
+        rel=\"tag\">Dairy</a>, <a href=\"http://somethingnewfordinner.com/recipe-type/for-a-crowd/\"
+        rel=\"tag\">For a crowd</a>, <a href=\"http://somethingnewfordinner.com/recipe-type/gluten-free/\"
+        rel=\"tag\">Gluten-free</a>, <a href=\"http://somethingnewfordinner.com/recipe-type/holiday/\"
+        rel=\"tag\">Holiday</a>, <a href=\"http://somethingnewfordinner.com/recipe-type/make-ahead/\"
+        rel=\"tag\">Make-ahead</a>, <a href=\"http://somethingnewfordinner.com/recipe-type/sweets/\"
+        rel=\"tag\">Sweets</a>, <a href=\"http://somethingnewfordinner.com/recipe-type/vegetarian/\"
+        rel=\"tag\">Vegetarian</a></span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"tags\">Tags:
+        <a href=\"http://somethingnewfordinner.com/tag/cherries/\" rel=\"tag\">cherries</a>,
+        <a href=\"http://somethingnewfordinner.com/tag/cherry-desserts/\" rel=\"tag\">cherry
+        desserts</a>, <a href=\"http://somethingnewfordinner.com/tag/cherry-panna-cotta/\"
+        rel=\"tag\">cherry panna cotta</a>, <a href=\"http://somethingnewfordinner.com/tag/easy-panna-cotta/\"
+        rel=\"tag\">easy panna cotta</a>, <a href=\"http://somethingnewfordinner.com/tag/gluten-free-dessert/\"
+        rel=\"tag\">gluten-free dessert</a>, <a href=\"http://somethingnewfordinner.com/tag/italian-desserts/\"
+        rel=\"tag\">italian desserts</a>, <a href=\"http://somethingnewfordinner.com/tag/panna-cotta/\"
+        rel=\"tag\">panna cotta</a> </span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"ingredient\">
+        Ingredients: <a href=\"http://somethingnewfordinner.com/ingredient/cherries-2/\"
+        rel=\"tag\">Cherries</a>, <a href=\"http://somethingnewfordinner.com/ingredient/cream/\"
+        rel=\"tag\">Cream</a>, <a href=\"http://somethingnewfordinner.com/ingredient/gelatin/\"
+        rel=\"tag\">Gelatin</a>, <a href=\"http://somethingnewfordinner.com/ingredient/lemon/\"
+        rel=\"tag\">Lemon</a>, <a href=\"http://somethingnewfordinner.com/ingredient/sugar/\"
+        rel=\"tag\">Sugar</a>, <a href=\"http://somethingnewfordinner.com/ingredient/vanilla-paste/\"
+        rel=\"tag\">Vanilla paste</a>, <a href=\"http://somethingnewfordinner.com/ingredient/yogurt-2/\"
+        rel=\"tag\">Yogurt</a></span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t
+        \ </div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t  \r\n\t\t  \t\t\t\t\t\t\t\t</div><!--
+        end of info-left div -->\r\n\t\t  \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n
+        \                                       \r\n\t\t  \t\t\t\t\t\t\t\t                                        \r\n
+        \                                       <span class=\"grey-section-divider\"></span>\r\n
+        \                                       <h2 class=\"comments-blue\">Recipe
+        Comments </h3>\r\n                 \r\n\t\t  \t\t\t\t\t\t\r\n                                <!--
+        Default Comments -->\t\r\n                                <div class=\"comments\">\r\n
+        \                               \t\t\n<!-- You can start editing here. -->\n\n\t\t<h2
+        id=\"comments\"></h2>\n\t    \n\t\t<ol class=\"comment-list\">\n\t\t        \n\t\t\t<li
+        class=\"comment even thread-even depth-1\"  id=\"comment-587922\">\n\t\t\t\n
+        \           \t<div class=\"img-box\">\n                        <a href=\"\">\n
+        \                       \t\t<img alt='' src='http://0.gravatar.com/avatar/253de1423b00275ec08adc87bd8b015a?s=67&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D67&amp;r=G'
+        class='avatar avatar-67 photo' height='67' width='67' />                        </a>\n
+        \               </div>\n                <div class=\"comment-body\">\n                        <p
+        class=\"meta\">Posted by  Lockie Russell  on <span> August 4, 2014 </span></p>\n
+        \                       <div class=\"comment\"><p>My 80 plus uncle would so
+        appreciate your 70 plus reference <img src='http://somethingnewfordinner.com/wp-includes/images/smilies/icon_smile.gif'
+        alt=':-)' class='wp-smiley' /> ! Hugh and I are thrilled to get this recipe!
+        Best dessert ever!!!!!</p>\n</div>\n                        \t\t\t\t\t\t<div
+        class=\"reply\">\n\t\t\t\t\t\t\t &nbsp; <a class='comment-reply-link' href='/recipe/cherry-panna-cotta/?replytocom=587922#respond'
+        onclick='return addComment.moveForm(\"comment-587922\", \"587922\", \"respond\",
+        \"7107\")'>Reply</a>\t\t\t\t\t\t</div>\n\t\t        </div>\n\t\t\t\n    \t<ul
+        class='children'>\n        \n\t\t\t<li class=\"comment byuser comment-author-admin
+        bypostauthor odd alt depth-2\"  id=\"comment-587934\">\n\t\t\t\n            \t<div
+        class=\"img-box\">\n                        <a href=\"http://somethingnewfordinner.com\">\n
+        \                       \t\t<img alt='' src='http://1.gravatar.com/avatar/5e92545ef72de845a737209fcfe4eaea?s=67&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D67&amp;r=G'
+        class='avatar avatar-67 photo' height='67' width='67' />                        </a>\n
+        \               </div>\n                <div class=\"comment-body\">\n                        <p
+        class=\"meta\">Posted by  <a href='http://somethingnewfordinner.com' rel='external
+        nofollow' class='url'>Kim</a>  on <span> August 4, 2014 </span></p>\n                        <div
+        class=\"comment\"><p>He was such a charmer. I think charm makes you young.
+        Enjoy this panna cotta while the Oregon cherries are plentiful, then make
+        it in the fall with roasted figs.</p>\n</div>\n                        \t\t\t\t\t\t<div
+        class=\"reply\">\n\t\t\t\t\t\t\t &nbsp; <a class='comment-reply-link' href='/recipe/cherry-panna-cotta/?replytocom=587934#respond'
+        onclick='return addComment.moveForm(\"comment-587934\", \"587934\", \"respond\",
+        \"7107\")'>Reply</a>\t\t\t\t\t\t</div>\n\t\t        </div>\n\t\t\t\n    \t</li>\n</ul>\n</li>\n\t\t</ol>\n\n\n\n\n\n\t\t<div
+        id=\"respond\">\n        <span class=\"grey-section-divider\"></span>\n\t\t\n\t\t<h2>Post
+        A <span>Comment</span></h2>\n\t\t<div class=\"cancel-comment-reply\">\n\t\t\t\t<small><a
+        rel=\"nofollow\" id=\"cancel-comment-reply-link\" href=\"/recipe/cherry-panna-cotta/#respond\"
+        style=\"display:none;\">Click here to cancel reply.</a></small>\n\t\t</div>\n\t\t\n\t\t\t\t\n\t\t<form
+        action=\"http://somethingnewfordinner.com/wp-comments-post.php\" method=\"post\"
+        id=\"commentform\">\n\t\t\n\t\t\t\t\t\t        <p>\n\t\t                <label
+        for=\"author\" class=\"author-label\">Your Name <span>*</span></label>\n\t\t
+        \               <input type=\"text\" name=\"author\" id=\"author\" value=\"\"
+        class=\"field\" />\n\t\t        </p>\n\t\t        <p>\n\t\t                <label
+        for=\"email\" class=\"email-label\">Your Email <span>*</span></label>\n\t\t
+        \               <input type=\"text\" name=\"email\" id=\"email\" value=\"\"
+        class=\"field\" />\n\t\t        </p>\n\t\t        <p>\n\t\t                <label
+        for=\"url\" class=\"url-label\">Your Website</label>\n\t\t                <input
+        type=\"text\" name=\"url\" id=\"url\" value=\"\" class=\"field\" />\n\t\t
+        \       </p>\n        \n\t\t\n\t\t<p>\n\t\t    \t<textarea name=\"comment\"
+        id=\"comment\" cols=\"30\" rows=\"10\"></textarea>\n\t\t</p>\n\n\t\t<p><input
+        name=\"submit\" type=\"submit\" id=\"submit\" value=\"Submit Now\" class=\"readmore\"
+        />\n\t\t\t\t<input type='hidden' name='comment_post_ID' value='7107' id='comment_post_ID'
+        />\n<input type='hidden' name='comment_parent' id='comment_parent' value='0'
+        />\n\t\t</p>\n\t\t\n\t\t<p style=\"display: none;\"><input type=\"hidden\"
+        id=\"akismet_comment_nonce\" name=\"akismet_comment_nonce\" value=\"6683b2b7d1\"
+        /></p>\t\t\n\t\t</form>\n\n\n</div>\n\n                                </div><!--
+        end of comments div -->\r\n                                \r\n                                </div><!--
+        end of left-area -->\r\n\t\t\t\t        <!-- LEFT AREA ENDS HERE -->\r\n                                \r\n
+        \                               <div class=\"info-right\">\r\n                                \t<h2
+        class=\"rating-title\">Ratings </h2>\r\n\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<!--
+        Rating Icons -->\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"rate-box\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \                                               \r\n\t\t<h6>Average Member
+        Rating</h6>\r\n\t\t\r\n\t\t<p class=\"ex-rates\" itemprop=\"reviews\" itemscope
+        itemtype=\"http://schema.org/AggregateRating\">\r\n\t\t\t<span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"off\"></span>\t\t\t(4.5 / 5)\t\t\r\n\t\t\t<meta itemprop=\"ratingValue\"
+        content=\"4.5\" />\r\n    \t\t<meta itemprop=\"bestRating\" content=\"5\"
+        />\r\n\t\t\t<meta itemprop=\"ratingCount\" content=\"2\" /> \t\t\t\t\t\t                                                        \r\n\t\t</p>\r\n\t\t\r\n\t\t<div
+        class=\"hreview-aggregate\">\r\n\t\t\t<span class=\"rating\">\r\n\t\t\t\t<span
+        class=\"average\">4.5</span>\r\n\t\t\t\t<span class=\"best\">5</span>\r\n\t\t\t\t<span
+        class=\"count\">2</span>\r\n\t\t\t</span>\r\n\t\t</div>\r\n\t\t\r\n\t\t\t\t\t\t<form
+        action=\"http://somethingnewfordinner.com/wp-admin/admin-ajax.php\" method=\"post\"
+        id=\"rate-product\" onsubmit=\"ratingFunction();\">\r\n\t\t\t\t\t<h6>Rate
+        this recipe</h6>\r\n\t\t\t\t\t<p class=\"rates\">\r\n\t\t\t\t\t\t\t<span class=\"off\"></span>\r\n\t\t\t\t\t\t\t<span
+        class=\"off\"></span>\r\n\t\t\t\t\t\t\t<span class=\"off\"></span>\r\n\t\t\t\t\t\t\t<span
+        class=\"off\"></span>\r\n\t\t\t\t\t\t\t<span class=\"off\"></span>\r\n\t\t\t\t\t\t\t<input
+        type=\"hidden\" name=\"selected_rating\" id=\"selected_rating\" value=\"\"
+        />\r\n\t\t\t\t\t\t\t<input type=\"hidden\" name=\"post_id\" value=\"7107\"
+        />\r\n\t\t\t\t\t\t\t<input type=\"hidden\" name=\"action\" value=\"rate_this\"
+        />\r\n\t\t\t\t\t</p>\r\n\t\t\t\t</form>\r\n\r\n\t\t\t\t\t\t<p id=\"output\"></p>\r\n\t\t<p
+        class=\"status\"><span>2 people</span> rated this recipe</p>\r\n        \r\n
+        \       <div class=\"comments3\"><a href=\"http://somethingnewfordinner.com/recipe/cherry-panna-cotta/#comments\"
+        title=\"Comment on Cherry panna cotta\">2 Comments</a></div>\r\n        \r\n</div><!--
+        end of rate-box div -->\r\n<span class=\"grey-sidebar-divider\"></span>\t\t\t\t\t\t\t\t\t\t\t\t\r\n
+        \                                               \r\n\t\t  \t\t\t\t\t\t\t\t</div><!--
+        end of info-right div -->\r\n                                  <!--Analytics
+        tracking -->\r\n\t\t\t\t<script>\r\n\t\t\t\tjQuery(document).ready(function(){\r\n\t\t\t\tvar
+        recipeName = \"Cherry panna cotta\";\r\n\t\t\t\tjQuery('form#commentform').submit(function(){\r\n\t\t\t\t\tga('send',
+        'event', 'Comment', 'Recipe', recipeName);\r\n\t\t\t\t});\r\n\t\t\t\t});\r\n\t\t\t\t</script>\r\n
+        \                               <!---KM Tracking Recipe-->\r\n\r\n<script>\r\n_kmq.push(['record',
+        'Recipe Viewed', {'RecipeName':'Cherry panna cotta'}]);\r\n</script>\r\n\r\n
+        \                       \r\n\t\r\n\t\t\t\t\t\t<!-- ========== START OF SIDEBAR
+        AREA ========== -->\r\n        <div id=\"sidebar\">\r\n                    <div
+        class=\"widget fav-recipes nostylewt\">\n\t\t\t\t\t\t\t\t\t<h2 class=\"tabs-widget-title\">More
+        <span>Recipes</span></h2>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"tabed\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+        class=\"tabs clearfix\"><li class=\"current\">Recent<span></span></li><li>Popular<span></span></li><li>Random<span></span></li></ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"block current\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/pimms-cup/\" class=\"img-box\"><img
+        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Pimms-cup-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Pimm&#039;s cup 1\"
+        title=\"Pimm&#039;s cup 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/pimms-cup/\">Pimm&#8217;s
+        cup</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t                            <p
+        class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4
+        / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/minted-fresh-fruit-salad/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/08/minted-fruit-salad-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"minted fruit salad 1\"
+        title=\"minted fruit salad 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/minted-fresh-fruit-salad/\">Minted
+        fresh fruit salad</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4 /
+        5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/peach-caramelized-onion-goat-cheese-crostini/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Peach-caramelized-onion-goat-cheese-crostini-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Peach, caramelized onion
+        &amp; goat cheese crostini 1\" title=\"Peach, caramelized onion &amp; goat
+        cheese crostini 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/peach-caramelized-onion-goat-cheese-crostini/\">Peach,
+        caramelized onion &amp; goat cheese crostini</a></h5>\t\t\t\t\t\t\t\n\t\t
+        \                           \n\t\t                            <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4 /
+        5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
+        </div><!-- end of block div --><div class=\"block\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+        class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a href=\"http://somethingnewfordinner.com/recipe/watermelon-tomato-and-strawberry-salad-with-burrata/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/07/Watermelon-tomato-and-strawberry-salad-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Watermelon, tomato and
+        strawberry salad 1\" title=\"Watermelon, tomato and strawberry salad 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a
+        href=\"http://somethingnewfordinner.com/recipe/watermelon-tomato-and-strawberry-salad-with-burrata/\">Watermelon,
+        tomato and strawberry salad with burrata</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4.8
+        / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/vichyssoise/\" class=\"img-box\"><img
+        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/07/Vichyssoise-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Vichyssoise 1\" title=\"Vichyssoise
+        1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/vichyssoise/\">Vichyssoise</a></h5>\t\t\t\t\t\t\t\n\t\t
+        \                           \n\t\t                            <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4 /
+        5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/maple-brined-grilled-pork-chops/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/07/Maple-brined-porkchops-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Maple-brined porkchops
+        1\" title=\"Maple-brined porkchops 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/maple-brined-grilled-pork-chops/\">Maple-brined
+        grilled pork chops</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"on\"></span>\t\t\t\t\t\t\t\t\t\t\t(5 / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t
+        \                        \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
+        </div><!-- end of block div --><div class=\"block\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+        class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a href=\"http://somethingnewfordinner.com/recipe/spinach-and-goat-cheese-quiche-minis/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/04/Spinach-tomato-goat-cheese-quiche-minis-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Spinach, tomato &amp;
+        goat cheese quiche minis 1\" title=\"Spinach, tomato &amp; goat cheese quiche
+        minis 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/spinach-and-goat-cheese-quiche-minis/\">Spinach
+        and goat cheese quiche minis</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4.5
+        / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/garlic-sausage-and-de-puy-lentil-soup/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/01/Lentil-garlic-sausage-stew-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Lentil &amp; garlic
+        sausage stew 1\" title=\"Lentil &amp; garlic sausage stew 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a
+        href=\"http://somethingnewfordinner.com/recipe/garlic-sausage-and-de-puy-lentil-soup/\">French
+        lentil &#038; garlic sausage soup</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"on\"></span>\t\t\t\t\t\t\t\t\t\t\t(5 / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t
+        \                        \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/french-onion-soup/\" class=\"img-box\"><img
+        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/03/French-onion-soup-8-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"French onion soup 8\"
+        title=\"French onion soup 8\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/french-onion-soup/\">French
+        onion soup</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4.5
+        / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
+        </div><!-- end of block div --><div class=\"bot-border\"></div>\n\t\t\t\t\t\t\t\t\t\t\t</div><!--
+        end of tabed div -->\n\t\t\t\t\t\t\t\t\t</div><!-- end of fav-recipes widget
+        --><div class=\"widget\"><h2 class=\"widget-title\">Subscribe</h2>\t\n<div
+        id=\"mc_signup\">\n\t<form method=\"post\" action=\"#mc_signup\" id=\"mc_signup_form\">\n\t\t<input
+        type=\"hidden\" id=\"mc_submit_type\" name=\"mc_submit_type\" value=\"html\"
+        />\n\t\t<input type=\"hidden\" name=\"mcsf_action\" value=\"mc_submit_signup_form\"
+        />\n\t\t<input type=\"hidden\" id=\"_mc_submit_signup_form_nonce\" name=\"_mc_submit_signup_form_nonce\"
+        value=\"0e66a5a2c4\" />\t\t\n\t\t\t<div id=\"mc_subheader\">\n\t\t\tSubscribe
+        to receive the latest recipes and blog posts.\t\t</div><!-- /mc_subheader
+        -->\n\t\t\t\n\t<div class=\"mc_form_inside\">\n\t\t\n\t\t<div class=\"updated\"
+        id=\"mc_message\">\n\t\t\t\t\t</div><!-- /mc_message -->\n\n\t\t\n<div class=\"mc_merge_var\">\n\t\t<label
+        for=\"mc_mv_EMAIL\" class=\"mc_var_label\">Email Address<span class=\"mc_required\">*</span></label>\n\t<input
+        type=\"text\" size=\"18\" value=\"\" name=\"mc_mv_EMAIL\" id=\"mc_mv_EMAIL\"
+        class=\"mc_input\"/>\n</div><!-- /mc_merge_var -->\n<div class=\"mc_merge_var\">\n\t\t<label
+        for=\"mc_mv_FNAME\" class=\"mc_var_label\">First Name</label>\n\t<input type=\"text\"
+        size=\"18\" value=\"\" name=\"mc_mv_FNAME\" id=\"mc_mv_FNAME\" class=\"mc_input\"/>\n</div><!--
+        /mc_merge_var -->\n<div class=\"mc_merge_var\">\n\t\t<label for=\"mc_mv_LNAME\"
+        class=\"mc_var_label\">Last Name</label>\n\t<input type=\"text\" size=\"18\"
+        value=\"\" name=\"mc_mv_LNAME\" id=\"mc_mv_LNAME\" class=\"mc_input\"/>\n</div><!--
+        /mc_merge_var -->\t\t\t<div id=\"mc-indicates-required\">\n\t\t\t\t* = required
+        field\t\t\t</div><!-- /mc-indicates-required -->\n\t\t\t\n\t\t<div class=\"mc_signup_submit\">\n\t\t\t<input
+        type=\"submit\" name=\"mc_signup_submit\" id=\"mc_signup_submit\" value=\"Subscribe
+        Now\" class=\"button\" />\n\t\t</div><!-- /mc_signup_submit -->\n\t\n\t\n\t\t\t\t\n\t</div><!--
+        /mc_form_inside -->\n\t</form><!-- /mc_signup_form -->\n</div><!-- /mc_signup_container
+        -->\n\t</div><div class=\"widget\">\t\t\t<div class=\"textwidget\"><script
+        type=\"text/javascript\" src=\"http://ap.lijit.com///www/delivery/fpi.js?z=250718&u=NewForDinner&width=300&height=250\"></script></div>\n\t\t</div><div
+        class=\"widget\">\t\t\t<div class=\"textwidget\"><iframe src=\"http://rcm-na.amazon-adsystem.com/e/cm?t=somnewfordin-20&o=1&p=12&l=ur1&category=offtocollege14&banner=0P58ZNASW9X5YYN8JGG2&f=ifr&lc=pf4&linkID=C4W2RU6NUMCYOLDV\"
+        width=\"300\" height=\"250\" scrolling=\"no\" border=\"0\" marginwidth=\"0\"
+        style=\"border:none;\" frameborder=\"0\"></iframe></div>\n\t\t</div><div class=\"widget\">\t\t\t<div
+        class=\"textwidget\"><script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\r\n<!--
+        Interior Page Ad #3_250x250 -->\r\n<ins class=\"adsbygoogle\"\r\n     style=\"display:inline-block;width:250px;height:250px\"\r\n
+        \    data-ad-client=\"ca-pub-1191156359323137\"\r\n     data-ad-slot=\"5995251203\"></ins>\r\n<script>\r\n(adsbygoogle
+        = window.adsbygoogle || []).push({});\r\n</script></div>\n\t\t</div><div class=\"widget
+        newsEvent\">\n\t\t\t\t\t<h2 class=\"blog-widget-title\">Recent <span>Blog
+        Posts</span></h2>\n\t\t\t\t\t<ul class=\"list\">                \n\t\t\t\t\t<li>\n
+        \                           <h5><a href=\"http://somethingnewfordinner.com/einstein-tips/7-tricks-for-cleaning-your-garbage-disposal/\">7
+        tricks for cleaning your garbage disposal</a></h5>\n                            <p>Does
+        your garbage disposal ever get a case of bad breath? As much as I hate to
+        admit it mine...</p>\n                    </li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t
+        \               \n\t\t\t\t\t<li>\n                            <h5><a href=\"http://somethingnewfordinner.com/inspiring-ingredients/why-you-should-eat-cherries/\">Why
+        you should eat cherries</a></h5>\n                            <p>Cherries
+        are one of my favorite summer fruits. They are low in calories at 87 calories
+        per cup, have a...</p>\n                    </li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t
+        \               \n\t\t\t\t\t<li>\n                            <h5><a href=\"http://somethingnewfordinner.com/culinary-concepts/the-difference-between-crostini-and-bruschetta/\">The
+        difference between crostini and bruschetta?</a></h5>\n                            <p>Bruschetta
+        and crostini are both antipasti, or little dishes that are served before the
+        meal to stimulate the appetite. Both...</p>\n                    </li>\t\t\t
+        \                        \t\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t\t</div><!-- end
+        of fav-recipes widget --><div class=\"widget\"><h2 class=\"widget-title\">Blog
+        Categories</h2><select name='cat' id='cat' class='postform' >\n\t<option value='-1'>Select
+        Category</option>\n\t<option class=\"level-0\" value=\"743\">Amazon Store&nbsp;&nbsp;(21)</option>\n\t<option
+        class=\"level-0\" value=\"1394\">Anniversaries&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"147\">Comparison testing&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"162\">Culinary concepts&nbsp;&nbsp;(12)</option>\n\t<option
+        class=\"level-0\" value=\"83\">Culinary history&nbsp;&nbsp;(17)</option>\n\t<option
+        class=\"level-0\" value=\"43\">Einstein tips&nbsp;&nbsp;(29)</option>\n\t<option
+        class=\"level-0\" value=\"710\">Flowers&nbsp;&nbsp;(8)</option>\n\t<option
+        class=\"level-0\" value=\"1779\">From our archives&nbsp;&nbsp;(4)</option>\n\t<option
+        class=\"level-0\" value=\"1683\">Gardening&nbsp;&nbsp;(2)</option>\n\t<option
+        class=\"level-0\" value=\"1840\">Gift guide&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"1036\">Give away contests&nbsp;&nbsp;(2)</option>\n\t<option
+        class=\"level-0\" value=\"1957\">Giveaway&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"1341\">Holiday menus&nbsp;&nbsp;(10)</option>\n\t<option
+        class=\"level-0\" value=\"42\">Inspiring ingredients&nbsp;&nbsp;(62)</option>\n\t<option
+        class=\"level-0\" value=\"2038\">Keeping it clean&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"84\">Methods&nbsp;&nbsp;(41)</option>\n\t<option
+        class=\"level-0\" value=\"117\">Mini recipe&nbsp;&nbsp;(12)</option>\n\t<option
+        class=\"level-0\" value=\"1780\">Mixology&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"125\">Nutritional knowledge&nbsp;&nbsp;(40)</option>\n\t<option
+        class=\"level-0\" value=\"1565\">Party ideas&nbsp;&nbsp;(3)</option>\n\t<option
+        class=\"level-0\" value=\"882\">Pay it forward&nbsp;&nbsp;(3)</option>\n\t<option
+        class=\"level-0\" value=\"77\">Serving it up in style&nbsp;&nbsp;(4)</option>\n\t<option
+        class=\"level-0\" value=\"730\">Sustainability&nbsp;&nbsp;(2)</option>\n\t<option
+        class=\"level-0\" value=\"1811\">Thoughts on living&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"13\">Tools I love&nbsp;&nbsp;(20)</option>\n\t<option
+        class=\"level-0\" value=\"126\">Travel opportunity&nbsp;&nbsp;(8)</option>\n\t<option
+        class=\"level-0\" value=\"1\">Uncategorized&nbsp;&nbsp;(13)</option>\n</select>\n\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\n\tvar dropdown = document.getElementById(\"cat\");\n\tfunction
+        onCatChange() {\n\t\tif ( dropdown.options[dropdown.selectedIndex].value >
+        0 ) {\n\t\t\tlocation.href = \"http://somethingnewfordinner.com/?cat=\"+dropdown.options[dropdown.selectedIndex].value;\n\t\t}\n\t}\n\tdropdown.onchange
+        = onCatChange;\n/* ]]> */\n</script>\n\n</div><div class=\"widget\">\t\t\t<div
+        class=\"textwidget\"><iframe src=\"http://rcm-na.amazon-adsystem.com/e/cm?t=somnewfordin-20&o=1&p=12&l=ur1&category=gr71_731&banner=0MQGMVQ8ZY7BNHPY3ZG2&f=ifr&lc=pf4&linkID=3CZ5LF3ZHD55LNTR\"
+        width=\"300\" height=\"250\" scrolling=\"no\" border=\"0\" marginwidth=\"0\"
+        style=\"border:none;\" frameborder=\"0\"></iframe></div>\n\t\t</div><div class=\"widget\"><h2
+        class=\"widget-title\">Sitemap</h2>\t\t<ul>\n\t\t\t<li class=\"page_item page-item-2633\"><a
+        href=\"http://somethingnewfordinner.com/store/\">Store</a></li>\n<li class=\"page_item
+        page-item-9\"><a href=\"http://somethingnewfordinner.com/\">Home</a></li>\n<li
+        class=\"page_item page-item-29\"><a href=\"http://somethingnewfordinner.com/recipes/\">Recipes</a></li>\n<li
+        class=\"page_item page-item-20\"><a href=\"http://somethingnewfordinner.com/our-story/\">Our
+        Story</a></li>\n<li class=\"page_item page-item-24 current_page_parent\"><a
+        href=\"http://somethingnewfordinner.com/blog/\">Blog</a></li>\n<li class=\"page_item
+        page-item-7\"><a href=\"http://somethingnewfordinner.com/contact/\">Contact</a></li>\n\t\t</ul>\n\t\t</div><div
+        class=\"widget\">\t\t\t<div class=\"textwidget\"><script type=\"text/javascript\"
+        src=\"http://ap.lijit.com///www/delivery/fpi.js?z=251052&u=NewForDinner&width=300&height=250\"></script></div>\n\t\t</div>
+        \       </div><!-- end of sidebar -->\r\n<!---Analytics Tracking -->\r\n\r\n<script>\r\n//rating
+        tracking\r\njQuery('form#rate-product').click(function(){\r\n\tratingFunction();
+        \r\n});\r\n\tfunction ratingFunction(){\r\n\t\tvar recipeName = \"The difference
+        between crostini and bruschetta?\";\r\n\t\tvar rating = jQuery('#selected_rating').val();\r\n\t\tga('send',
+        'event', 'Recipe Rated', recipeName, rating, parseInt(rating));\r\n//\t\t_kmq.push(['record',
+        'Recipe Rated', {'RecipeName':recipeName}]);\r\n//\tconsole.log(rating);\r\n\t}\r\njQuery(document).ready(function(){\r\n\t//track
+        mailchimp subscribes\r\n\tjQuery('form#mc_signup_form').submit(function(){\r\n\tga('send',
+        'event', 'Newsletter Signup', 'Submitted');\r\n\t});\r\n\r\n});\r\n</script>\r\n
+        \ \t\t\t\t</div><!-- end of content div -->\n                \n        \t\t<!--
+        CONTENT ENDS HERE -->\n                                \n\t\t</div><!-- end
+        of container div -->\n\n<!-- ============= CONTAINER AREA ENDS HERE ==============
+        -->\n\n\n<!-- ============= BOTTOM AREA STARTS HERE ============== -->\n\t
+        \   <div id=\"bottom-wrap\" style=\"display: none;\">\n\t\t    \t<ul id=\"bottom\"
+        class=\"clearfix\">\n\t\t\t        \t<li>\n\t\t\t\t\t\t\t\t<div class=\"about\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com\"><img src=\"\" alt=\"Something New
+        For Dinner &#8211; Healthy Dinner Recipes, Meal Ideas &amp; Cooking Tips\"
+        class=\"footer-logo\" /></a>\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<p>...</p>\n\t\t\t\t\t\t\t\t\t\t<a
+        href=\"\" class=\"readmore\">Read more About Us</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n
+        \                       \t\t\t\t\t            \t\t                        </li>\n
+        \                       <li>\n                        \t\t\t\t\t            \t\t
+        \                       </li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t            \n\t\t\t\t</ul><!--
+        end of bottom div -->\n\t    </div><!-- end of bottom-wrap div -->\n<!-- =============
+        BOTTOM AREA ENDS HERE ============== -->\n\n\n<!-- ============= FOOTER STARTS
+        HERE ============== -->\t\n        \n        <div id=\"footer-wrap\">\n        \t<p
+        style=\"text-align: center; margin-top: 10px; font-size: 14px;\">Copyright
+        &copy; 2014 Something New For Dinner. All Rights Reserved.</p>\n            <p
+        style=\"text-align: center; font-size: 14px;\">Web Design &amp; Development
+        by <a href=\"http://bixamedia.com/\">Bixa Media</a> &amp; <a href=\"http://margomade.com/\">margomade</a>.</p>\n
+        \           <p style=\"text-align: center; font-size: 14px;\"><a href=\"http://somethingnewfordinner.com/privacy-policy/\">Privacy
+        Policy</a> | <a href=\"http://somethingnewfordinner.com/disclosure-policy/\">Disclosure
+        Policy</a></p>\n\t\t\t\t\n                <div id=\"footer\">       \n\t\t\t\t\t
+        \        \t\t\n\t\t\t\t\t\t<p class=\"copyright\"></p>\n\t\t\t\t\t\t<p class=\"dnd\"></p>
+        \  \n\t\t\t\t\t                     \n\t\t\t\t</div><!-- end of footer div
+        -->\n\t\t</div><!-- end of footer-wrapper div -->\n        \n<!-- =============
+        FOOTER STARTS HERE ============== -->\n    \n\t<script type=\"text/javascript\">\nsetTimeout(function(){var
+        a=document.createElement(\"script\");\nvar b=document.getElementsByTagName('script')[0];\na.src=document.location.protocol+\"//dnn506yrbagrg.cloudfront.net/pages/scripts/0012/8536.js\";\na.async=true;a.type=\"text/javascript\";b.parentNode.insertBefore(a,b)},
+        1);\n</script>\n<script type=\"text/javascript\">\n\tvar srcURL = 'http://saas.insitebar.com/vw';\n\tSL
+        = {siteId : '476216aa9ea9892983f544c4feda615b', renderQ: []};\n\t(function(){\n\t\tvar
+        d=document,e='createElement',a='appendChild',g='getElementsByTagName',i=d[e]('iframe');\n\t\ti.id='VW-iframe';
+        \n\t\ti.style.display='none'; \n\t\ti.width=i.height='1px';\n\t\td[g](\"body\")[0][a](i);\n\t\tSL.x
+        = function(w) { \n\t\t\tvar d=w.document, s=d[e](\"script\");\n\t\t\ts.type=\"text/javascript\";
+        \n\t\t\ts.async=true;\n\t\t\ts.src=('https:'==d.location.protocol?srcURL.replace('http:','https:')
+        : srcURL)+'/lava/sociaLava.js.jsp?siteId='+SL.siteId;d[g](\"head\")[0][a](s);\n\t\t};
+        \n\t\tvar c = i.contentWindow.document;\n\t\tc.open().write('<!DOCTYPE HTML
+        PUBLIC \\\"-//W3C//DTD HTML 4.01//EN\\\" \\\"http://www.w3.org/TR/html4/strict.dtd\\\"><html
+        xmlns=\\\"http://www.w3.org/1999/xhtml\\\" xml:lang=\\\"en\\\"><body onload=\\\"parent.SL.x(window)\\\"
+        style=\\\"margin:0\\\"></'+'body></html>');\n\t\tc.close();\n\t})();\n\t\n\n\t//
+        push down fixed position wpadminbar \t\t\n\tfunction ib_fixAdmin() {\n\t  if
+        (!VW && !VW.Options) {\n\t\tsetTimeout(ib_fixAdmin , 2000);\n\t \treturn;\n\t
+        \ }\n\t  if (VW.Options.WindowManager.location == 'top') { \n\t  \tvar $el
+        = document.getElementById('wpadminbar');\n\t\tif($el) $el.style.top='29px';
+        \n\t  }  \n\t}\n\t\n\tsetTimeout(ib_fixAdmin , 2000);\n</script>\n\n\n\t<!--
+        Written.com Tracker -->\n\t<script type=\"text/javascript\">\n\t  var _paq
+        = _paq || [];\n\t  _paq.push([\"trackPageView\"]);\n\t  _paq.push([\"enableLinkTracking\"]);\n\n\t
+        \ (function() {\n\t    var u=((\"https:\" == document.location.protocol) ?
+        \"https\" : \"http\") + \"://analytics.written.com/\";\n\t    _paq.push([\"setTrackerUrl\",
+        u+\"piwik.php\"]);\n\t    _paq.push([\"setSiteId\", \"3994\"]);\n\t    var
+        d=document, g=d.createElement(\"script\"), s=d.getElementsByTagName(\"script\")[0];
+        g.type=\"text/javascript\";\n\t    g.defer=true; g.async=true; g.src=u+\"piwik.js\";
+        s.parentNode.insertBefore(g,s);\n\t  })();\n\t</script>\n\n\t<script type='text/javascript'
+        src='http://somethingnewfordinner.com/wp-content/themes/food-recipes/js/script.js?ver=1.0'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar _wpcf7 = {\"loaderUrl\":\"http:\\/\\/somethingnewfordinner.com\\/wp-content\\/plugins\\/contact-form-7\\/images\\/ajax-loader.gif\",\"sending\":\"Sending
+        ...\"};\n/* ]]> */\n</script>\n<script type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.5.2'></script>\n<script
+        type='text/javascript' src='http://somethingnewfordinner.com/wp-content/plugins/foobox/js/foobox-1.3.2.min.js?ver=1.3.5.1'></script>\n<script
+        type=\"text/javascript\">/* FooBox init code */\n(function( FOOBOX, $, undefined
+        ) {\n  FOOBOX.o = {debug:true, deeplinking : { enabled: true, prefix: \"somethingnewfordinner\"
+        }, fitToScreen:true, affiliate : { enabled: false }, error: { src: 'http://somethingnewfordinner.com/wp-content/plugins/foobox/img/error.png'
+        }, slideshow: { enabled:true, timeout:3000}, social: { enabled: true, position:
+        'topright', links: [ { css: 'facebook', title: 'Facebook', url: 'http://www.facebook.com/sharer.php?s=100&p[url]={url}&p[images][0]={img}&p[title]={title}&p[summary]={desc}'
+        \ }, { css: 'google-plus', title: 'Google+', url: 'https://plus.google.com/share?url={url-ne}'
+        \ }, { css: 'twitter', title: 'Twitter', url: 'https://twitter.com/share?url={url}&text={title}&via=newfordinner'
+        \ }, { css: 'pinterest', title: 'Pinterest', url: 'https://pinterest.com/pin/create/bookmarklet/?media={img}&url={url}&title={title}&is_video=false&description={desc}'
+        \ }, { css: 'linkedin', title: 'LinkedIn', url: 'http://www.linkedin.com/shareArticle?url={url}&title={title}'
+        \ } ] }, preloadImages:true};\n  FOOBOX.init = function() {\n    $(\".foobox-modal\").remove();\n
+        \   $(\".foobox-link\").removeClass(\"foobox-link\");\n    $(\"a.fancy\").unbind(\".fb\");\n
+        \ $(\"a.thickbox\").removeClass(\"thickbox\").unbind(\"click\");\n  $(\"#TB_overlay,
+        #TB_load, #TB_window\").remove();\n    $(\".gallery\").foobox(jQuery.extend(FOOBOX.o,
+        { wordpress: { enabled: true, galleries: true } }));\n    $(\".wp-caption\").foobox(jQuery.extend(FOOBOX.o,
+        { wordpress: { enabled: true, captions: true } }));\n    $(document).foobox(FOOBOX.o);\n
+        \   $(\".foobox-link\").unbind(\".prettyphoto\").unbind(\".fb\");\n\n  };\n}(
+        window.FOOBOX = window.FOOBOX || {}, jQuery ));\n\njQuery(function($) {\n
+        \ FOOBOX.init();\n});\n</script>        \n\t\t\t<script type=\"text/javascript\">\n\t\t\t(function()
+        {\n\t\t\t\twindow.PinIt = window.PinIt || { loaded:false };\n\t\t\t\tif (window.PinIt.loaded)
+        return;\n\t\t\t\twindow.PinIt.loaded = true;\n\t\t\t\tfunction async_load(){\n\t\t\t\t\tvar
+        s = document.createElement(\"script\");\n\t\t\t\t\ts.type = \"text/javascript\";\n\t\t\t\t\ts.async
+        = true;\n\t\t\t\t\ts.src = \"http://assets.pinterest.com/js/pinit.js\";\n\t\t\t\t\tvar
+        x = document.getElementsByTagName(\"script\")[0];\n\t\t\t\t\tx.parentNode.insertBefore(s,
+        x);\n\t\t\t\t}\n\t\t\t\tif (window.attachEvent)\n\t\t\t\t\twindow.attachEvent(\"onload\",
+        async_load);\n\t\t\t\telse\n\t\t\t\t\twindow.addEventListener(\"load\", async_load,
+        false);\n\t\t\t})();\n\t\t\t</script>\n\t\t        \n        <script type=\"text/javascript\">\n
+        \ var vglnk = { api_url: '//api.viglink.com/api',\n                key: '9dcd85e6a39383b052f2c22dce28e2a9'
+        };\n\n  (function(d, t) {\n    var s = d.createElement(t); s.type = 'text/javascript';
+        s.async = true;\n    s.src = ('https:' == document.location.protocol ? vglnk.api_url
+        :\n             '//cdn.viglink.com/api') + '/vglnk.js';\n    var r = d.getElementsByTagName(t)[0];
+        r.parentNode.insertBefore(s, r);\n  }(document, 'script'));\n</script>\n\n<!--
+        Quantcast Tag -->\n<script type=\"text/javascript\">\nvar _qevents = _qevents
+        || [];\n\n(function() {\nvar elem = document.createElement('script');\nelem.src
+        = (document.location.protocol == \"https:\" ? \"https://secure\" : \"http://edge\")
+        + \".quantserve.com/quant.js\";\nelem.async = true;\nelem.type = \"text/javascript\";\nvar
+        scpt = document.getElementsByTagName('script')[0];\nscpt.parentNode.insertBefore(elem,
+        scpt);\n})();\n\n_qevents.push({\nqacct:\"p-MsMVGuZmgQ-xv\"\n});\n</script>\n\n<noscript>\n<div
+        style=\"display:none;\">\n<img src=\"//pixel.quantserve.com/pixel/p-MsMVGuZmgQ-xv.gif\"
+        border=\"0\" height=\"1\" width=\"1\" alt=\"Quantcast\"/>\n</div>\n</noscript>\n<!--
+        End Quantcast tag -->\n\t\n</body>\n<!-- +SWOOP -->\n<script type=\"text/javascript\"\n
+        \ src=\"http://ardrone.swoop.com/js/spxw.js\"\n  data-domain=\"SW-86917615-45013\"\n
+        \ data-serverbase=\"http://ardrone.swoop.com/\">\n</script>\n<!-- -SWOOP -->\n</html>"
+    http_version: 
+  recorded_at: Tue, 12 Aug 2014 15:59:46 GMT
+recorded_with: VCR 2.9.2

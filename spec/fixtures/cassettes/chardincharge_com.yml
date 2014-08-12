@@ -1,0 +1,1330 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      Expires:
+      - Mon, 11 Aug 2014 14:02:15 GMT
+      Date:
+      - Mon, 11 Aug 2014 14:02:15 GMT
+      Cache-Control:
+      - private, max-age=0
+      Last-Modified:
+      - Sat, 09 Aug 2014 20:13:57 GMT
+      Etag:
+      - '"ba0dfb66-86a9-4d82-9cb4-d3c157f382c0"'
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alternate-Protocol:
+      - 80:quic,80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml'
+        xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data'
+        xmlns:expr='http://www.google.com/2005/gml/expr'>\n<head>\n<meta content='4e7972db37e6e5ca5d2148a2eda226c8'
+        name='p:domain_verify'/>\n<link href='http://fonts.googleapis.com/css?family=Roboto|Michroma'
+        rel='stylesheet' type='text/css'/>\n<meta content='width=1100' name='viewport'/>\n<meta
+        content='text/html; charset=UTF-8' http-equiv='Content-Type'/>\n<script type=\"text/javascript\">(function()
+        { var b=window,f=\"chrome\",g=\"tick\",k=\"jstiming\";(function(){function
+        d(a){this.t={};this.tick=function(a,d,c){var e=void 0!=c?c:(new Date).getTime();this.t[a]=[e,d];if(void
+        0==c)try{b.console.timeStamp(\"CSI/\"+a)}catch(h){}};this[g](\"start\",null,a)}var
+        a;b.performance&&(a=b.performance.timing);var n=a?new d(a.responseStart):new
+        d;b.jstiming={Timer:d,load:n};if(a){var c=a.navigationStart,h=a.responseStart;0<c&&h>=c&&(b[k].srt=h-c)}if(a){var
+        e=b[k].load;0<c&&h>=c&&(e[g](\"_wtsrt\",void 0,c),e[g](\"wtsrt_\",\"_wtsrt\",h),e[g](\"tbsd_\",\"wtsrt_\"))}try{a=null,\nb[f]&&b[f].csi&&(a=Math.floor(b[f].csi().pageT),e&&0<c&&(e[g](\"_tbnd\",void
+        0,b[f].csi().startE),e[g](\"tbnd_\",\"_tbnd\",c))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,e&&0<c&&(e[g](\"_tbnd\",void
+        0,b.external.startE),e[g](\"tbnd_\",\"_tbnd\",c))),a&&(b[k].pt=a)}catch(p){}})();b.tickAboveFold=function(d){var
+        a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[k].load[g](\"aft\")};var
+        l=!1;function m(){l||(l=!0,b[k].load[g](\"firstScrollTime\"))}b.addEventListener?b.addEventListener(\"scroll\",m,!1):b.attachEvent(\"onscroll\",m);\n
+        })();</script>\n<meta content='blogger' name='generator'/>\n<link href='http://www.chardincharge.com/favicon.ico'
+        rel='icon' type='image/x-icon'/>\n<link href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html'
+        rel='canonical'/>\n<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Chard
+        in Charge - Atom\" href=\"http://www.chardincharge.com/feeds/posts/default\"
+        />\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Chard in
+        Charge - RSS\" href=\"http://www.chardincharge.com/feeds/posts/default?alt=rss\"
+        />\n<link rel=\"service.post\" type=\"application/atom+xml\" title=\"Chard
+        in Charge - Atom\" href=\"http://www.blogger.com/feeds/2067109378824848531/posts/default\"
+        />\n\n<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Chard
+        in Charge - Atom\" href=\"http://www.chardincharge.com/feeds/1132427827022891796/comments/default\"
+        />\n<!--[if IE]><script type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/jsbin/3147806688-ieretrofit.js\"></script>\n<![endif]-->\n<link
+        href='http://3.bp.blogspot.com/-QNtqbXhZbVM/U-GHzY1wi9I/AAAAAAAABSk/JjyJnxW6Enc/s1600/coffee101.png'
+        rel='image_src'/>\n<link href='https://plus.google.com/107865325069039539199'
+        rel='publisher'/>\n<meta content='Coffee can be part of a healthful diet,
+        especially in this nutrient-dense coffee based breakfast smoothie.' name='description'/>\n<!--[if
+        IE]> <script> (function() { var html5 = (\"abbr,article,aside,audio,canvas,datalist,details,\"
+        + \"figure,footer,header,hgroup,mark,menu,meter,nav,output,\" + \"progress,section,time,video\").split(',');
+        for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]);
+        } try { document.execCommand('BackgroundImageCache', false, true); } catch(e)
+        {} })(); </script> <![endif]-->\n<title>\nChard in Charge: Coffee 101  +  Morning
+        Buzz Smoothie\n</title>\n<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+        type='text/javascript'></script>\n<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1535467126-widget_css_2_bundle.css'
+        />\n<link type='text/css' rel='stylesheet' href='//www.google.com/uds/css/gsearch.css'
+        />\n<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2067109378824848531&zx=ba0dfb66-86a9-4d82-9cb4-d3c157f382c0'
+        />\n<style id='page-skin-1' type='text/css'><!--\n/*\n__\n,                    ,\"
+        e`--o  Name:     Freckled Face\n((                   (  | __,'  Designer:
+        Carrie Loves Design\n\\\\~----------------' \\_;/      URL:      www.carrielovesdesign.com\n(
+        \                     /\n/) ._______________.  )\n(( (               (( (\n``-'
+        \              ``-'\n*/\n/* Variable definitions\n====================\n<Variable
+        name=\"keycolor\" description=\"Main Color\" type=\"color\" default=\"#66bbdd\"/>\n<Group
+        description=\"Page Text\" selector=\"body\">\n<Variable name=\"body.font\"
+        description=\"Font\" type=\"font\"\ndefault=\"normal normal 12px Arial, Tahoma,
+        Helvetica, FreeSans, sans-serif\"/>\n<Variable name=\"body.text.color\" description=\"Text
+        Color\" type=\"color\" default=\"#222222\"/>\n</Group>\n<Group description=\"Backgrounds\"
+        selector=\".body-fauxcolumns-outer\">\n<Variable name=\"body.background.color\"
+        description=\"Outer Background\" type=\"color\" default=\"#ffffff\"/>\n<Variable
+        name=\"content.background.color\" description=\"Main Background\" type=\"color\"
+        default=\"#ffffff\"/>\n<Variable name=\"header.background.color\" description=\"Header
+        Background\" type=\"color\" default=\"#ffffff\"/>\n</Group>\n<Group description=\"Links\"
+        selector=\".main-outer\">\n<Variable name=\"link.color\" description=\"Link
+        Color\" type=\"color\" default=\"#2288bb\"/>\n<Variable name=\"link.visited.color\"
+        description=\"Visited Color\" type=\"color\" default=\"#888888\"/>\n<Variable
+        name=\"link.hover.color\" description=\"Hover Color\" type=\"color\" default=\"#33aaff\"/>\n</Group>\n<Group
+        description=\"Blog Title\" selector=\".header h1\">\n<Variable name=\"header.font\"
+        description=\"Font\" type=\"font\"\ndefault=\"normal normal 60px Arial, Tahoma,
+        Helvetica, FreeSans, sans-serif\"/>\n<Variable name=\"header.text.color\"
+        description=\"Title Color\" type=\"color\" default=\"#3399bb\" />\n</Group>\n<Group
+        description=\"Blog Description\" selector=\".header .description\">\n<Variable
+        name=\"description.text.color\" description=\"Description Color\" type=\"color\"\ndefault=\"#777777\"
+        />\n</Group>\n<Group description=\"Tabs Text\" selector=\".tabs-inner .widget
+        li a\">\n<Variable name=\"tabs.font\" description=\"Font\" type=\"font\"\ndefault=\"normal
+        normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif\"/>\n<Variable
+        name=\"tabs.text.color\" description=\"Text Color\" type=\"color\" default=\"#999999\"/>\n<Variable
+        name=\"tabs.selected.text.color\" description=\"Selected Color\" type=\"color\"
+        default=\"#000000\"/>\n</Group>\n<Group description=\"Tabs Background\" selector=\".tabs-outer
+        .PageList\">\n<Variable name=\"tabs.background.color\" description=\"Background
+        Color\" type=\"color\" default=\"#f5f5f5\"/>\n<Variable name=\"tabs.selected.background.color\"
+        description=\"Selected Color\" type=\"color\" default=\"#eeeeee\"/>\n</Group>\n<Group
+        description=\"Post Title\" selector=\"h3.post-title, .comments h4\">\n<Variable
+        name=\"post.title.font\" description=\"Font\" type=\"font\"\ndefault=\"normal
+        normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif\"/>\n<Variable
+        name=\"post.text.color\" description=\"Text Color\" type=\"color\" default=\"#222222\"/>\n<Variable
+        name=\"post.link.color\" description=\"Link Color\" type=\"color\" default=\"#2288bb\"/>\n<Variable
+        name=\"post.hover.color\" description=\"Hover Color\" type=\"color\" default=\"#33aaff\"/>\n</Group>\n<Group
+        description=\"Date Header\" selector=\".date-header\">\n<Variable name=\"date.header.color\"
+        description=\"Text Color\" type=\"color\"\ndefault=\"#444444\"/>\n<Variable
+        name=\"date.header.background.color\" description=\"Background Color\" type=\"color\"\ndefault=\"transparent\"/>\n</Group>\n<Group
+        description=\"Post Footer\" selector=\".post-footer\">\n<Variable name=\"post.footer.text.color\"
+        description=\"Text Color\" type=\"color\" default=\"#666666\"/>\n<Variable
+        name=\"post.footer.background.color\" description=\"Background Color\" type=\"color\"\ndefault=\"#f9f9f9\"/>\n<Variable
+        name=\"post.footer.border.color\" description=\"Shadow Color\" type=\"color\"
+        default=\"#eeeeee\"/>\n</Group>\n<Group description=\"Gadgets\" selector=\"h2\">\n<Variable
+        name=\"widget.title.font\" description=\"Title Font\" type=\"font\"\ndefault=\"normal
+        normal 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif\"/>\n<Variable
+        name=\"widget.title.text.color\" description=\"Title Color\" type=\"color\"
+        default=\"#000000\"/>\n<Variable name=\"widget.alternate.text.color\" description=\"Alternate
+        Color\" type=\"color\" default=\"#999999\"/>\n</Group>\n<Group description=\"Images\"
+        selector=\".main-inner\">\n<Variable name=\"image.background.color\" description=\"Background
+        Color\" type=\"color\" default=\"#ffffff\"/>\n<Variable name=\"image.border.color\"
+        description=\"Border Color\" type=\"color\" default=\"#eeeeee\"/>\n<Variable
+        name=\"image.text.color\" description=\"Caption Text Color\" type=\"color\"
+        default=\"#444444\"/>\n</Group>\n<Group description=\"Accents\" selector=\".content-inner\">\n<Variable
+        name=\"body.rule.color\" description=\"Separator Line Color\" type=\"color\"
+        default=\"#eeeeee\"/>\n<Variable name=\"tabs.border.color\" description=\"Tabs
+        Border Color\" type=\"color\" default=\"transparent\"/>\n</Group>\n<Variable
+        name=\"body.background\" description=\"Body Background\" type=\"background\"\ncolor=\"#ffffff\"
+        default=\"$(color) none repeat scroll top left\"/>\n<Variable name=\"body.background.override\"
+        description=\"Body Background Override\" type=\"string\" default=\"\"/>\n<Variable
+        name=\"body.background.gradient.cap\" description=\"Body Gradient Cap\" type=\"url\"\ndefault=\"url(//www.blogblog.com/1kt/simple/gradients_light.png)\"/>\n<Variable
+        name=\"body.background.gradient.tile\" description=\"Body Gradient Tile\"
+        type=\"url\"\ndefault=\"url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)\"/>\n<Variable
+        name=\"content.background.color.selector\" description=\"Content Background
+        Color Selector\" type=\"string\" default=\".content-inner\"/>\n<Variable name=\"content.padding\"
+        description=\"Content Padding\" type=\"length\" default=\"10px\"/>\n<Variable
+        name=\"content.padding.horizontal\" description=\"Content Horizontal Padding\"
+        type=\"length\" default=\"10px\"/>\n<Variable name=\"content.shadow.spread\"
+        description=\"Content Shadow Spread\" type=\"length\" default=\"40px\"/>\n<Variable
+        name=\"content.shadow.spread.webkit\" description=\"Content Shadow Spread
+        (WebKit)\" type=\"length\" default=\"5px\"/>\n<Variable name=\"content.shadow.spread.ie\"
+        description=\"Content Shadow Spread (IE)\" type=\"length\" default=\"10px\"/>\n<Variable
+        name=\"main.border.width\" description=\"Main Border Width\" type=\"length\"
+        default=\"0\"/>\n<Variable name=\"header.background.gradient\" description=\"Header
+        Gradient\" type=\"url\" default=\"none\"/>\n<Variable name=\"header.shadow.offset.left\"
+        description=\"Header Shadow Offset Left\" type=\"length\" default=\"-1px\"/>\n<Variable
+        name=\"header.shadow.offset.top\" description=\"Header Shadow Offset Top\"
+        type=\"length\" default=\"-1px\"/>\n<Variable name=\"header.shadow.spread\"
+        description=\"Header Shadow Spread\" type=\"length\" default=\"1px\"/>\n<Variable
+        name=\"header.padding\" description=\"Header Padding\" type=\"length\" default=\"30px\"/>\n<Variable
+        name=\"header.border.size\" description=\"Header Border Size\" type=\"length\"
+        default=\"1px\"/>\n<Variable name=\"header.bottom.border.size\" description=\"Header
+        Bottom Border Size\" type=\"length\" default=\"1px\"/>\n<Variable name=\"header.border.horizontalsize\"
+        description=\"Header Horizontal Border Size\" type=\"length\" default=\"0\"/>\n<Variable
+        name=\"description.text.size\" description=\"Description Text Size\" type=\"string\"
+        default=\"140%\"/>\n<Variable name=\"tabs.margin.top\" description=\"Tabs
+        Margin Top\" type=\"length\" default=\"0\" />\n<Variable name=\"tabs.margin.side\"
+        description=\"Tabs Side Margin\" type=\"length\" default=\"30px\" />\n<Variable
+        name=\"tabs.background.gradient\" description=\"Tabs Background Gradient\"
+        type=\"url\"\ndefault=\"url(//www.blogblog.com/1kt/simple/gradients_light.png)\"/>\n<Variable
+        name=\"tabs.border.width\" description=\"Tabs Border Width\" type=\"length\"
+        default=\"1px\"/>\n<Variable name=\"tabs.bevel.border.width\" description=\"Tabs
+        Bevel Border Width\" type=\"length\" default=\"1px\"/>\n<Variable name=\"date.header.padding\"
+        description=\"Date Header Padding\" type=\"string\" default=\"inherit\"/>\n<Variable
+        name=\"date.header.letterspacing\" description=\"Date Header Letter Spacing\"
+        type=\"string\" default=\"inherit\"/>\n<Variable name=\"date.header.margin\"
+        description=\"Date Header Margin\" type=\"string\" default=\"inherit\"/>\n<Variable
+        name=\"post.margin.bottom\" description=\"Post Bottom Margin\" type=\"length\"
+        default=\"25px\"/>\n<Variable name=\"image.border.small.size\" description=\"Image
+        Border Small Size\" type=\"length\" default=\"2px\"/>\n<Variable name=\"image.border.large.size\"
+        description=\"Image Border Large Size\" type=\"length\" default=\"5px\"/>\n<Variable
+        name=\"page.width.selector\" description=\"Page Width Selector\" type=\"string\"
+        default=\".region-inner\"/>\n<Variable name=\"page.width\" description=\"Page
+        Width\" type=\"string\" default=\"auto\"/>\n<Variable name=\"main.section.margin\"
+        description=\"Main Section Margin\" type=\"length\" default=\"15px\"/>\n<Variable
+        name=\"main.padding\" description=\"Main Padding\" type=\"length\" default=\"15px\"/>\n<Variable
+        name=\"main.padding.top\" description=\"Main Padding Top\" type=\"length\"
+        default=\"30px\"/>\n<Variable name=\"main.padding.bottom\" description=\"Main
+        Padding Bottom\" type=\"length\" default=\"30px\"/>\n<Variable name=\"paging.background\"\ncolor=\"#ffffff\"\ndescription=\"Background
+        of blog paging area\" type=\"background\"\ndefault=\"transparent none no-repeat
+        scroll top center\"/>\n<Variable name=\"footer.bevel\" description=\"Bevel
+        border length of footer\" type=\"length\" default=\"0\"/>\n<Variable name=\"mobile.background.overlay\"
+        description=\"Mobile Background Overlay\" type=\"string\"\ndefault=\"transparent
+        none repeat scroll top left\"/>\n<Variable name=\"mobile.background.size\"
+        description=\"Mobile Background Size\" type=\"string\" default=\"auto\"/>\n<Variable
+        name=\"mobile.button.color\" description=\"Mobile Button Color\" type=\"color\"
+        default=\"#ffffff\" />\n<Variable name=\"startSide\" description=\"Side where
+        text starts in blog language\" type=\"automatic\" default=\"left\"/>\n<Variable
+        name=\"endSide\" description=\"Side where text ends in blog language\" type=\"automatic\"
+        default=\"right\"/>\n*/\n/* Content\n-----------------------------------------------
+        */\nbody {\nfont: normal normal 12px 'Roboto', sans-serif;\ncolor: #444444;\nbackground:
+        #ffffff none no-repeat scroll center center;\n}\nhtml body .region-inner {\nmin-width:
+        0;\nmax-width: 100%;\nwidth: auto;\n}\na:link {\ntext-decoration:none;\ncolor:
+        #7f7f7f;\n}\na:visited {\ntext-decoration:none;\ncolor: #7f7f7f;\n}\na:hover
+        {\ncolor: #92c94b;\n}\n.body-fauxcolumn-outer .fauxcolumn-inner {\nbackground:
+        transparent none repeat scroll top left;\n_background-image: none;\n}\n.body-fauxcolumn-outer
+        .cap-top {\nposition: absolute;\nz-index: 1;\nheight: 400px;\nwidth: 100%;\nbackground:
+        #ffffff none no-repeat scroll center center;\n}\n.body-fauxcolumn-outer .cap-top
+        .cap-left {\nwidth: 100%;\nbackground: transparent none repeat-x scroll top
+        left;\n_background-image: none;\n}\n.content-outer {\nmargin-bottom: 1px;\n}\n.content-inner
+        {\npadding: 10px 30px;\nmargin-bottom: 30px;\n}\n.content-inner {\nbackground-color:
+        #ffffff;\n}\n/* Header\n----------------------------------------------- */\n#header-inner
+        img {margin: 0 auto !important;} #header-inner {text-align:center !important;}\n.header-outer
+        {\npadding: 0 0 20px;\nmargin: 0px auto !important;\nborder-bottom: 1px solid
+        #92c94b;\n}\n.header-inner {\n}\n.header-inner .Header {text-alight:center
+        !important;}\n}\n.header-inner .Header .descriptionwrapper {\n}\n/* New Navigation\n-----------------------------------------------
+        */\n#nav {\nwidth:100%;\nfloat: left;\nheight: 38px;\nposition:fixed;\ntop:0px;\nbackground:
+        rgba(249, 249, 249, 0.75);\nborder-bottom: 1px solid #f6f6f6;\n}\n#nav ul
+        {\nlist-style: none;\nwidth: 1000px;\nmargin: 0 auto;\npadding: 12px 0;\ntext-align:
+        center;\n}\n#nav li {\ndisplay:inline;\nfloat: center;\n}\n#nav li a {\ndisplay:
+        inline;\npadding: 0 30px;\nbackground-color: none;\ncolor: #000000;\ntext-transform:
+        uppercase;\nletter-spacing: .2em;\n}\n#nav li a:hover {\ncolor:#92c94f;\n}\n/*
+        Tabs\n----------------------------------------------- */\n.tabs-inner .section:first-child
+        {\nborder-top: 0 solid transparent;\n}\n.tabs-inner .section:first-child ul
+        {\nmargin-top: -1px;\nborder-top: 1px solid transparent;\nborder-left: 1px
+        solid transparent;\nborder-right: 1px solid transparent;\n}\n.tabs-inner .widget
+        ul {\nbackground: transparent none repeat-x scroll 0 -800px;\n_background-image:
+        none;\nborder-bottom: 1px solid transparent;\nmargin-top: 0;\nmargin-left:
+        -30px;\nmargin-right: -30px;\n}\n.tabs-inner .widget li a {\ndisplay: inline-block;\npadding:
+        .2em 1em;\nfont: normal normal 12px 'Roboto', sans-serif;\ncolor: #444444;\nborder-left:
+        1px solid #ffffff;\nborder-right: 1px solid transparent;\ntext-transform:
+        uppercase;\nletter-spacing: .2em;\n}\n.tabs-inner .widget li:first-child a
+        {\nborder-left: none;\n}\n.tabs-inner .widget li.selected a {\ncolor: #92c94b;\nbackground-color:
+        transparent;\ntext-decoration: none;\n}\n.tabs-inner .widget li a:hover {\ncolor:
+        #92c94b;\n}\n/* Columns\n----------------------------------------------- */\n.main-outer
+        {\nborder-top: 0 solid transparent;\n}\n.fauxcolumn-left-outer .fauxcolumn-inner
+        {\nborder-right: 1px solid transparent;\n}\n.fauxcolumn-right-outer .fauxcolumn-inner
+        {\nbackground: rgba(249, 249, 249, 0.75);\nborder: 1px solid #f6f6f6;\n}\n.main-inner
+        {\npadding-top: 0px;\npadding-bottom: 65px;\n}\n.main-inner .column-center-inner
+        {\npadding: 0 0;\n}\n.main-inner .column-center-inner .section {\nmargin:
+        0 1em;\n}\n/* Headings\n----------------------------------------------- */\n.Header
+        h1 {\nfont: normal normal 50px 'Roboto', sans-serif;\ncolor: #92c94b;\ntext-align:
+        center;\nfont-family: 'Michroma', sans-serif;\ntext-transform: uppercase;\n}\n.Header
+        h1 a {\ncolor: #92c94b;\n}\n.Header .description {\nfont-size: 14px;\ncolor:
+        #444444;\ntext-align: center;\ntext-transform: uppercase;\nletter-spacing:
+        .2em;\n}\nh2 {\nmargin: 0 0 1em 0;\nfont: normal normal 16px 'Roboto', sans-serif;\ncolor:
+        #92c94b;\n}\n.section-columns h2, #BlogArchive1 h2, #Label1 h2, #HTML1 h2,
+        #sidebar-right-1 h2, #sidebar-left-1 h2{\nfont: normal normal 16px 'Roboto',
+        sans-serif;\nfont-family: 'Michroma', sans-serif;\n}\nh3.post-title, .comments
+        h4 {\nfont: normal normal 24px 'Roboto', sans-serif;\nmargin: .75em 0 0;\nfont-family:
+        'Michroma', sans-serif;\ntext-transform: uppercase;\n}\nh3.post-title{\ncolor:
+        #666666;\n}\nh3.post-title a{\ncolor: #999999;\n}\nh3.post-title a:hover{\ncolor:
+        #92c94b;\n}\n.comments h4 {\nfont-size: 18px;\n}\n/* Widgets\n-----------------------------------------------
+        */\n.widget .zippy {\ncolor: #92c94b;\n}\n.widget .popular-posts ul {\nlist-style:
+        none;\n}\n.media-list-item.board.no-border .media-image-wrapper, .media-list-item.grid
+        .media-image-wrapper, .PopularPosts .item-thumbnail img {\n-moz-border-radius:
+        72px;\nborder-radius: 72px;\n-webkit-border-radius: 72px;\nmargin-right: 5px;\n}\n.PopularPosts
+        img {\npadding-right: 0em !important;\n}\n.FollowByEmail .follow-by-email-inner
+        .follow-by-email-submit {\nwidth: 60px;\nmargin: 0px 0px 0px 8px;\nborder:
+        0px none;\nborder-radius: 2px;\nbackground: none repeat scroll 0% 0% #444444;\ncolor:
+        #ffffff;\ncursor: pointer;\nfont-size: 13px;\nheight: 26px;\nz-index: 0;\n}\n.FollowByEmail
+        .follow-by-email-inner .follow-by-email-address {\nwidth: 95%;\nheight: 22px;\nbackground-color:
+        transparent !important;\nborder: none !important;\nborder-bottom: 1px dotted
+        #cccccc !important;\nfont-size: 12px;\n}\ninput.gsc-search-button {\nwidth:
+        60px;\nmargin: 0px 0px 0px 8px;\nborder: 0px none;\nborder-radius: 2px;\nbackground:
+        none repeat scroll 0% 0% #444444;\ncolor: #ffffff;\ncursor: pointer;\nfont-size:
+        13px;\nheight: 26px;\nz-index: 0;\n}\ninput.gsc-input {\nheight: 22px;\nbackground-color:
+        transparent !important;\nborder: none !important;\nborder-bottom: 1px dotted
+        #cccccc !important;\nfont-size: 12px;\n}\n.circular, .circular img {\ndisplay:
+        inline-block;\nposition: relative;\noverflow: hidden;\nwidth: 270px;\nheight:
+        270px;\n-moz-border-radius: 50%;\nborder-radius: 50%;\n-webkit-border-radius:
+        50%;\n}\n/* Posts\n----------------------------------------------- */\n.date-header
+        {\n}\n.date-header span {\nbackground-color: transparent;\ncolor: #666666;\nfont-size:
+        11px;\n}\n.post {\nmargin: 0 0 45px 0;\n}\n.post-body {\nfont-size: 110%;\nline-height:
+        1.4;\nposition: relative;\n}\n.post-body img {\npadding: 0;\n}\n.post-body
+        .tr-caption-container, .Profile img, .Image img,\n.BlogList .item-thumbnail
+        img {\npadding: 0px;\nbackground: transparent;\n}\n.post-body .tr-caption-container
+        {\npadding: 0px;\n}\n.post-body .tr-caption-container {\ncolor: #92c94b;\n}\n.post-body
+        .tr-caption-container img {\npadding: 0;\nbackground: transparent;\n}\n.post-header
+        {\nmargin: 0 0 1.5em;\nline-height: 1.6;\nfont-size: 90%;\n}\n.post-footer
+        {\nmargin: 20px -2px 0px;\ntext-align: left;\ncolor: #666666;\nbackground-color:
+        transparent;\nborder-bottom: 1px solid transparent;\nline-height: 1.6;\nfont-size:
+        90%;\npadding-bottom: 25px;\nborder-bottom: 1px dotted #cccccc;\n}\n#comments
+        .comment-author {\npadding-top: 1.5em;\nborder-top: 1px solid transparent;\nbackground-position:
+        0 1.5em;\n}\n#comments .comment-author:first-child {\npadding-top: 0;\nborder-top:
+        none;\n}\n.avatar-image-container {\nmargin: .2em 0 0;\n}\n#comments .avatar-image-container
+        img {\ndisplay: inline-block;\nposition: relative;\noverflow: hidden;\nwidth:
+        36px;\nheight: 36px;\n-moz-border-radius: 36px;\nborder-radius: 36px;\n-webkit-border-radius:
+        36px;\n}\n/* Comments\n----------------------------------------------- */\n.comments
+        .comments-content .icon.blog-author {\nbackground-repeat: no-repeat;\nbackground-image:
+        url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);\n}\n.comments
+        .comments-content .loadmore a {\nborder-top: 1px solid #00986f;\nborder-bottom:
+        1px solid #00986f;\n}\n.comments .comment-thread.inline-thread {\nbackground-color:
+        transparent;\n}\n.comments .continue {\nborder-top: 2px solid #00986f;\n}\n/*
+        Accents\n---------------------------------------------- */\n.section-columns
+        td.columns-cell {\nborder-left: 1px solid transparent;\n}\n.blog-pager {\nbackground:
+        transparent none no-repeat scroll top center;\n}\n.blog-pager-older-link,
+        .home-link,\n.blog-pager-newer-link {\nbackground-color: #ffffff;\nfont-family:
+        'Michroma', sans-serif;\ntext-transform: uppercase;\npadding: 5px;\nfont-size:
+        20px;\n}\n#sfd_attribution {\ntext-align: center;\n}\n#Attribution1 {\ndisplay:
+        none !important;\n}\n.post-body .separator a {\nmargin-left: 0em !important;\n}\n/*
+        Mobile\n----------------------------------------------- */\nbody.mobile  {\nbackground-size:
+        auto;\n}\n.mobile .body-fauxcolumn-outer {\nbackground: transparent none repeat
+        scroll top left;\n}\n.mobile .body-fauxcolumn-outer .cap-top {\nbackground-size:
+        100% auto;\n}\n.mobile .content-outer {\n-webkit-box-shadow: 0 0 3px rgba(0,
+        0, 0, .15);\nbox-shadow: 0 0 3px rgba(0, 0, 0, .15);\n}\nbody.mobile .AdSense
+        {\nmargin: 0 -0;\n}\n.mobile .tabs-inner .widget ul {\nmargin-left: 0;\nmargin-right:
+        0;\n}\n.mobile .post {\nmargin: 0;\n}\n.mobile .main-inner .column-center-inner
+        .section {\nmargin: 0;\n}\n.mobile .date-header span {\npadding: 0.1em 10px;\nmargin:
+        0 -10px;\n}\n.mobile h3.post-title {\nmargin: 0;\n}\n.mobile .blog-pager {\nbackground:
+        transparent none no-repeat scroll top center;\n}\n.mobile .footer-outer {\nborder-top:
+        none;\n}\n.mobile .main-inner, .mobile .footer-inner {\nbackground-color:
+        #ffffff;\n}\n.mobile-index-contents {\ncolor: #444444;\n}\n.mobile-link-button
+        {\nbackground-color: #7f7f7f;\n}\n.mobile-link-button a:link, .mobile-link-button
+        a:visited {\ncolor: #ffffff;\n}\n.mobile .tabs-inner .section:first-child
+        {\nborder-top: none;\n}\n.mobile .tabs-inner .PageList .widget-content {\nbackground-color:
+        transparent;\ncolor: #92c94b;\nborder-top: 1px solid transparent;\nborder-bottom:
+        1px solid transparent;\n}\n.mobile .tabs-inner .PageList .widget-content .pagelist-arrow
+        {\nborder-left: 1px solid transparent;\n}\n.status-msg-wrap, .status-msg-body
+        {display: none;}\n--></style>\n<style id='template-skin-1' type='text/css'><!--\nbody
+        {\nmin-width: 1060px;\n}\n.content-outer, .content-fauxcolumn-outer, .region-inner
+        {\nmin-width: 1060px;\nmax-width: 1060px;\n_width: 1060px;\n}\n.main-inner
+        .columns {\npadding-left: 0px;\npadding-right: 320px;\n}\n.main-inner .fauxcolumn-center-outer
+        {\nleft: 0px;\nright: 320px;\n/* IE6 does not respect left and right together
+        */\n_width: expression(this.parentNode.offsetWidth -\nparseInt(\"0px\") -\nparseInt(\"320px\")
+        + 'px');\n}\n.main-inner .fauxcolumn-left-outer {\nwidth: 0px;\n}\n.main-inner
+        .fauxcolumn-right-outer {\nwidth: 320px;\n}\n.main-inner .column-left-outer
+        {\nwidth: 0px;\nright: 100%;\nmargin-left: -0px;\n}\n.main-inner .column-right-outer
+        {\nwidth: 320px;\nmargin-right: -320px;\nmargin-top: 23px;\n}\n#layout {\nmin-width:
+        0;\n}\n#layout .content-outer {\nmin-width: 0;\nwidth: 800px;\n}\n#layout
+        .region-inner {\nmin-width: 0;\nwidth: auto;\n}\n--></style>\n<script type='text/javascript'>\n
+        \     var _gaq = _gaq || [];\n      _gaq.push(['_setAccount', 'UA-50105113-1']);\n
+        \     _gaq.push(['_trackPageview']);\n      (function() {\n        var ga
+        = document.createElement('script');\n        ga.type = 'text/javascript';\n
+        \       ga.async = true;\n        ga.src = (document.location.protocol ==
+        'https:' ?\n                  'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n
+        \       var s = document.getElementsByTagName('script')[0];\n        s.parentNode.insertBefore(ga,
+        s);\n      })();\n    </script>\n<script type=\"text/javascript\">var a=\"indexOf\",b=\"&m=1\",e=\"(^|&)m=\",f=\"?\",g=\"?m=1\";function
+        h(){var c=window.location.href,d=c.split(f);switch(d.length){case 1:return
+        c+g;case 2:return 0<=d[1].search(e)?null:c+b;default:return null}}var k=navigator.userAgent;if(-1!=k[a](\"Mobile\")&&-1!=k[a](\"WebKit\")&&-1==k[a](\"iPad\")||-1!=k[a](\"Opera
+        Mini\")||-1!=k[a](\"IEMobile\")){var l=h();l&&window.location.replace(l)};\n</script><script
+        type=\"text/javascript\">\nif (window.jstiming) window.jstiming.load.tick('headEnd');\n</script></head>\n<body
+        class='loading'>\n<div class='navbar section' id='navbar'>\n</div>\n<div class='body-fauxcolumns'>\n<div
+        class='fauxcolumn-outer body-fauxcolumn-outer'>\n<div class='cap-top'>\n<div
+        class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n<div class='fauxborder-left'>\n<div
+        class='fauxborder-right'></div>\n<div class='fauxcolumn-inner'>\n</div>\n</div>\n<div
+        class='cap-bottom'>\n<div class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n</div>\n</div>\n<div
+        class='content'>\n<div class='content-fauxcolumns'>\n<div class='fauxcolumn-outer
+        content-fauxcolumn-outer'>\n<div class='cap-top'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n<div class='fauxborder-left'>\n<div class='fauxborder-right'></div>\n<div
+        class='fauxcolumn-inner'>\n</div>\n</div>\n<div class='cap-bottom'>\n<div
+        class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n</div>\n</div>\n<div
+        class='content-outer'>\n<div class='content-cap-top cap-top'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n<div class='fauxborder-left content-fauxborder-left'>\n<div
+        class='fauxborder-right content-fauxborder-right'></div>\n<div class='content-inner'>\n<header>\n<div
+        class='header-outer'>\n<div class='header-cap-top cap-top'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n<div class='fauxborder-left header-fauxborder-left'>\n<div
+        class='fauxborder-right header-fauxborder-right'></div>\n<div class='region-inner
+        header-inner'>\n<div class='header section' id='header'><div class='widget
+        Header' id='Header5'>\n<div id='header-inner'>\n<a href='http://www.chardincharge.com/'
+        style='display: block'>\n<img alt='Chard in Charge' height='187px; ' id='Header5_headerimg'
+        src='http://3.bp.blogspot.com/-9yyEc-x_OBk/U0LVvMGOS_I/AAAAAAAAA-0/nRlcGKl1gCM/s1600/Chard_In_Charge_Header_2014.jpg'
+        style='display: block' width='980px; '/>\n</a>\n</div>\n</div></div>\n</div>\n</div>\n<div
+        class='header-cap-bottom cap-bottom'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n</div>\n</header>\n<div class='tabs-outer'>\n<div
+        class='tabs-cap-top cap-top'>\n<div class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n<div
+        class='fauxborder-left tabs-fauxborder-left'>\n<div class='fauxborder-right
+        tabs-fauxborder-right'></div>\n<div class='region-inner tabs-inner'>\n<div
+        class='tabs section' id='crosscol'></div>\n<div class='tabs section' id='crosscol-overflow'></div>\n</div>\n</div>\n<div
+        class='tabs-cap-bottom cap-bottom'>\n<div class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n</div>\n<div
+        class='main-outer'>\n<div class='main-cap-top cap-top'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n<div class='fauxborder-left main-fauxborder-left'>\n<div
+        class='fauxborder-right main-fauxborder-right'></div>\n<div class='region-inner
+        main-inner'>\n<div class='columns fauxcolumns'>\n<div class='fauxcolumn-outer
+        fauxcolumn-center-outer'>\n<div class='cap-top'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n<div class='fauxborder-left'>\n<div class='fauxborder-right'></div>\n<div
+        class='fauxcolumn-inner'>\n</div>\n</div>\n<div class='cap-bottom'>\n<div
+        class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n</div>\n<div
+        class='fauxcolumn-outer fauxcolumn-left-outer'>\n<div class='cap-top'>\n<div
+        class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n<div class='fauxborder-left'>\n<div
+        class='fauxborder-right'></div>\n<div class='fauxcolumn-inner'>\n</div>\n</div>\n<div
+        class='cap-bottom'>\n<div class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n</div>\n<div
+        class='fauxcolumn-outer fauxcolumn-right-outer'>\n<div class='cap-top'>\n<div
+        class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n<div class='fauxborder-left'>\n<div
+        class='fauxborder-right'></div>\n<div class='fauxcolumn-inner'>\n</div>\n</div>\n<div
+        class='cap-bottom'>\n<div class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n</div>\n<!--
+        corrects IE6 width calculation -->\n<div class='columns-inner'>\n<div class='column-center-outer'>\n<div
+        class='column-center-inner'>\n<div class='main section' id='main'><div class='widget
+        Blog' id='Blog1'>\n<div class='blog-posts hfeed'>\n<!-- google_ad_section_start(name=default)
+        -->\n\n                                        <div class=\"date-outer\">\n
+        \                                     \n<h2 class='date-header'>\n<span>\nWednesday,
+        August 6, 2014\n</span>\n</h2>\n\n                                        <div
+        class=\"date-posts\">\n                                      \n<div class='post-outer'>\n<div
+        class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>\n<meta
+        content='http://3.bp.blogspot.com/-QNtqbXhZbVM/U-GHzY1wi9I/AAAAAAAABSk/JjyJnxW6Enc/s1600/coffee101.png'
+        itemprop='image_url'/>\n<meta content='2067109378824848531' itemprop='blogId'/>\n<meta
+        content='1132427827022891796' itemprop='postId'/>\n<a name='1132427827022891796'></a>\n<h3
+        class='post-title entry-title' itemprop='name'>\nCoffee 101  +  Morning Buzz
+        Smoothie\n</h3>\n<div class='post-header'>\n<div class='post-header-line-1'></div>\n</div>\n<div
+        class='post-body entry-content' id='post-body-1132427827022891796' itemprop='articleBody'>\nCoffee
+        is one of those ingredients that is constantly in chaos.&nbsp;So let's talk
+        about it.&nbsp;One day we're encouraged to drink it and the next we're told
+        to avoid it like the plague. Confusing, right? Let me lay it out for you:
+        coffee itself isn't bad for you. In fact, coffee is full of antioxidants and
+        has even been studied for it's effects on reducing risks associated with certain
+        chronic diseases. Good quality coffee in moderation <i>can</i> fit into a
+        healthy diet. I love a good cup of coffee a few times a week; my current favorite
+        spot is&nbsp;<a href=\"http://www.fillingstationcoffee.com/\" target=\"_blank\">The
+        Filling Station</a>&nbsp;here in Kansas City - awesome service, great coffee,
+        and their coconut-date bar is ridiculous!&nbsp;Here's a few quick \"coffee
+        guidelines\" to keep in mind the next time you're at your favorite java spot.<br
+        />\n<br />\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a
+        href=\"http://3.bp.blogspot.com/-QNtqbXhZbVM/U-GHzY1wi9I/AAAAAAAABSk/JjyJnxW6Enc/s1600/coffee101.png\"
+        imageanchor=\"1\" style=\"clear: left; float: left; margin-bottom: 1em; margin-right:
+        1em;\"><img border=\"0\" src=\"http://3.bp.blogspot.com/-QNtqbXhZbVM/U-GHzY1wi9I/AAAAAAAABSk/JjyJnxW6Enc/s1600/coffee101.png\"
+        /></a></div>\n<br />\n<div>\n<br /></div>\n<div>\n<br />\n<div>\n<br /></div>\n<div>\n<span
+        style=\"font-size: large;\"><b>Two to three 8-ounce cups are enough.</b></span>
+        <i>After that third cup, you probably begin to wonder if you should move your
+        office into the bathroom. </i>Coffee is a natural diuretic and digestive stimulant,
+        so it can be rough on your system. I'm sure you've felt those awful tummy
+        rumbles (the worst!) when you've had coffee on an empty stomach. Be sure to
+        drink water in-between to stay hydrated and eat a light snack or meal around
+        the same time you're drinking some java. That's why I came up with my Morning
+        Buzz Smoothie (scroll down...)! It's a great way to enjoy your glass of coffee,
+        especially in these warmer months, with added nourishment from whole grain
+        oats, ripe banana, and flax seeds.&nbsp;</div>\n<div>\n<br /></div>\n<div>\n<span
+        style=\"font-size: large;\"><b>Timing matters.</b>&nbsp;</span>Some people
+        are extremely sensitive to caffeine find they can't sleep at night if they've
+        had a cup too late in the day. Generally speaking, the caffeine effects of
+        coffee last around five or six hours, so think about what time you go to bed
+        and count back to figure out when you should have your last cup. If you're
+        just in the spirit of coffee just for the taste, an 8-ounce cup of decaf has
+        only four milligrams of caffeine vs. a whopping 130 milligrams in a cup of
+        regular java.&nbsp;</div>\n<div>\n<br /></div>\n<div>\n<span style=\"font-size:
+        large;\"><b>Don't add in the crap.</b>&nbsp;</span>You walk up to any coffee
+        counter and there's a million and one ways to have it, but what you add into
+        your coffee can really add up throughout the day. Limit your sugary, sweetened,
+        whipped and heavy cream laden coffee drinks. Do I mean you can never have
+        one of these? Of course not! You can certainly enjoy them as a treat and in
+        moderation. Every day and even every week might be a little excessive, depending
+        on the rest of your daily intake. Choose low or non-fat creamers (I personally
+        just love a simple splash of unsweetened almond milk) and try stirring in
+        nutmeg or cinnamon for a flavor boost without the added sugars.&nbsp;</div>\n<div>\n<br
+        /></div>\n<div>\n<span style=\"font-size: large;\"><b>Choose fair-trade and
+        organic varieties.</b>&nbsp;</span>What we don't usually think about when
+        we're downing our ice coffee is how our coffee was produced or even how the
+        workers who harvested our coffee beans were treated. Sadly, coffee farmers
+        and migrant workers are some of the most exploited workers in the world...poor
+        living conditions, unsafe work environments, child labor, and unfair wages
+        just barely cover the extent of this issue. And much of today's conventional
+        coffee beans are sprayed with pesticides or soaked in harmful toxic chemicals.
+        Spend your dollars wisely on coffee beans that have provided fair wages to
+        farmers and have been grown with sustainable practices.&nbsp;<i>I love how
+        Jessica at Keeper of the Home sums this up&nbsp;<a href=\"http://www.keeperofthehome.org/2014/01/what-is-fair-trade-coffee-and-should-you-buy-it.html\">here</a>.</i></div>\n<div>\n<i><br
+        /></i></div>\n<div>\n<i>(Note: There is a lot of controversy over fair-trade,
+        organic, and other related certifications. Yes, fair-trade and sustainable
+        certifications aren't perfect, but they ARE a step in the right direction.
+        There is still a lot of that needs to change in order to improve the lives
+        of our world's farmers and migrant workers and to reduce our detrimental footprint
+        on this earth.)</i></div>\n<div>\n<br />\n<div style=\"text-align: left;\">\n</div>\n<div
+        class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"http://2.bp.blogspot.com/-PNkR4e_6C8I/U-GNqu47hEI/AAAAAAAABS4/Q9p-DGm5BN4/s1600/morningbuzzsmoothie.png\"
+        imageanchor=\"1\" style=\"clear: left; float: left; margin-bottom: 1em; margin-right:
+        1em;\"><img border=\"0\" src=\"http://2.bp.blogspot.com/-PNkR4e_6C8I/U-GNqu47hEI/AAAAAAAABS4/Q9p-DGm5BN4/s1600/morningbuzzsmoothie.png\"
+        /></a></div>\n<br />\nMy morning buzz smoothie is a great way to take in your
+        daily fix of coffee with added nutrients. Instead of running out the door
+        with coffee in hand and an empty stomach, make your morning coffee nourishing!
+        This recipe is a great substitute for the traditional coffee drinks that are
+        loaded with refined sugars, high fat dairy, and artificial syrups.<br />\n<br
+        />\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a
+        href=\"http://1.bp.blogspot.com/-pel2fo6VuU4/U-GNq-cSHsI/AAAAAAAABS8/SlPtJ8T1Tns/s1600/morningbuzzsmoothie2.png\"
+        imageanchor=\"1\" style=\"clear: left; float: left; margin-bottom: 1em; margin-right:
+        1em;\"><img border=\"0\" src=\"http://1.bp.blogspot.com/-pel2fo6VuU4/U-GNq-cSHsI/AAAAAAAABS8/SlPtJ8T1Tns/s1600/morningbuzzsmoothie2.png\"
+        /></a></div>\n<br />\n<span style=\"font-size: large;\">Morning Buzz Smoothie</span><br
+        />\nServes 2<br />\n<br />\n<b>Ingredients:</b><br />\n6 oz. cold brewed coffee<br
+        />\n1/4 cup cold coconut milk <i>(scoop the fat that settles at the top)</i><br
+        />\n1/2 teaspoon vanilla extract<br />\n1 ripe banana<br />\n2 medjool dates
+        or 1/2 tablespoon raw honey<br />\n1/4 cup rolled oats<br />\n1 tablespoon
+        flax seeds<br />\n4 coffee ice cubes, optional<br />\n<br />\n<b>Directions:
+        </b>Put all ingredients, except coffee ice cubes, in blender in the order
+        listed. Secure lid and blend on high until smooth. Pour into glasses over
+        coffee ice cubes.<br />\n<br />\nHope you enjoy this one!<br />\n<br />\n<i>xo
+        Dianna</i></div>\n</div>\n<div style='clear: both;'></div>\n</div>\n<div class='post-footer'>\n<div
+        class='post-footer-line post-footer-line-1'>\n<span class='post-author vcard'>\nPosted
+        by\n<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>\n<meta
+        content='https://plus.google.com/107865325069039539199' itemprop='url'/>\n<a
+        class='g-profile' href='https://plus.google.com/107865325069039539199' rel='author'
+        title='author profile'>\n<span itemprop='name'>\nDianna Sinni\n</span>\n</a>\n</span>\n</span>\n<span
+        class='post-timestamp'>\n</span>\n<span class='post-comment-link'>\n</span>\n<span
+        class='post-icons'>\n<span class='item-control blog-admin pid-578785144'>\n<a
+        href='http://www.blogger.com/post-edit.g?blogID=2067109378824848531&postID=1132427827022891796&from=pencil'
+        title='Edit Post'>\n<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='post-share-buttons goog-inline-block'>\n</div>\n</div>\n<div
+        class='post-footer-line post-footer-line-2'>\n<span class='post-labels'>\nLabels:\n<a
+        href='http://www.chardincharge.com/search/label/beverage' rel='tag'>\nbeverage\n</a>\n\n
+        \                                             ,\n                                            \n<a
+        href='http://www.chardincharge.com/search/label/breakfast' rel='tag'>\nbreakfast\n</a>\n\n
+        \                                             ,\n                                            \n<a
+        href='http://www.chardincharge.com/search/label/healthy%20living' rel='tag'>\nhealthy
+        living\n</a>\n\n                                              ,\n                                            \n<a
+        href='http://www.chardincharge.com/search/label/nutrition' rel='tag'>\nnutrition\n</a>\n</span>\n</div>\n<div
+        class='post-footer-line post-footer-line-3'>\n<span class='post-location'>\n</span>\n</div>\n</div>\n</div>\n<div
+        class='comments' id='comments'>\n<a name='comments'></a>\n<h4>\n10 comments\n
+        \                                   :\n                                  </h4>\n<div
+        class='comments-content'>\n<script async='async' src='//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js'
+        type='text/javascript'></script>\n<script type='text/javascript'>\n(function()
+        {\nvar items = [{'id': '2958955314151652332', 'body': 'I will totally have
+        to try out this smoothie! I\\46#39;m waiting on my French press right now.
+        Next time you\\46#39;re at the Filling Station try the peanut butter protein
+        balls, they are SO GOOD.', 'timestamp': '1407336544530', 'permalink': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407336544530#c2958955314151652332',
+        'author': {'name': 'alexandrasperrazza', 'avatarUrl': 'http://2.bp.blogspot.com/-p4lZmVPuXFw/U5sVRq2i_sI/AAAAAAAAAQ0/aOOaNaObpDQ/s45/*',
+        'profileUrl': 'http://www.blogger.com/profile/09409587644888110302'}, 'displayTime':
+        'August 6, 2014 at 9:49 AM', 'deleteclass': 'item-control blog-admin pid-993853855'},
+        {'id': '2353328525407518228', 'body': 'Yep, I wish I had one of your morning
+        buzz smoothies right now! Great recipe!', 'timestamp': '1407337819408', 'permalink':
+        'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407337819408#c2353328525407518228',
+        'author': {'name': 'Kimberly', 'avatarUrl': 'http://4.bp.blogspot.com/_vsn2ROnPUAE/S8O4urDEhOI/AAAAAAAAAqI/6meUF3F1Dk4/S45/MeToo.jpg',
+        'profileUrl': 'http://www.blogger.com/profile/01906704970466249006'}, 'displayTime':
+        'August 6, 2014 at 10:10 AM', 'deleteclass': 'item-control blog-admin pid-1940808861'},
+        {'id': '5330108732709414279', 'body': 'This is a great post! I agree, there\\46#39;s
+        so much back and forth discussion on whether it\\46#39;s good to have coffee
+        or not. I love coffee, but try to drink it only when I really, reaaaally want
+        one or if I need a serious caffeine fix. Love that you made your coffee a
+        smoothie! ', 'timestamp': '1407338132604', 'permalink': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407338132604#c5330108732709414279',
+        'author': {'name': 'genevieve @ gratitude \\46amp; greens', 'avatarUrl': 'http://img1.blogblog.com/img/blank.gif',
+        'profileUrl': 'http://www.gratitudeandgreens.com'}, 'displayTime': 'August
+        6, 2014 at 10:15 AM', 'deleteclass': 'item-control blog-admin pid-1338734133'},
+        {'id': '1373352431502549850', 'body': 'Oh how I wish I liked coffee! I feel
+        like my life would be a whole lot easier in the mornings if I had something
+        like this to look forward to. ;)\\74br /\\76\\74br /\\76\\74a href\\75\\42http://26andnotcounting.com\\42
+        rel\\75\\42nofollow\\42\\07626 and Not Counting\\74/a\\076', 'timestamp':
+        '1407340109722', 'permalink': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407340109722#c1373352431502549850',
+        'author': {'name': 'Jessica', 'avatarUrl': 'http://1.bp.blogspot.com/--qPBYpYXwVI/UwwVOG5yOKI/AAAAAAAACyo/4qr3keGqEIA/s45/aaa.jpg',
+        'profileUrl': 'http://www.blogger.com/profile/02882268446547451093'}, 'displayTime':
+        'August 6, 2014 at 10:48 AM', 'deleteclass': 'item-control blog-admin pid-2073942853'},
+        {'id': '1895615991236276743', 'parentId': '2958955314151652332', 'body': 'Thanks!
+        I LOVE my french press and I\\46#39;ll have to try those peanut butter protein
+        balls, yum!', 'timestamp': '1407349033651', 'permalink': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407349033651#c1895615991236276743',
+        'author': {'name': 'Dianna Sinni', 'avatarUrl': '//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg',
+        'profileUrl': 'http://www.blogger.com/profile/12995741280969239485'}, 'displayTime':
+        'August 6, 2014 at 1:17 PM', 'deleteclass': 'item-control blog-admin pid-578785144'},
+        {'id': '6422199873043722812', 'parentId': '2353328525407518228', 'body': ':)
+        Thanks, Kimberly! Hope you can try it out soon!', 'timestamp': '1407349069605',
+        'permalink': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407349069605#c6422199873043722812',
+        'author': {'name': 'Dianna Sinni', 'avatarUrl': '//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg',
+        'profileUrl': 'http://www.blogger.com/profile/12995741280969239485'}, 'displayTime':
+        'August 6, 2014 at 1:17 PM', 'deleteclass': 'item-control blog-admin pid-578785144'},
+        {'id': '6113603918587047178', 'parentId': '5330108732709414279', 'body': 'Aw,
+        thanks Genevieve! ', 'timestamp': '1407349144210', 'permalink': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407349144210#c6113603918587047178',
+        'author': {'name': 'Dianna Sinni', 'avatarUrl': '//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg',
+        'profileUrl': 'http://www.blogger.com/profile/12995741280969239485'}, 'displayTime':
+        'August 6, 2014 at 1:19 PM', 'deleteclass': 'item-control blog-admin pid-578785144'},
+        {'id': '5691726004304283145', 'parentId': '1373352431502549850', 'body': 'I\\46#39;ll
+        just have to make you a special morning smoothie sans coffee! Maybe green
+        tea or something tropical and sweet. xo', 'timestamp': '1407349194280', 'permalink':
+        'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407349194280#c5691726004304283145',
+        'author': {'name': 'Dianna Sinni', 'avatarUrl': '//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg',
+        'profileUrl': 'http://www.blogger.com/profile/12995741280969239485'}, 'displayTime':
+        'August 6, 2014 at 1:19 PM', 'deleteclass': 'item-control blog-admin pid-578785144'},
+        {'id': '6677999703097135760', 'body': '3.. cups.. of coffee? I\\46#39;d die!
+        After the 2nd, my brain is buzzing. Good tips, lady!', 'timestamp': '1407497751258',
+        'permalink': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407497751258#c6677999703097135760',
+        'author': {'name': 'Della Cucina Povera', 'avatarUrl': 'http://img2.blogblog.com/img/b16-rounded.gif',
+        'profileUrl': 'http://www.blogger.com/profile/02621701803628764731'}, 'displayTime':
+        'August 8, 2014 at 6:35 AM', 'deleteclass': 'item-control blog-admin pid-1379125465'},
+        {'id': '8146398063242417761', 'parentId': '6677999703097135760', 'body': 'Well,
+        hopefully not all at the same time and a cup of coffee should be 6oz! I would
+        definitely not feel good if I drank that much either!', 'timestamp': '1407506955231',
+        'permalink': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment\\0751407506955231#c8146398063242417761',
+        'author': {'name': 'Dianna Sinni', 'avatarUrl': '//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg',
+        'profileUrl': 'http://www.blogger.com/profile/12995741280969239485'}, 'displayTime':
+        'August 8, 2014 at 9:09 AM', 'deleteclass': 'item-control blog-admin pid-578785144'}];\nvar
+        msgs = {'loadMore': 'Load more...', 'loading': 'Loading...', 'loaded': 'No
+        more!', 'addComment': 'Add comment', 'reply': 'Reply', 'delete': 'Delete'};\nvar
+        config = {'blogId': '2067109378824848531', 'postId': '1132427827022891796',
+        'feed': 'http://www.chardincharge.com/feeds/1132427827022891796/comments/default',
+        'authorName': 'Dianna Sinni', 'authorUrl': 'http://www.blogger.com/profile/12995741280969239485',
+        'baseUri': 'http://www.blogger.com', 'maxThreadDepth': 2};\n// <![CDATA[\nvar
+        cursor = null;\nif (items && items.length > 0) {\ncursor = parseInt(items[items.length
+        - 1].timestamp) + 1;\n}\nvar bodyFromEntry = function(entry) {\nif (entry.gd$extendedProperty)
+        {\nfor (var k in entry.gd$extendedProperty) {\nif (entry.gd$extendedProperty[k].name
+        == 'blogger.contentRemoved') {\nreturn '<span class=\"deleted-comment\">'
+        + entry.content.$t + '</span>';\n}\n}\n}\nreturn entry.content.$t;\n}\nvar
+        parse = function(data) {\ncursor = null;\nvar comments = [];\nif (data &&
+        data.feed && data.feed.entry) {\nfor (var i = 0, entry; entry = data.feed.entry[i];
+        i++) {\nvar comment = {};\n// comment ID, parsed out of the original id format\nvar
+        id = /blog-(\\d+).post-(\\d+)/.exec(entry.id.$t);\ncomment.id = id ? id[2]
+        : null;\ncomment.body = bodyFromEntry(entry);\ncomment.timestamp = Date.parse(entry.published.$t)
+        + '';\nif (entry.author && entry.author.constructor === Array) {\nvar auth
+        = entry.author[0];\nif (auth) {\ncomment.author = {\nname: (auth.name ? auth.name.$t
+        : undefined),\nprofileUrl: (auth.uri ? auth.uri.$t : undefined),\navatarUrl:
+        (auth.gd$image ? auth.gd$image.src : undefined)\n};\n}\n}\nif (entry.link)
+        {\nif (entry.link[2]) {\ncomment.link = comment.permalink = entry.link[2].href;\n}\nif
+        (entry.link[3]) {\nvar pid = /.*comments\\/default\\/(\\d+)\\?.*/.exec(entry.link[3].href);\nif
+        (pid && pid[1]) {\ncomment.parentId = pid[1];\n}\n}\n}\ncomment.deleteclass
+        = 'item-control blog-admin';\nif (entry.gd$extendedProperty) {\nfor (var k
+        in entry.gd$extendedProperty) {\nif (entry.gd$extendedProperty[k].name ==
+        'blogger.itemClass') {\ncomment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;\n}\n}\n}\ncomments.push(comment);\n}\n}\nreturn
+        comments;\n};\nvar paginator = function(callback) {\nif (hasMore()) {\nvar
+        url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';\nif
+        (cursor) {\nurl += '&published-min=' + new Date(cursor).toISOString();\n}\nwindow.bloggercomments
+        = function(data) {\nvar parsed = parse(data);\ncursor = parsed.length < 50
+        ? null\n: parseInt(parsed[parsed.length - 1].timestamp) + 1\ncallback(parsed);\nwindow.bloggercomments
+        = null;\n}\nurl += '&callback=bloggercomments';\nvar script = document.createElement('script');\nscript.type
+        = 'text/javascript';\nscript.src = url;\ndocument.getElementsByTagName('head')[0].appendChild(script);\n}\n};\nvar
+        hasMore = function() {\nreturn !!cursor;\n};\nvar getMeta = function(key,
+        comment) {\nif ('iswriter' == key) {\nvar matches = !!comment.author\n&& comment.author.name
+        == config.authorName\n&& comment.author.profileUrl == config.authorUrl;\nreturn
+        matches ? 'true' : '';\n} else if ('deletelink' == key) {\nreturn config.baseUri
+        + '/delete-comment.g?blogID='\n+ config.blogId + '&postID=' + comment.id;\n}
+        else if ('deleteclass' == key) {\nreturn comment.deleteclass;\n}\nreturn '';\n};\nvar
+        replybox = null;\nvar replyUrlParts = null;\nvar replyParent = undefined;\nvar
+        onReply = function(commentId, domId) {\nif (replybox == null) {\n// lazily
+        cache replybox, and adjust to suit this style:\nreplybox = document.getElementById('comment-editor');\nif
+        (replybox != null) {\nreplybox.height = '250px';\nreplybox.style.display =
+        'block';\nreplyUrlParts = replybox.src.split('#');\n}\n}\nif (replybox &&
+        (commentId !== replyParent)) {\ndocument.getElementById(domId).insertBefore(replybox,
+        null);\nreplybox.src = replyUrlParts[0]\n+ (commentId ? '&parentID=' + commentId
+        : '')\n+ '#' + replyUrlParts[1];\nreplyParent = commentId;\n}\n};\nvar hash
+        = (window.location.hash || '#').substring(1);\nvar startThread, targetComment;\nif
+        (/^comment-form_/.test(hash)) {\nstartThread = hash.substring('comment-form_'.length);\n}
+        else if (/^c[0-9]+$/.test(hash)) {\ntargetComment = hash.substring(1);\n}\n//
+        Configure commenting API:\nvar configJso = {\n'maxDepth': config.maxThreadDepth\n};\nvar
+        provider = {\n'id': config.postId,\n'data': items,\n'loadNext': paginator,\n'hasMore':
+        hasMore,\n'getMeta': getMeta,\n'onReply': onReply,\n'rendered': true,\n'initComment':
+        targetComment,\n'initReplyThread': startThread,\n'config': configJso,\n'messages':
+        msgs\n};\nvar render = function() {\nif (window.goog && window.goog.comments)
+        {\nvar holder = document.getElementById('comment-holder');\nwindow.goog.comments.render(holder,
+        provider);\n}\n};\n// render now, or queue to render when library loads:\nif
+        (window.goog && window.goog.comments) {\nrender();\n} else {\nwindow.goog
+        = window.goog || {};\nwindow.goog.comments = window.goog.comments || {};\nwindow.goog.comments.loadQueue
+        = window.goog.comments.loadQueue || [];\nwindow.goog.comments.loadQueue.push(render);\n}\n})();\n//
+        ]]>\n</script>\n<div id='comment-holder'>\n<div id='bc_0_11C' kind='c'><div
+        id='bc_0_11CT'><div id='bc_0_10T' class='comment-thread' kind='r'  t='0' u='0'><ol
+        id='bc_0_10TB'><li id='bc_0_1B' class='comment' kind='b'><div class='avatar-image-container'><img
+        src='http://2.bp.blogspot.com/-p4lZmVPuXFw/U5sVRq2i_sI/AAAAAAAAAQ0/aOOaNaObpDQ/s45/*'></img></div><div
+        id='c2958955314151652332' class='comment-block'><div id='bc_0_1M' class='comment-header'
+        kind='m'><cite class='user'><a rel='nofollow' href='http://www.blogger.com/profile/09409587644888110302'>alexandrasperrazza</a></cite><span
+        class='icon user'></span><span class='datetime secondary-text'><a rel='nofollow'
+        href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407336544530#c2958955314151652332'>August
+        6, 2014 at 9:49 AM</a></span></div><p id='bc_0_1MC' class='comment-content'>I
+        will totally have to try out this smoothie! I&#39;m waiting on my French press
+        right now. Next time you&#39;re at the Filling Station try the peanut butter
+        protein balls, they are SO GOOD.</p><span id='bc_0_1MN' class='comment-actions
+        secondary-text' kind='m'><a kind='i' href='javascript:;' target='_self' o='r'>Reply</a><span
+        class='item-control blog-admin pid-993853855'><a o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=2958955314151652332'>Delete</a></span></span></div><div
+        id='bc_0_1BR' class='comment-replies'><span id='bc_0_1b+seedtgW6D' kind='d'><div
+        id='bc_0_0T' class='comment-thread inline-thread' kind='t'   t='0' u='0'><span
+        id='bc_0_0TT' class='thread-toggle thread-expanded' kind='g'><span id='bc_0_0TA'
+        class='thread-arrow'></span><span id='bc_0_0TN' class='thread-count'><span
+        id='bc_0_0TNT' style='display: none;'></span><span id='bc_0_0TNU' style='display:
+        none;'></span><a href='javascript:;' target='_self'>Replies</a><div id='bc_0_0TD'
+        class='thread-dropContainer thread-expanded'><span class='thread-drop'></span></div></span></span><ol
+        id='bc_0_0TC' class='thread-chrome thread-expanded'><div><li id='bc_0_0B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg'></img></div><div
+        id='c1895615991236276743' class='comment-block'><div id='bc_0_0M' class='comment-header'
+        kind='m'><cite class='user blog-author'><a rel='nofollow' href='http://www.blogger.com/profile/12995741280969239485'>Dianna
+        Sinni</a></cite><span class='icon user blog-author'></span><span class='datetime
+        secondary-text'><a rel='nofollow' href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407349033651#c1895615991236276743'>August
+        6, 2014 at 1:17 PM</a></span></div><p id='bc_0_0MC' class='comment-content'>Thanks!
+        I LOVE my french press and I&#39;ll have to try those peanut butter protein
+        balls, yum!</p><span id='bc_0_0MN' class='comment-actions secondary-text'
+        kind='m'><span class='item-control blog-admin pid-578785144'><a o='d' target='_self'
+        href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=1895615991236276743'>Delete</a></span></span></div><div
+        id='bc_0_0BR' class='comment-replies'></div><div id='bc_0_0B_box' class='comment-replybox-single'></div></li></div><div
+        id='bc_0_0I' class='continue' kind='ci'><a href='javascript:;' target='_self'>Reply</a></div></ol><div
+        id='bc_0_0T_box' class='comment-replybox-thread'></div></div></span></div><div
+        id='bc_0_1B_box' class='comment-replybox-single'></div></li><li id='bc_0_3B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='http://4.bp.blogspot.com/_vsn2ROnPUAE/S8O4urDEhOI/AAAAAAAAAqI/6meUF3F1Dk4/S45/MeToo.jpg'></img></div><div
+        id='c2353328525407518228' class='comment-block'><div id='bc_0_3M' class='comment-header'
+        kind='m'><cite class='user'><a rel='nofollow' href='http://www.blogger.com/profile/01906704970466249006'>Kimberly</a></cite><span
+        class='icon user'></span><span class='datetime secondary-text'><a rel='nofollow'
+        href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407337819408#c2353328525407518228'>August
+        6, 2014 at 10:10 AM</a></span></div><p id='bc_0_3MC' class='comment-content'>Yep,
+        I wish I had one of your morning buzz smoothies right now! Great recipe!</p><span
+        id='bc_0_3MN' class='comment-actions secondary-text' kind='m'><a kind='i'
+        href='javascript:;' target='_self' o='r'>Reply</a><span class='item-control
+        blog-admin pid-1940808861'><a o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=2353328525407518228'>Delete</a></span></span></div><div
+        id='bc_0_3BR' class='comment-replies'><span id='bc_0_3b+seedtgW7D' kind='d'><div
+        id='bc_0_2T' class='comment-thread inline-thread' kind='t'   t='0' u='0'><span
+        id='bc_0_2TT' class='thread-toggle thread-expanded' kind='g'><span id='bc_0_2TA'
+        class='thread-arrow'></span><span id='bc_0_2TN' class='thread-count'><span
+        id='bc_0_2TNT' style='display: none;'></span><span id='bc_0_2TNU' style='display:
+        none;'></span><a href='javascript:;' target='_self'>Replies</a><div id='bc_0_2TD'
+        class='thread-dropContainer thread-expanded'><span class='thread-drop'></span></div></span></span><ol
+        id='bc_0_2TC' class='thread-chrome thread-expanded'><div><li id='bc_0_2B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg'></img></div><div
+        id='c6422199873043722812' class='comment-block'><div id='bc_0_2M' class='comment-header'
+        kind='m'><cite class='user blog-author'><a rel='nofollow' href='http://www.blogger.com/profile/12995741280969239485'>Dianna
+        Sinni</a></cite><span class='icon user blog-author'></span><span class='datetime
+        secondary-text'><a rel='nofollow' href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407349069605#c6422199873043722812'>August
+        6, 2014 at 1:17 PM</a></span></div><p id='bc_0_2MC' class='comment-content'>:)
+        Thanks, Kimberly! Hope you can try it out soon!</p><span id='bc_0_2MN' class='comment-actions
+        secondary-text' kind='m'><span class='item-control blog-admin pid-578785144'><a
+        o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=6422199873043722812'>Delete</a></span></span></div><div
+        id='bc_0_2BR' class='comment-replies'></div><div id='bc_0_2B_box' class='comment-replybox-single'></div></li></div><div
+        id='bc_0_2I' class='continue' kind='ci'><a href='javascript:;' target='_self'>Reply</a></div></ol><div
+        id='bc_0_2T_box' class='comment-replybox-thread'></div></div></span></div><div
+        id='bc_0_3B_box' class='comment-replybox-single'></div></li><li id='bc_0_5B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='http://img1.blogblog.com/img/anon36.png'></img></div><div
+        id='c5330108732709414279' class='comment-block'><div id='bc_0_5M' class='comment-header'
+        kind='m'><cite class='user'><a rel='nofollow' href='http://www.gratitudeandgreens.com'>genevieve
+        @ gratitude &amp; greens</a></cite><span class='icon user'></span><span class='datetime
+        secondary-text'><a rel='nofollow' href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407338132604#c5330108732709414279'>August
+        6, 2014 at 10:15 AM</a></span></div><p id='bc_0_5MC' class='comment-content'>This
+        is a great post! I agree, there&#39;s so much back and forth discussion on
+        whether it&#39;s good to have coffee or not. I love coffee, but try to drink
+        it only when I really, reaaaally want one or if I need a serious caffeine
+        fix. Love that you made your coffee a smoothie! </p><span id='bc_0_5MN' class='comment-actions
+        secondary-text' kind='m'><a kind='i' href='javascript:;' target='_self' o='r'>Reply</a><span
+        class='item-control blog-admin pid-1338734133'><a o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=5330108732709414279'>Delete</a></span></span></div><div
+        id='bc_0_5BR' class='comment-replies'><span id='bc_0_5b+seedtgW8D' kind='d'><div
+        id='bc_0_4T' class='comment-thread inline-thread' kind='t'   t='0' u='0'><span
+        id='bc_0_4TT' class='thread-toggle thread-expanded' kind='g'><span id='bc_0_4TA'
+        class='thread-arrow'></span><span id='bc_0_4TN' class='thread-count'><span
+        id='bc_0_4TNT' style='display: none;'></span><span id='bc_0_4TNU' style='display:
+        none;'></span><a href='javascript:;' target='_self'>Replies</a><div id='bc_0_4TD'
+        class='thread-dropContainer thread-expanded'><span class='thread-drop'></span></div></span></span><ol
+        id='bc_0_4TC' class='thread-chrome thread-expanded'><div><li id='bc_0_4B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg'></img></div><div
+        id='c6113603918587047178' class='comment-block'><div id='bc_0_4M' class='comment-header'
+        kind='m'><cite class='user blog-author'><a rel='nofollow' href='http://www.blogger.com/profile/12995741280969239485'>Dianna
+        Sinni</a></cite><span class='icon user blog-author'></span><span class='datetime
+        secondary-text'><a rel='nofollow' href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407349144210#c6113603918587047178'>August
+        6, 2014 at 1:19 PM</a></span></div><p id='bc_0_4MC' class='comment-content'>Aw,
+        thanks Genevieve! </p><span id='bc_0_4MN' class='comment-actions secondary-text'
+        kind='m'><span class='item-control blog-admin pid-578785144'><a o='d' target='_self'
+        href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=6113603918587047178'>Delete</a></span></span></div><div
+        id='bc_0_4BR' class='comment-replies'></div><div id='bc_0_4B_box' class='comment-replybox-single'></div></li></div><div
+        id='bc_0_4I' class='continue' kind='ci'><a href='javascript:;' target='_self'>Reply</a></div></ol><div
+        id='bc_0_4T_box' class='comment-replybox-thread'></div></div></span></div><div
+        id='bc_0_5B_box' class='comment-replybox-single'></div></li><li id='bc_0_7B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='http://1.bp.blogspot.com/--qPBYpYXwVI/UwwVOG5yOKI/AAAAAAAACyo/4qr3keGqEIA/s45/aaa.jpg'></img></div><div
+        id='c1373352431502549850' class='comment-block'><div id='bc_0_7M' class='comment-header'
+        kind='m'><cite class='user'><a rel='nofollow' href='http://www.blogger.com/profile/02882268446547451093'>Jessica</a></cite><span
+        class='icon user'></span><span class='datetime secondary-text'><a rel='nofollow'
+        href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407340109722#c1373352431502549850'>August
+        6, 2014 at 10:48 AM</a></span></div><p id='bc_0_7MC' class='comment-content'>Oh
+        how I wish I liked coffee! I feel like my life would be a whole lot easier
+        in the mornings if I had something like this to look forward to. ;)<br /><br
+        /><a href=\"http://26andnotcounting.com\" rel=\"nofollow\">26 and Not Counting</a></p><span
+        id='bc_0_7MN' class='comment-actions secondary-text' kind='m'><a kind='i'
+        href='javascript:;' target='_self' o='r'>Reply</a><span class='item-control
+        blog-admin pid-2073942853'><a o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=1373352431502549850'>Delete</a></span></span></div><div
+        id='bc_0_7BR' class='comment-replies'><span id='bc_0_7b+seedtgW9D' kind='d'><div
+        id='bc_0_6T' class='comment-thread inline-thread' kind='t'   t='0' u='0'><span
+        id='bc_0_6TT' class='thread-toggle thread-expanded' kind='g'><span id='bc_0_6TA'
+        class='thread-arrow'></span><span id='bc_0_6TN' class='thread-count'><span
+        id='bc_0_6TNT' style='display: none;'></span><span id='bc_0_6TNU' style='display:
+        none;'></span><a href='javascript:;' target='_self'>Replies</a><div id='bc_0_6TD'
+        class='thread-dropContainer thread-expanded'><span class='thread-drop'></span></div></span></span><ol
+        id='bc_0_6TC' class='thread-chrome thread-expanded'><div><li id='bc_0_6B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg'></img></div><div
+        id='c5691726004304283145' class='comment-block'><div id='bc_0_6M' class='comment-header'
+        kind='m'><cite class='user blog-author'><a rel='nofollow' href='http://www.blogger.com/profile/12995741280969239485'>Dianna
+        Sinni</a></cite><span class='icon user blog-author'></span><span class='datetime
+        secondary-text'><a rel='nofollow' href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407349194280#c5691726004304283145'>August
+        6, 2014 at 1:19 PM</a></span></div><p id='bc_0_6MC' class='comment-content'>I&#39;ll
+        just have to make you a special morning smoothie sans coffee! Maybe green
+        tea or something tropical and sweet. xo</p><span id='bc_0_6MN' class='comment-actions
+        secondary-text' kind='m'><span class='item-control blog-admin pid-578785144'><a
+        o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=5691726004304283145'>Delete</a></span></span></div><div
+        id='bc_0_6BR' class='comment-replies'></div><div id='bc_0_6B_box' class='comment-replybox-single'></div></li></div><div
+        id='bc_0_6I' class='continue' kind='ci'><a href='javascript:;' target='_self'>Reply</a></div></ol><div
+        id='bc_0_6T_box' class='comment-replybox-thread'></div></div></span></div><div
+        id='bc_0_7B_box' class='comment-replybox-single'></div></li><li id='bc_0_9B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='http://img2.blogblog.com/img/b36-rounded.png'></img></div><div
+        id='c6677999703097135760' class='comment-block'><div id='bc_0_9M' class='comment-header'
+        kind='m'><cite class='user'><a rel='nofollow' href='http://www.blogger.com/profile/02621701803628764731'>Della
+        Cucina Povera</a></cite><span class='icon user'></span><span class='datetime
+        secondary-text'><a rel='nofollow' href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407497751258#c6677999703097135760'>August
+        8, 2014 at 6:35 AM</a></span></div><p id='bc_0_9MC' class='comment-content'>3..
+        cups.. of coffee? I&#39;d die! After the 2nd, my brain is buzzing. Good tips,
+        lady!</p><span id='bc_0_9MN' class='comment-actions secondary-text' kind='m'><a
+        kind='i' href='javascript:;' target='_self' o='r'>Reply</a><span class='item-control
+        blog-admin pid-1379125465'><a o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=6677999703097135760'>Delete</a></span></span></div><div
+        id='bc_0_9BR' class='comment-replies'><span id='bc_0_9b+seedtgW_D' kind='d'><div
+        id='bc_0_8T' class='comment-thread inline-thread' kind='t'   t='0' u='0'><span
+        id='bc_0_8TT' class='thread-toggle thread-expanded' kind='g'><span id='bc_0_8TA'
+        class='thread-arrow'></span><span id='bc_0_8TN' class='thread-count'><span
+        id='bc_0_8TNT' style='display: none;'></span><span id='bc_0_8TNU' style='display:
+        none;'></span><a href='javascript:;' target='_self'>Replies</a><div id='bc_0_8TD'
+        class='thread-dropContainer thread-expanded'><span class='thread-drop'></span></div></span></span><ol
+        id='bc_0_8TC' class='thread-chrome thread-expanded'><div><li id='bc_0_8B'
+        class='comment' kind='b'><div class='avatar-image-container'><img src='//lh4.googleusercontent.com/-ZjG6eA0y354/AAAAAAAAAAI/AAAAAAAAAhs/jLOOGD7zf8Y/s512-c/photo.jpg'></img></div><div
+        id='c8146398063242417761' class='comment-block'><div id='bc_0_8M' class='comment-header'
+        kind='m'><cite class='user blog-author'><a rel='nofollow' href='http://www.blogger.com/profile/12995741280969239485'>Dianna
+        Sinni</a></cite><span class='icon user blog-author'></span><span class='datetime
+        secondary-text'><a rel='nofollow' href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html?showComment=1407506955231#c8146398063242417761'>August
+        8, 2014 at 9:09 AM</a></span></div><p id='bc_0_8MC' class='comment-content'>Well,
+        hopefully not all at the same time and a cup of coffee should be 6oz! I would
+        definitely not feel good if I drank that much either!</p><span id='bc_0_8MN'
+        class='comment-actions secondary-text' kind='m'><span class='item-control
+        blog-admin pid-578785144'><a o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=2067109378824848531&amp;postID=8146398063242417761'>Delete</a></span></span></div><div
+        id='bc_0_8BR' class='comment-replies'></div><div id='bc_0_8B_box' class='comment-replybox-single'></div></li></div><div
+        id='bc_0_8I' class='continue' kind='ci'><a href='javascript:;' target='_self'>Reply</a></div></ol><div
+        id='bc_0_8T_box' class='comment-replybox-thread'></div></div></span></div><div
+        id='bc_0_9B_box' class='comment-replybox-single'></div></li></ol><div id='bc_0_10I'
+        class='continue' kind='ci'><a href='javascript:;' target='_self'>Add comment</a></div><div
+        id='bc_0_10T_box' class='comment-replybox-thread'></div><div id='bc_0_10L'
+        class='loadmore loaded' kind='rb'><a href='javascript:;' target='_self'>Load
+        more...</a></div></div></div></div>\n</div>\n</div>\n<p class='comment-footer'>\n<div
+        class='comment-form'>\n<a name='comment-form'></a>\n<p>\nLeave your comments
+        in the form below! xx Dianna\n</p>\n<a href='https://www.blogger.com/comment-iframe.g?blogID=2067109378824848531&postID=1132427827022891796'
+        id='comment-editor-src'></a>\n<iframe allowtransparency='true' class='blogger-iframe-colorize
+        blogger-comment-from-post' frameborder='0' height='410' id='comment-editor'
+        name='comment-editor' src='' width='100%'></iframe>\n<script type=\"text/javascript\"
+        src=\"https://www.blogger.com/static/v1/jsbin/250480443-comment_from_post_iframe.js\"></script>\n<script
+        type='text/javascript'>\n                                    BLOG_CMT_createIframe('https://www.blogger.com/rpc_relay.html',
+        '14520391955434303350');\n                                  </script>\n</div>\n</p>\n<div
+        id='backlinks-container'>\n<div id='Blog1_backlinks-container'>\n<a name='links'></a>\n<h4>\n</h4>\n<p
+        class='comment-footer'>\n<a class='comment-link' href='' id='Blog1_backlinks-create-link'
+        target='_blank'>\n</a>\n</p>\n</div>\n</div>\n</div>\n</div>\n\n                                      </div></div>\n
+        \                                   \n<!-- google_ad_section_end -->\n</div>\n<div
+        class='blog-pager' id='blog-pager'>\n<span id='blog-pager-older-link'>\n<a
+        class='blog-pager-older-link' href='http://www.chardincharge.com/2014/07/bourbon-peach-jam.html'
+        id='Blog1_blog-pager-older-link' title='Older Post'>\nOlder Post\n</a>\n</span>\n<a
+        class='home-link' href='http://www.chardincharge.com/'>\nHome\n</a>\n</div>\n<div
+        class='clear'></div>\n<div class='post-feeds'>\n<div class='feed-links'>\nSubscribe
+        to:\n<a class='feed-link' href='http://www.chardincharge.com/feeds/1132427827022891796/comments/default'
+        target='_blank' type='application/atom+xml'>\nPost Comments\n                                      (\n
+        \                                     Atom\n                                      )\n
+        \                                   </a>\n</div>\n</div>\n<script type=\"text/javascript\">window.___gcfg
+        = {'lang': 'en'};</script>\n</div><div class='widget HTML' id='HTML5'>\n<div
+        class='widget-content'>\n<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5238be8e4d3002d1\"></script><script
+        type='text/javascript'>\nvar addthis_product = \"blg\";\ndocument.doAT = function(cl)\n{\n
+        \       var myclass = new RegExp('hentry');\n        var myTitleContainer
+        = new RegExp('post-title');\n        var myPostContent = new RegExp('post-footer');\n
+        \       var elem = this.getElementsByTagName('div');\n\n        var url;\n
+        \       var title = \"\";\n        \n        for (var i = 0; i < elem.length;
+        i++)\n        {\n            var classes = elem[i].className;\n            if
+        (myclass.test(classes))\n            {   \n            \tvar container = elem[i];\n
+        \           \turl = window.location.href;\n            \t\n                for
+        (var b = 0; b < container.childNodes.length; b++)\n                {\n                    var
+        item = container.childNodes[b].className;\n                    if (myTitleContainer.test(item))\n
+        \                   {\n                        var link = container.childNodes[b].getElementsByTagName('a');\n
+        \                       if (typeof(link[0]) != 'undefined')\n                        {\n
+        \                           var url = link[0].href;\n                            var
+        title = link[0].innerHTML;\n                        }\n\n                    var
+        singleq = new RegExp(\"'\", 'g');\n                    var doubleq = new RegExp('\"',
+        'g');                                                                                                                                                                                                                        \n
+        \                   title = title.replace(singleq, '&#39;', 'gi');\n                    title
+        = title.replace(doubleq, '&#34;', 'gi');\n\n                    }\n                    if
+        (myPostContent.test(item))\n                    {\n                        var
+        footer = container.childNodes[b];\n                    }\n                }\n\t
+        \               var n = document.createElement('div');\n\t                var
+        at = \"<div><a  addthis:title='\"+title+\"' addthis:url='\"+encodeURI(url)+\"'
+        class='addthis_button'><img alt='Share' border='0' height='30' src='http://i743.photobucket.com/albums/xx78/sweetfaerie/share.png'
+        width='90'/></a>\";\n\t                n.innerHTML = at;\n\t                footer.childNodes[1].insertBefore(n,footer.childNodes[1].firstChild);
+        \  \n            }\n        }\n    return true;\n};\n\ndocument.doAT('hentry');\n</script>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=main'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML5\"));'
+        target='configHTML5' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div></div>\n</div>\n</div>\n<div
+        class='column-left-outer'>\n<div class='column-left-inner'>\n<aside>\n</aside>\n</div>\n</div>\n<div
+        class='column-right-outer'>\n<div class='column-right-inner'>\n<aside>\n<div
+        class='sidebar section' id='sidebar-right-1'><div class='widget Image' id='Image1'>\n<h2>Welcome</h2>\n<div
+        class='widget-content'>\n<a href='http://chardincharge.blogspot.com/p/about-me.html'>\n<img
+        alt='Welcome' height='270' id='Image1_img' src='http://4.bp.blogspot.com/-qYEGt7UqmUw/UjtDJZ6tA-I/AAAAAAAAAAc/JRuCmURrs28/s1600/profile%2Bpic.png'
+        width='270'/>\n</a>\n<br/>\n<span class='caption'>hi, i'm dianna! i grow,
+        cook, photograph, blog, and devour plants. click my picture to learn more
+        about me and this whole food nutrition blog!</span>\n</div>\n<div class='clear'></div>\n<span
+        class='widget-item-control'>\n<span class='item-control blog-admin'>\n<a class='quickedit'
+        href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=Image&widgetId=Image1&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"Image1\"));'
+        target='configImage1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML2'>\n<div class='widget-content'>\n<div style=\"background:
+        #add678; text-transform: uppercase; letter-spacing: .2em; width: 250px; text-align:
+        center; margin: 3px 0; padding: 3px 0;\"><a href=\"http://www.twitter.com/chard_incharge\"
+        target=\"_blank\">twitter</a></div>\n\n<div style=\"background: #9fd062; text-transform:
+        uppercase; letter-spacing: .2em; width: 250px; text-align: center; margin:
+        3px 0; padding: 3px 0;\"><a href=\"http://www.pinterest.com/chardincharge/\"
+        target=\"_blank\">pinterest</a></div>\n\n<div style=\"background: #92c94b;
+        text-transform: uppercase; letter-spacing: .2em; width: 250px; text-align:
+        center; margin: 3px 0; padding: 3px 0;\"><a href=\"http://instagram.com/chardincharge\"
+        target=\"_blank\">instagram</a></div>\n\n<div style=\"background: #84c235;
+        text-transform: uppercase; letter-spacing: .2em; width: 250px; text-align:
+        center; margin: 3px 0; padding: 3px 0;\"><a href=\"https://www.facebook.com/chardincharge\"
+        target=\"_blank\">facebook</a></div>\n\n<div style=\"background: #83b93f;
+        text-transform: uppercase; letter-spacing: .2em; width: 250px; text-align:
+        center; margin: 3px 0; padding: 3px 0;\"><a href=\"http://www.linkedin.com/pub/dianna-sinni/1a/2ba/7a2\"
+        target=\"_blank\">linkedin</a></div>\n\n<div style=\"background: #82af48;
+        text-transform: uppercase; letter-spacing: .2em; width: 250px; text-align:
+        center; margin: 3px 0; padding: 3px 0;\"><a href=\"http://www.bloglovin.com/en/blog/11390063\"
+        target=\"_blank\">bloglovin'</a></div>\n</div>\n<div class='clear'></div>\n<span
+        class='widget-item-control'>\n<span class='item-control blog-admin'>\n<a class='quickedit'
+        href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML2\"));'
+        target='configHTML2' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget CustomSearch' id='CustomSearch1'>\n<h2 class='title'>\nSearch
+        This Blog\n</h2>\n<div class='widget-content'>\n<div id='CustomSearch1_form'>\n<span
+        class='cse-status'>\nLoading...\n</span>\n</div>\n</div>\n<style type='text/css'>\n
+        \         #uds-searchControl .gs-result .gs-title,\n          #uds-searchControl
+        .gs-result .gs-title *,\n          #uds-searchControl .gsc-results .gsc-trailing-more-results,\n
+        \         #uds-searchControl .gsc-results .gsc-trailing-more-results * {\n
+        \           color:#7f7f7f;\n          }\n          #uds-searchControl .gs-result
+        .gs-title a:visited,\n          #uds-searchControl .gs-result .gs-title a:visited
+        * {\n            color:#7f7f7f;\n          }\n          #uds-searchControl
+        .gs-relativePublishedDate,\n          #uds-searchControl .gs-publishedDate
+        {\n            color: #444444;\n          }\n          #uds-searchControl
+        .gs-result a.gs-visibleUrl,\n          #uds-searchControl .gs-result .gs-visibleUrl
+        {\n            color: #7f7f7f;\n          }\n          #uds-searchControl
+        .gsc-results {\n            border-color: transparent;\n            background-color:
+        #ffffff;\n          }\n          #uds-searchControl .gsc-tabhActive {\n            border-color:
+        transparent;\n            border-top-color: transparent;\n            background-color:
+        #ffffff;\n            color: #444444;\n          }\n          #uds-searchControl
+        .gsc-tabhInactive {\n            border-color: transparent;\n            background-color:
+        transparent;\n            color: #7f7f7f;\n          }\n          #uds-searchClearResults
+        {\n            border-color: transparent;\n          }\n          #uds-searchClearResults:hover
+        {\n            border-color: transparent;\n          }\n          #uds-searchControl
+        .gsc-cursor-page {\n            color: #7f7f7f;\n          }\n          #uds-searchControl
+        .gsc-cursor-current-page {\n            color: #444444;\n          }\n        </style>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=CustomSearch&widgetId=CustomSearch1&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"CustomSearch1\"));'
+        target='configCustomSearch1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget FollowByEmail' id='FollowByEmail1'>\n<h2 class='title'>Get Email
+        Updates</h2>\n<div class='widget-content'>\n<div class='follow-by-email-inner'>\n<form
+        action='http://feedburner.google.com/fb/a/mailverify' method='post' onsubmit='window.open(\"http://feedburner.google.com/fb/a/mailverify?uri=ChardInCharge\",
+        \"popupwindow\", \"scrollbars=yes,width=550,height=520\"); return true' target='popupwindow'>\n<table
+        width='100%'>\n<tr>\n<td>\n<input class='follow-by-email-address' name='email'
+        placeholder='Email address...' type='text'/>\n</td>\n<td width='64px'>\n<input
+        class='follow-by-email-submit' type='submit' value='Submit'/>\n</td>\n</tr>\n</table>\n<input
+        name='uri' type='hidden' value='ChardInCharge'/>\n<input name='loc' type='hidden'
+        value='en_US'/>\n</form>\n</div>\n</div>\n<span class='item-control blog-admin'>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=FollowByEmail&widgetId=FollowByEmail1&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"FollowByEmail1\"));'
+        target='configFollowByEmail1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</span>\n</div><div
+        class='widget Image' id='Image2'>\n<div class='widget-content'>\n<a href='http://www.chardincharge.com/p/work-with-me.html'>\n<img
+        alt='' height='279' id='Image2_img' src='http://2.bp.blogspot.com/-tMdwF-YFTnA/U55onbUcCCI/AAAAAAAABK0/hlG9C15WtdI/s1600/youradhere1.jpg'
+        width='250'/>\n</a>\n<br/>\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
+        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=Image&widgetId=Image2&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"Image2\"));'
+        target='configImage2' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML10'>\n<div class='widget-content'>\n<div id='pf_41019'
+        class='pf_ads'><script type='text/javascript' src='http://load.passionfruitads.com/a/0d833fa85d9036ee9bfcefdd25b030263e1ac8aa.js'></script></div>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML10&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML10\"));'
+        target='configHTML10' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML9'>\n<div class='widget-content'>\n<a target=\"_blank\"
+        href=\"http://www.shareasale.com/r.cfm?b=315899&u=883629&m=33105&urllink=&afftrack=\"><img
+        src=\"http://www.shareasale.com/image/33105/Category_Wipes-250x250.jpg\" alt=\"Shop
+        CleanWell Hand Sanitizing Wipes\" border=\"0\" /></a>\n</div>\n<div class='clear'></div>\n<span
+        class='widget-item-control'>\n<span class='item-control blog-admin'>\n<a class='quickedit'
+        href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML9&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML9\"));'
+        target='configHTML9' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML7'>\n<div class='widget-content'>\n<center>\n<table
+        cellspacing=5 cellpadding=0 border=0>\n<tr>\n<td> <a target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=525112&u=883629&m=49717&urllink=&afftrack=\"><img
+        src=\"http://www.shareasale.com/image/49717/MB-LONG-AD-TAKE3.png\" alt=\"Food
+        Photography E-Course\" border=\"0\" /></a></td>\n</tr>\n</table>\n</center>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML7\"));'
+        target='configHTML7' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML3'>\n<h2 class='title'>Instagram</h2>\n<div class='widget-content'>\n<!--
+        SnapWidget -->\n<iframe src=\"http://snapwidget.com/in/?u=Y2hhcmRpbmNoYXJnZXxpbnwxMjV8MnwzfHxub3w1fG5vbmV8b25TdGFydHx5ZXM=&v=231113\"
+        title=\"Instagram Widget\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\"
+        style=\"border:none; overflow:hidden; width:260px; height:390px\"></iframe>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML3\"));'
+        target='configHTML3' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget PopularPosts' id='PopularPosts1'>\n<h2>\nPopular Posts\n</h2>\n<div
+        class='widget-content popular-posts'>\n<ul>\n<li>\n<div class='item-thumbnail-only'>\n<div
+        class='item-thumbnail'>\n<a href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html'
+        target='_blank'>\n<img alt='' border='0' height='72' src='http://3.bp.blogspot.com/-QNtqbXhZbVM/U-GHzY1wi9I/AAAAAAAABSk/JjyJnxW6Enc/s72-c/coffee101.png'
+        width='72'/>\n</a>\n</div>\n<div class='item-title'>\n<a href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html'>\nCoffee
+        101  +  Morning Buzz Smoothie\n</a>\n</div>\n</div>\n<div style='clear: both;'></div>\n</li>\n<li>\n<div
+        class='item-thumbnail-only'>\n<div class='item-thumbnail'>\n<a href='http://www.chardincharge.com/2014/01/10-things-every-dietetic-intern-will.html'
+        target='_blank'>\n<img alt='' border='0' height='72' src='http://3.bp.blogspot.com/-9AH8x152B2c/UuKczem4oGI/AAAAAAAAAvA/Ao70Ydd6SCA/s72-c/10thingseverydieteticintern.jpg'
+        width='72'/>\n</a>\n</div>\n<div class='item-title'>\n<a href='http://www.chardincharge.com/2014/01/10-things-every-dietetic-intern-will.html'>\n10
+        Things Every Dietetic Intern Will Experience...\n</a>\n</div>\n</div>\n<div
+        style='clear: both;'></div>\n</li>\n<li>\n<div class='item-thumbnail-only'>\n<div
+        class='item-thumbnail'>\n<a href='http://www.chardincharge.com/2014/07/bourbon-peach-jam.html'
+        target='_blank'>\n<img alt='' border='0' height='72' src='http://2.bp.blogspot.com/-GflTSaQhDqg/U82tgZ5JHmI/AAAAAAAABSE/thITDYdal9M/s72-c/RRbourbonpeachjam2.png'
+        width='72'/>\n</a>\n</div>\n<div class='item-title'>\n<a href='http://www.chardincharge.com/2014/07/bourbon-peach-jam.html'>\nBourbon
+        Peach Jam\n</a>\n</div>\n</div>\n<div style='clear: both;'></div>\n</li>\n</ul>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"PopularPosts1\"));'
+        target='configPopularPosts1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div>\n</div><div
+        class='widget HTML' id='HTML11'>\n<div class='widget-content'>\n<div id='pf_41028'
+        class='pf_ads'><script type='text/javascript' src='http://load.passionfruitads.com/a/99fb45a194a9643ec2f674a79985a2cd1b3e7b0c.js'></script></div>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML11&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML11\"));'
+        target='configHTML11' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML6'>\n<div class='widget-content'>\n<a target=\"_blank\"
+        href=\"http://www.shareasale.com/r.cfm?b=133960&u=883629&m=17328&urllink=&afftrack=\"><img
+        src=\"http://www.shareasale.com/image/Camping-Banner_250x300.jpg\" border=\"0\"
+        /></a>\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
+        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML6\"));'
+        target='configHTML6' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML12'>\n<div class='widget-content'>\n<div id='pf_41030'
+        class='pf_ads'><script type='text/javascript' src='http://load.passionfruitads.com/a/ad0866440114bda34538a80c3b286d82136c672f.js'></script></div>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML12&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML12\"));'
+        target='configHTML12' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget BlogArchive' id='BlogArchive1'>\n<h2>\nBlog Archive\n</h2>\n<div
+        class='widget-content'>\n<div id='ArchiveList'>\n<div id='BlogArchive1_ArchiveList'>\n<ul
+        class='hierarchy'>\n<li class='archivedate expanded'>\n<a class='toggle' href='javascript:void(0)'>\n<span
+        class='zippy toggle-open'>\n                &#9660;&#160;\n              </span>\n</a>\n<a
+        class='post-count-link' href='http://www.chardincharge.com/search?updated-min=2014-01-01T00:00:00-06:00&amp;updated-max=2015-01-01T00:00:00-06:00&amp;max-results=37'>\n2014\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                37\n                )\n
+        \             </span>\n<ul class='hierarchy'>\n<li class='archivedate expanded'>\n<a
+        class='toggle' href='javascript:void(0)'>\n<span class='zippy toggle-open'>\n
+        \               &#9660;&#160;\n              </span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2014_08_01_archive.html'>\nAugust\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                1\n                )\n
+        \             </span>\n<ul class='posts'>\n<li>\n<a href='http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html'>\nCoffee
+        101  +  Morning Buzz Smoothie\n</a>\n</li>\n</ul>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li
+        class='archivedate collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span
+        class='zippy'>\n\n                  &#9658;&#160;\n                \n</span>\n</a>\n<a
+        class='post-count-link' href='http://www.chardincharge.com/2014_07_01_archive.html'>\nJuly\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                4\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2014_06_01_archive.html'>\nJune\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                4\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2014_05_01_archive.html'>\nMay\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                3\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2014_04_01_archive.html'>\nApril\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                6\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2014_03_01_archive.html'>\nMarch\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                6\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2014_02_01_archive.html'>\nFebruary\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                6\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2014_01_01_archive.html'>\nJanuary\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                7\n                )\n
+        \             </span>\n</li>\n</ul>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li
+        class='archivedate collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span
+        class='zippy'>\n\n                  &#9658;&#160;\n                \n</span>\n</a>\n<a
+        class='post-count-link' href='http://www.chardincharge.com/search?updated-min=2013-01-01T00:00:00-06:00&amp;updated-max=2014-01-01T00:00:00-06:00&amp;max-results=24'>\n2013\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                24\n                )\n
+        \             </span>\n<ul class='hierarchy'>\n<li class='archivedate collapsed'>\n<a
+        class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n                  &#9658;&#160;\n
+        \               \n</span>\n</a>\n<a class='post-count-link' href='http://www.chardincharge.com/2013_12_01_archive.html'>\nDecember\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                5\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2013_11_01_archive.html'>\nNovember\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                8\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2013_10_01_archive.html'>\nOctober\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                5\n                )\n
+        \             </span>\n</li>\n</ul>\n<ul class='hierarchy'>\n<li class='archivedate
+        collapsed'>\n<a class='toggle' href='javascript:void(0)'>\n<span class='zippy'>\n\n
+        \                 &#9658;&#160;\n                \n</span>\n</a>\n<a class='post-count-link'
+        href='http://www.chardincharge.com/2013_09_01_archive.html'>\nSeptember\n</a>\n<span
+        class='post-count' dir='ltr'>\n                (\n                6\n                )\n
+        \             </span>\n</li>\n</ul>\n</li>\n</ul>\n</div>\n</div>\n<div class='clear'></div>\n<span
+        class='widget-item-control'>\n<span class='item-control blog-admin'>\n<a class='quickedit'
+        href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"BlogArchive1\"));'
+        target='configBlogArchive1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div>\n</div><div
+        class='widget HTML' id='HTML4'>\n<div class='widget-content'>\n<div align=\"center\"><a
+        target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=499494&u=883629&m=31379&urllink=&afftrack=\"><img
+        src=\"http://www.shareasale.com/image/31379/070113_Fitbit_160x600_B_product.jpg\"
+        alt=\"Fitbit wireless activity + sleep trackers\" border=\"0\" /></a></div>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML4\"));'
+        target='configHTML4' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML8'>\n<h2 class='title'>Member Of</h2>\n<div class='widget-content'>\n<div
+        align=\"center\"><a href=\"http://www.thereciperedux.com\" target=\"_blank\">
+        \n<img src=\"http://thereciperedux.com/wp-content/uploads/2013/04/badge.png\"
+        alt=\"recipe redux\" /></a></div>\n</div>\n<div class='clear'></div>\n<span
+        class='widget-item-control'>\n<span class='item-control blog-admin'>\n<a class='quickedit'
+        href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML8&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML8\"));'
+        target='configHTML8' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div></div>\n</aside>\n</div>\n</div>\n</div>\n<div
+        style='clear: both'></div>\n<!-- columns -->\n</div>\n<!-- main -->\n</div>\n</div>\n<div
+        class='main-cap-bottom cap-bottom'>\n<div class='cap-left'></div>\n<div class='cap-right'></div>\n</div>\n</div>\n<footer>\n<div
+        class='footer-outer'>\n<div class='footer-cap-top cap-top'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n<div class='fauxborder-left footer-fauxborder-left'>\n<div
+        class='fauxborder-right footer-fauxborder-right'></div>\n<div class='region-inner
+        footer-inner'>\n<div class='foot section' id='footer-1'><div class='widget
+        Text' id='Text1'>\n<h2 class='title'>Copyright Notice</h2>\n<div class='widget-content'>\nAll
+        images, text, and content are property of Chard in Charge. Feel free to share
+        via Twitter, Facebook, Pinterest and all other forms of social media but please
+        provide the link directly back to my page. Give credit where credit is due!\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=Text&widgetId=Text1&action=editWidget&sectionId=footer-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"Text1\"));'
+        target='configText1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget Text' id='Text2'>\n<h2 class='title'>Affiliate Notice</h2>\n<div
+        class='widget-content'>\nPlease note that Chard in Charge is a member of the
+        <a href=\"http://www.shareasale.com/r.cfm?b=69&amp;u=883629&amp;m=47&amp;urllink=&amp;afftrack=\">Share
+        A Sale</a> affiliate ad network. This means that some links, sponsored posts,
+        and advertisements may provide Chard in Charge with a small commission based
+        on your clicks and/or purchases. Of course, all opinions reflect that of Chard
+        in Charge and not of any affiliate. All money made from these affiliate partnerships
+        help to keep Chard in Charge running and creating new content for you, my
+        beautiful readers!\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
+        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=Text&widgetId=Text2&action=editWidget&sectionId=footer-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"Text2\"));'
+        target='configText2' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML1'>\n<div class='widget-content'>\n<div align=\"center\"><a
+        target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=500598&u=883629&m=47976&urllink=&afftrack=\"><img
+        src=\"http://www.shareasale.com/image/47976/468x60_15-off-all.jpg\" alt=\"15%
+        OFF All Navitas Naturals Products\" border=\"0\" /></a></div>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=footer-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML1\"));'
+        target='configHTML1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div></div>\n<!--
+        outside of the include in order to lock Attribution widget -->\n<div class='foot
+        section' id='footer-3'><div class='widget Attribution' id='Attribution1'>\n<div
+        class='widget-content' style='text-align: center;'>\nPowered by <a href='http://www.blogger.com'
+        target='_blank'>Blogger</a>.\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
+        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2067109378824848531&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"Attribution1\"));'
+        target='configAttribution1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div></div>\n<div
+        id='sfd_attribution'>\n<a href='http://www.carrielovesdesign.com'>\n<img src='http://i743.photobucket.com/albums/xx78/sweetfaerie/footercopy.png'/>\n</a>\n</div>\n</div>\n</div>\n<div
+        class='footer-cap-bottom cap-bottom'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n</div>\n</footer>\n<!-- content -->\n</div>\n</div>\n<div
+        class='content-cap-bottom cap-bottom'>\n<div class='cap-left'></div>\n<div
+        class='cap-right'></div>\n</div>\n</div>\n</div>\n<script type='text/javascript'>\n
+        \     window.setTimeout(function() {\n        document.body.className = document.body.className.replace('loading',
+        '');\n                                                                  },
+        10);\n    </script>\n<script>\n      //<![CDATA[\n      var bs_pinButtonURL
+        = \"http://i743.photobucket.com/albums/xx78/sweetfaerie/pin-it-button-1.png\";\n
+        \     var bs_pinButtonPos = \"topright\";\n      var bs_pinPrefix = \"\";\n
+        \     var bs_pinSuffix = \"\";\n      //]]>\n</script>\n<script id='bs_pinOnHover'
+        src='http://greenlava-code.googlecode.com/svn/trunk/publicscripts/bs_pinOnHoverv1_min.js'
+        type='text/javascript'>\n      // This Pinterest Hover Button is brought to
+        you by bloggersentral.com.\n      // Visit http://www.bloggersentral.com/2012/11/pinterest-pin-it-button-on-image-hover.html
+        for details.\n      // Feel free to use and share, but please keep this notice
+        intact.\n    </script>\n<div id='nav'>\n<ul>\n<li><a href='http://www.chardincharge.com/p/about-me.html'>About</a></li>\n<li><a
+        href='http://www.chardincharge.com/p/faq.html'>FAQ</a></li>\n<li><a href='http://chardincharge.blogspot.com/search/label/recipes'>Recipes</a></li>\n<li><a
+        href='http://www.chardincharge.com/search/label/garden'>Garden</a></li>\n<li><a
+        href='http://www.chardincharge.com/p/work-with-me.html'>Work With Me</a></li>\n<li><a
+        href='http://www.chardincharge.com/p/press.html'>Press</a></li>\n</ul>\n</div>\n<script
+        type=\"text/javascript\">\nif (window.jstiming) window.jstiming.load.tick('widgetJsBefore');\n</script><script
+        type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/widgets/1093374584-widgets.js\"></script>\n<script
+        type=\"text/javascript\" src=\"//www.google.com/jsapi\"></script>\n<script
+        type=\"text/javascript\" src=\"https://apis.google.com/js/plusone.js\"></script>\n<script
+        type='text/javascript'>\nif (typeof(BLOG_attachCsiOnload) != 'undefined' &&
+        BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id']
+        = \"templatesV2\";window['blogger_blog_id'] = '2067109378824848531';BLOG_attachCsiOnload('item_');
+        }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\\x3d2067109378824848531','//www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html','2067109378824848531');\n_WidgetManager._SetDataContext([{'name':
+        'blog', 'data': {'blogId': '2067109378824848531', 'bloggerUrl': 'http://www.blogger.com',
+        'title': 'Chard in Charge', 'pageType': 'item', 'postId': '1132427827022891796',
+        'url': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html',
+        'canonicalUrl': 'http://www.chardincharge.com/2014/08/coffee-101-morning-buzz-smoothie.html',
+        'canonicalHomepageUrl': 'http://www.chardincharge.com/', 'homepageUrl': 'http://www.chardincharge.com/',
+        'blogspotFaviconUrl': 'http://www.chardincharge.com/favicon.ico', 'enabledCommentProfileImages':
+        true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber':
+        'UA-50105113-1', 'searchLabel': '', 'searchQuery': '', 'pageName': 'Coffee
+        101  +  Morning Buzz Smoothie', 'pageTitle': 'Chard in Charge: Coffee 101
+        \ +  Morning Buzz Smoothie', 'metaDescription': 'Coffee can be part of a healthful
+        diet, especially in this nutrient-dense coffee based breakfast smoothie.',
+        'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate':
+        false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog':
+        false, 'languageDirection': 'ltr', 'feedLinks': '\\74link rel\\75\\42alternate\\42
+        type\\75\\42application/atom+xml\\42 title\\75\\42Chard in Charge - Atom\\42
+        href\\75\\42http://www.chardincharge.com/feeds/posts/default\\42 /\\76\\n\\74link
+        rel\\75\\42alternate\\42 type\\75\\42application/rss+xml\\42 title\\75\\42Chard
+        in Charge - RSS\\42 href\\75\\42http://www.chardincharge.com/feeds/posts/default?alt\\75rss\\42
+        /\\76\\n\\74link rel\\75\\42service.post\\42 type\\75\\42application/atom+xml\\42
+        title\\75\\42Chard in Charge - Atom\\42 href\\75\\42http://www.blogger.com/feeds/2067109378824848531/posts/default\\42
+        /\\76\\n\\n\\74link rel\\75\\42alternate\\42 type\\75\\42application/atom+xml\\42
+        title\\75\\42Chard in Charge - Atom\\42 href\\75\\42http://www.chardincharge.com/feeds/1132427827022891796/comments/default\\42
+        /\\76\\n', 'meTag': '', 'openIdOpTag': '', 'googleProfileUrl': 'https://plus.google.com/107865325069039539199',
+        'postImageThumbnailUrl': 'http://3.bp.blogspot.com/-QNtqbXhZbVM/U-GHzY1wi9I/AAAAAAAABSk/JjyJnxW6Enc/s72-c/coffee101.png',
+        'postImageUrl': 'http://3.bp.blogspot.com/-QNtqbXhZbVM/U-GHzY1wi9I/AAAAAAAABSk/JjyJnxW6Enc/s1600/coffee101.png',
+        'latencyHeadScript': '\\74script type\\75\\42text/javascript\\42\\76(function()
+        { var b\\75window,f\\75\\42chrome\\42,g\\75\\42tick\\42,k\\75\\42jstiming\\42;(function(){function
+        d(a){this.t\\75{};this.tick\\75function(a,d,c){var e\\75void 0!\\75c?c:(new
+        Date).getTime();this.t[a]\\75[e,d];if(void 0\\75\\75c)try{b.console.timeStamp(\\42CSI/\\42+a)}catch(h){}};this[g](\\42start\\42,null,a)}var
+        a;b.performance\\46\\46(a\\75b.performance.timing);var n\\75a?new d(a.responseStart):new
+        d;b.jstiming\\75{Timer:d,load:n};if(a){var c\\75a.navigationStart,h\\75a.responseStart;0\\74c\\46\\46h\\76\\75c\\46\\46(b[k].srt\\75h-c)}if(a){var
+        e\\75b[k].load;0\\74c\\46\\46h\\76\\75c\\46\\46(e[g](\\42_wtsrt\\42,void 0,c),e[g](\\42wtsrt_\\42,\\42_wtsrt\\42,h),e[g](\\42tbsd_\\42,\\42wtsrt_\\42))}try{a\\75null,\\nb[f]\\46\\46b[f].csi\\46\\46(a\\75Math.floor(b[f].csi().pageT),e\\46\\0460\\74c\\46\\46(e[g](\\42_tbnd\\42,void
+        0,b[f].csi().startE),e[g](\\42tbnd_\\42,\\42_tbnd\\42,c))),null\\75\\75a\\46\\46b.gtbExternal\\46\\46(a\\75b.gtbExternal.pageT()),null\\75\\75a\\46\\46b.external\\46\\46(a\\75b.external.pageT,e\\46\\0460\\74c\\46\\46(e[g](\\42_tbnd\\42,void
+        0,b.external.startE),e[g](\\42tbnd_\\42,\\42_tbnd\\42,c))),a\\46\\46(b[k].pt\\75a)}catch(p){}})();b.tickAboveFold\\75function(d){var
+        a\\0750;if(d.offsetParent){do a+\\75d.offsetTop;while(d\\75d.offsetParent)}d\\75a;750\\76\\75d\\46\\46b[k].load[g](\\42aft\\42)};var
+        l\\75!1;function m(){l||(l\\75!0,b[k].load[g](\\42firstScrollTime\\42))}b.addEventListener?b.addEventListener(\\42scroll\\42,m,!1):b.attachEvent(\\42onscroll\\42,m);\\n
+        })();\\74/script\\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\\74!--[if
+        IE]\\76\\74script type\\75\\42text/javascript\\42 src\\75\\42https://www.blogger.com/static/v1/jsbin/3147806688-ieretrofit.js\\42\\76\\74/script\\76\\n\\74![endif]--\\076',
+        'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+        'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/76f25a6f2e06af76',
+        'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n', 'tf':
+        ''}}, {'name': 'skin', 'data': {'vars': {'content_padding': '10px', 'paging_background':
+        'transparent none no-repeat scroll top center', 'image_border_small_size':
+        '0px', 'body_background_gradient_cap': 'none', 'tabs_selected_background_color':
+        'transparent', 'body_rule_color': 'transparent', 'header_shadow_spread': '0',
+        'header_shadow_offset_left': '0', 'header_padding': '0', 'link_visited_color':
+        '#7f7f7f', 'mobile_background_size': 'auto', 'post_title_font': 'normal normal
+        24px \\47Roboto\\47, sans-serif', 'tabs_text_color': '#444444', 'date_header_margin':
+        'inherit', 'header_background_gradient': 'none', 'header_bottom_border_size':
+        '0', 'content_shadow_spread_webkit': '0', 'header_shadow_offset_top': '0',
+        'post_hover_color': '#92c94b', 'mobile_button_color': '#ffffff', 'widget_title_font':
+        'normal normal 16px \\47Roboto\\47, sans-serif', 'main_section_margin': '1em',
+        'keycolor': '#ffffff', 'content_shadow_spread': '0', 'image_background_color':
+        'transparent', 'header_font': 'normal normal 50px \\47Roboto\\47, sans-serif',
+        'header_background_color': 'transparent', 'main_border_width': '0', 'main_padding':
+        '0', 'tabs_border_color': 'transparent', 'image_text_color': '#92c94b', 'description_text_size':
+        '26px', 'post_footer_background_color': 'transparent', 'body_background_gradient_tile':
+        'none', 'page_width': 'auto', 'tabs_background_gradient': 'none', 'mobile_background_overlay':
+        'transparent none repeat scroll top left', 'main_padding_bottom': '65px',
+        'tabs_background_color': 'transparent', 'image_border_large_size': '0px',
+        'post_margin_bottom': '45px', 'body_background_override': '', 'tabs_margin_side':
+        '30px', 'link_hover_color': '#92c94b', 'post_text_color': '#666666', 'description_text_color':
+        '#444444', 'body_text_color': '#444444', 'content_padding_horizontal': '40px',
+        'endSide': 'right', 'page_width_selector': '.region-inner', 'date_header_padding':
+        '0.4em', 'post_footer_text_color': '#666666', 'startSide': 'left', 'date_header_color':
+        '#666666', 'tabs_font': 'normal normal 12px \\47Roboto\\47, sans-serif', 'body_font':
+        'normal normal 12px \\47Roboto\\47, sans-serif', 'post_footer_border_color':
+        'transparent', 'footer_bevel': '1px', 'tabs_bevel_border_width': '1px', 'date_header_background_color':
+        'transparent', 'content_shadow_spread_ie': '0', 'widget_title_text_color':
+        '#92c94b', 'header_border_horizontalsize': '1px', 'image_border_color': 'transparent',
+        'tabs_border_width': '1px', 'content_background_color': '#ffffff', 'link_color':
+        '#7f7f7f', 'header_text_color': '#92c94b', 'date_header_letterspacing': '3px',
+        'tabs_margin_top': '0', 'post_link_color': '#999999', 'main_padding_top':
+        '35px', 'header_border_size': '1px', 'tabs_selected_text_color': '#92c94b',
+        'content_background_color_selector': '.content-inner', 'body_background_color':
+        '#ffffff', 'widget_alternate_text_color': '#00986f'}, 'override': ''}}, {'name':
+        'view', 'data': {'classic': {'name': 'classic', 'url': '?view\\75classic'},
+        'flipcard': {'name': 'flipcard', 'url': '?view\\75flipcard'}, 'magazine':
+        {'name': 'magazine', 'url': '?view\\75magazine'}, 'mosaic': {'name': 'mosaic',
+        'url': '?view\\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\\75sidebar'},
+        'snapshot': {'name': 'snapshot', 'url': '?view\\75snapshot'}, 'timeslide':
+        {'name': 'timeslide', 'url': '?view\\75timeslide'}}}]);\n_WidgetManager._RegisterWidget('_ImageView',
+        new _WidgetInfo('Image1', 'sidebar-right-1', null, document.getElementById('Image1'),
+        {'resize': false}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView',
+        new _WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_CustomSearchView',
+        new _WidgetInfo('CustomSearch1', 'sidebar-right-1', null, document.getElementById('CustomSearch1'),
+        {'title': 'Search This Blog', 'includeBlog': true, 'includePostLinks': false,
+        'includeWeb': false, 'linkLists': [], 'blogUrl': 'http://www.chardincharge.com/',
+        'loadingMsg': 'Loading...', 'thisBlogMsg': 'This Blog', 'linkedFromHereMsg':
+        'Linked From Here', 'theWebMsg': 'The Web', 'backgroundColor': '#ffffff',
+        'textColor': '#444444', 'dateColor': '#444444', 'linkColor': '#7f7f7f', 'urlColor':
+        '#7f7f7f', 'visitedLinkColor': '#7f7f7f', 'borderColor': 'transparent', 'activeBorderColor':
+        'transparent'}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_FollowByEmailView',
+        new _WidgetInfo('FollowByEmail1', 'sidebar-right-1', null, document.getElementById('FollowByEmail1'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_ImageView', new
+        _WidgetInfo('Image2', 'sidebar-right-1', null, document.getElementById('Image2'),
+        {'resize': false}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView',
+        new _WidgetInfo('HTML10', 'sidebar-right-1', null, document.getElementById('HTML10'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML9', 'sidebar-right-1', null, document.getElementById('HTML9'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML7', 'sidebar-right-1', null, document.getElementById('HTML7'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML3', 'sidebar-right-1', null, document.getElementById('HTML3'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_PopularPostsView',
+        new _WidgetInfo('PopularPosts1', 'sidebar-right-1', null, document.getElementById('PopularPosts1'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML11', 'sidebar-right-1', null, document.getElementById('HTML11'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML6', 'sidebar-right-1', null, document.getElementById('HTML6'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML12', 'sidebar-right-1', null, document.getElementById('HTML12'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_BlogArchiveView',
+        new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'),
+        {'languageDirection': 'ltr'}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView',
+        new _WidgetInfo('HTML4', 'sidebar-right-1', null, document.getElementById('HTML4'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML8', 'sidebar-right-1', null, document.getElementById('HTML8'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AttributionView',
+        new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'),
+        {'attribution': 'Powered by \\74a href\\75\\47http://www.blogger.com\\47 target\\75\\47_blank\\47\\76Blogger\\74/a\\76.'},
+        'displayModeFull'));\n_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1',
+        'footer-1', null, document.getElementById('Text1'), {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_TextView',
+        new _WidgetInfo('Text2', 'footer-1', null, document.getElementById('Text2'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML1', 'footer-1', null, document.getElementById('HTML1'), {},
+        'displayModeFull'));\n_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header5',
+        'header', null, document.getElementById('Header5'), {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_BlogView',
+        new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled':
+        false, 'showBacklinks': true, 'postId': '1132427827022891796', 'lightboxEnabled':
+        true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/704268221-lbx.js',
+        'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/2392111094-lightbox_bundle.css'},
+        'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5',
+        'main', null, document.getElementById('HTML5'), {}, 'displayModeFull'));\n</script>\n</body>\n</html>"
+    http_version: 
+  recorded_at: Mon, 11 Aug 2014 14:02:16 GMT
+recorded_with: VCR 2.9.2
