@@ -19,28 +19,6 @@ describe Tychus::Parsers::SimpleParser do
         expect(Tychus::Parsers::SimpleParser.new(url).class_search).to eq(ingredients)
       end
     end
-
-    specify "non-descript list of divs " do
-      url = "http://www.confessionsofafoodie.me/2014/08/how-to-roast-chicken.html#.U9-_OKPZUxE"
-      ingredients = [
-        "3 tablespoons butter, room temperature",
-        "1 ½ teaspoons sea salt",
-        "¼ teaspoon ground cumin",
-        "½ teaspoon freshly grated black pepper",
-        "1 ½ tablespoons finely chopped fresh rosemary",
-        "1 clove garlic, minced",
-        "Zest from one medium lemon",
-        "1 ½ pounds muscato grapes (or any seedless red grape)",
-        "2 tablespoons extra virgin olive oil",
-        "1 tablespoon balsamic vinegar",
-        "½ teaspoon sea salt",
-        "1 ½ tablespoons fresh mint, finely chopped",
-        "4 ½ - 5 lb chicken",
-        "1 lemon",
-        "2 sprigs fresh rosemary"
-      ]
-    end
-
   end
 
   describe "'Ingredients' text search strategy" do
@@ -114,6 +92,64 @@ describe Tychus::Parsers::SimpleParser do
             expect(Tychus::Parsers::SimpleParser.new(url).monolith_ingredients_element_parse).to eq(ingredients)
           end
         end
+
+        it "retrieves ingredients when they reside as text, not within specific tags #4" do
+          url = "http://www.thegardengrazer.com/2014/07/wild-rice-spinach-salad-with-lemon.html"
+          ingredients = [
+            "1 cup wild rice",
+            "3 oz. spinach",
+            "8 oz. grape tomatoes",
+            "1 orange bell pepper",
+            "1 cup corn (thawed, if frozen)",
+            "3-4 green onions",
+            "Optional: hemp hearts, beans, fresh herbs",
+            "{For the dressing}",
+            "Juice from 1 lemon (about 3-4 Tbsp.)",
+            "1 garlic clove, minced",
+            "2 Tbsp. olive oil",
+            "1/8 tsp. salt"
+          ]
+
+          VCR.use_cassette("thegardengrazer.com") do
+            # this actually works with paragraph_ingredients_element_parse, with the exception of the pesky
+            # italic/parenthetical annotations in the ingredient
+            expect(Tychus::Parsers::SimpleParser.new(url).monolith_ingredients_element_parse).to eq(ingredients)
+          end
+        end
+
+        it "retrieves ingredients when they reside as text, not within specific tags #5" do
+          url = "http://www.theironyou.com/2014/08/raspberry-hibiscus-popsicles.html"
+          ingredients = [
+            "Makes about 8 popsicles (it depends on the size of your mold though)",
+            "3 cups / 13.5 oz / 375 gr fresh raspberries",
+            "2 cups / 500 ml hibiscus tea, brewed and chilled (green tea also works)",
+            "2 to 3 tablespoons honey or maple syrup (if using honey pick one with a mild taste)"
+          ]
+
+          VCR.use_cassette("theironyou.com") do
+            # this actually works with paragraph_ingredients_element_parse, with the exception of the pesky
+            # italic/parenthetical annotations in the ingredient
+            expect(Tychus::Parsers::SimpleParser.new(url).monolith_ingredients_element_parse).to eq(ingredients)
+          end
+        end
+
+        it "retrieves ingredients when they reside as text, not within specific tags #6" do
+          url = "http://www.from-thelionsden.com/2014/08/peach-mango-smoothie.html"
+          ingredients = [
+             "1/2 Cup yellow peach, diced",
+             "1/2 Cup mango, diced",
+             "1 medium banana",
+             "1 Tbs coconut",
+             "1 Cup almond milk (or regular milk)",
+             "1 Cup ice cubes"
+          ]
+
+          VCR.use_cassette("from-thelionsden.com") do
+            # this actually works with paragraph_ingredients_element_parse, with the exception of the pesky
+            # italic/parenthetical annotations in the ingredient
+            expect(Tychus::Parsers::SimpleParser.new(url).monolith_ingredients_element_parse).to eq(ingredients)
+          end
+        end
       end
 
       context "and the ingredients reside _after_ the 'Ingredients' tag" do
@@ -168,7 +204,6 @@ describe Tychus::Parsers::SimpleParser do
           end
 
           it "retrieves the ingredients when they reside as text within li elements #2" do
-            pending "The directions section is unlabeled, and therefore cannot be discerned from ingredients"
             url = "http://cocoawind.blogspot.com/2014/05/eggless-chocolate-brownie-fudgy-eggless.html"
             ingredients = [
               "Flour - 3/4 Cup",
@@ -248,6 +283,20 @@ describe Tychus::Parsers::SimpleParser do
             end
           end
 
+          it "retrieves the ingredients when they reside as text within li elements #5" do
+            url = "http://butteredsideupblog.blogspot.com/2014/08/homemade-chocolate-syrup-for-chocolate.html"
+            ingredients = [
+              "1 cup water",
+              "1 cup sucanat",
+              "1 cup cocoa powder (my favorite HERE)",
+              "1/2 teaspoon real salt",
+              "1 teaspoon pure vanilla extract",
+            ]
+            VCR.use_cassette("butteredsideupblog") do
+              expect(Tychus::Parsers::SimpleParser.new(url).paragraph_ingredients_element_parse).to eq(ingredients)
+            end
+          end
+
           it "retrieves the ingredients when they reside within <span> elements within li elements" do
             url = "http://colorfuleatsnutrition.com/recipes/grain-gluten-and-refined-sugar-free-lilikoi-cheesecake-with-macadamia-nut-crust"
             ingredients = [
@@ -313,6 +362,23 @@ describe Tychus::Parsers::SimpleParser do
             VCR.use_cassette("well_nesting.com") do
               expect(Tychus::Parsers::SimpleParser.new(url).paragraph_ingredients_element_parse).to eq(ingredients)
             end
+          end
+
+          it "retrieves the ingredients when they reside as text, and not within specific tags #2" do
+            url = "http://www.bunsinmyoven.com/2014/08/11/bacon-jalapeno-cheese-spread/"
+            ingredients = [
+              "4 ounces cheddar, grated",
+              "4 ounces pepper jack, grated",
+              "2 ounces cream cheese, room temperature",
+              "3 tablespoons mayonnaise",
+              "2 strips bacon, cooked and crumbled",
+              "3 tablespoons diced pickled jalapenos",
+              "1/2 teaspoon juice from jar of jalapenos"
+            ]
+            VCR.use_cassette("bunsinmyoven") do
+              expect(Tychus::Parsers::SimpleParser.new(url).paragraph_ingredients_element_parse).to eq(ingredients)
+            end
+
           end
 
           it "retrieves the ingredients when they reside in <span> tags within one p element" do

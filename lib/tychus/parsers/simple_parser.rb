@@ -31,11 +31,25 @@ module Parsers
       end.flatten
     end
 
-    def root_node(node, content)
-      # root node is the highest node where the content matches the node's content
+    def clean(str)
+      # gsub &nbsp; and strip
+      # TODO: strip special characters from beginning, for ex- bullets
+      str.gsub(/[[:space:]]/,' ')
+        .gsub(/•/,'')
+        .lstrip
+        .rstrip
+        .squeeze(" ")
+    end
 
-      return node if clean(node.parent.content) != clean(content)
-      root_node(node.parent, content)
+
+    def ingredients_block?(el)
+      # arbitrary content size to assume content which is not
+      # a 'ul' (for now, and most likely a 'p'), of longer than average
+      # length, should indicate a paragraph of text for the directions,
+      # and therefore ineligible
+      ingredients_end_regex = /\A(instructions|preparation|directions|process).?\s*\z/i
+
+      !clean(el.content).match(ingredients_end_regex)
     end
 
     def nested_a_node?(node)
@@ -72,6 +86,38 @@ module Parsers
       end
     end
 
+    def monolith_ingredients_element_parse
+      ingredients = []
+
+      while el && ingredients_block?(el)
+        ingredients.concatenate_last(el.content) unless el.content.blank?
+        ingredients.push("") if el.name == "br" || el.children.map(&:name).include?("br")
+        ingredients
+
+        el = el.next_sibling
+      end
+
+      ingredients.reject(&:blank?).map{|x| clean(x)}
+    end
+
+    def paragraph_ingredients_element_parse
+      ingredients = []
+
+      # TODO: make the retrieval stop if it detects it's reached a non-ingredient
+      # block, most likely the directions/instructions/process/preparation block
+      while el && ingredients_block?(el)
+        ingredients << retrieve_nested_text(el)
+        el = el.next_sibling
+      end
+
+      # re: #take_while => Assume directions come in a block, so we can strip any following
+      # elements once we think we've reached one 'direction' element
+      ingredients.flatten
+        .reject(&:blank?)
+        .map {|x| clean(x) }
+        .take_while{|x| valid_ingredient?(x)}
+    end
+
     def retrieve_nested_text(node)
       return node.content if node.text? || nested_a_node?(node) || nested_li_node?(node)
       return nested_tr_content(node) if nested_tr_node?(node)
@@ -83,49 +129,14 @@ module Parsers
       end
     end
 
-    def ingredients_block?(el)
-      # arbitrary content size to assume content which is not
-      # a 'ul' (for now, and most likely a 'p'), of longer than average
-      # length, should indicate a paragraph of text for the directions,
-      # and therefore ineligible
-      ingredients_end_regex = /\A(instructions|preparation|directions|process).?\s*\z/i
+    def root_node(node, content)
+      # root node is the highest node where the content matches the node's content
 
-      !clean(el.content).match(ingredients_end_regex)
+      return node if clean(node.parent.content) != clean(content)
+      root_node(node.parent, content)
     end
 
-    def paragraph_ingredients_element_parse
-      els = doc.search("[text()*='Ingredients']").presence || doc.search("[text()*='INGREDIENTS']")
-      return unless els.any?
-      ingredient_node = root_node(els.first, els.first.content)
-
-      # assume root node is choosing the actual root child element of the parent, and not a nested child
-      # then root_node.parent should have many children. In this scenario, the ingredients should live in
-      # the siblings, and the first ingredient should reside directly after the root_node
-      el = ingredient_node.next_sibling
-
-      ingredients = []
-      # TODO: make the retrieval stop if it detects it's reached a non-ingredient
-      # block, most likely the directions/instructions/process/preparation block
-      while el && ingredients_block?(el)
-        ingredients << retrieve_nested_text(el)
-        el = el.next_sibling
-      end
-
-      ingredients.flatten.reject(&:blank?).map {|x| clean(x) }
-
-    end
-
-    def clean(str)
-      # gsub &nbsp; and strip
-      # TODO: strip special characters from beginning, for ex- bullets
-      str.gsub(/[[:space:]]/,' ')
-        .gsub(/•/,'')
-        .lstrip
-        .rstrip
-        .squeeze(" ")
-    end
-
-    def monolith_ingredients_element_parse
+    def text_search
       els = doc.search("[text()*='Ingredients']").presence || doc.search("[text()*='INGREDIENTS']")
       return unless els.any?
       ingredient_node = root_node(els.first, els.first.content)
@@ -140,38 +151,12 @@ module Parsers
       #     that the ingredient will (most of the time) will begin with a
       #     measurement. How to handle when it doesnt? 1 database lookup worth it to validate
       #     ingredients that don't being with an integer?
-      #
-      ingredients = []
-
-      while el && ingredients_block?(el)
-        ingredients.concatenate_last(el.content) unless el.content.blank?
-        ingredients.push("") if el.name == "br" || el.children.map(&:name).include?("br")
-        ingredients
-
-        el = el.next_sibling
-      end
-
-      # while el && ingredients_block?(el)
-      #   # difference between this and #paragraph_ingredients_element_parse is that
-      #   # the ingredients live in text elements, and have nochildren, just its content
-      #   contents = el.content.lstrip.rstrip
-      #   if el.name == "i"
-      #     # if it's an italic element, change the behavior so that it's
-      #     # contents are appeneded to the previous element
-      #     #   -> 5 cups coffee (to drink for thirst)
-      #     ingredients.concatenate_last(contents)
-      #   else
-      #     ingredients << el.content
-      #   end
-      #
-      #   el = el.next_sibling
-      # end
-
-      ingredients.reject(&:blank?).map{|x| clean(x)}
     end
 
-
-
+    def valid_ingredient?(ingredient)
+      # TODO: discern directions correctly
+      ingredient.length < 150 || ingredient.match(/\A\d+/)
+    end
   end
 
 end
