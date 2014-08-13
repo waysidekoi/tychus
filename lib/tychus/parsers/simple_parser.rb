@@ -5,7 +5,7 @@ module Parsers
     def concatenate_last(content)
       # add space unless content begins with a period
       last = self.pop || ""
-      if content.match(/\..*/)
+      if content.match(/(\.|,).*/)
         self.push "#{last}#{content}"
       else
         self.push "#{last} #{content}"
@@ -142,21 +142,30 @@ module Parsers
       #     ingredients that don't being with an integer?
       #
       ingredients = []
+
       while el && ingredients_block?(el)
-        # difference between this and #paragraph_ingredients_element_parse is that
-        # the ingredients live in text elements, and have nochildren, just its content
-        contents = el.content.lstrip.rstrip
-        if el.name == "i"
-          # if it's an italic element, change the behavior so that it's
-          # contents are appeneded to the previous element
-          #   -> 5 cups coffee (to drink for thirst)
-          ingredients.concatenate_last(contents)
-        else
-          ingredients << el.content
-        end
+        ingredients.concatenate_last(el.content) unless el.content.blank?
+        ingredients.push("") if el.name == "br" || el.children.map(&:name).include?("br")
+        ingredients
 
         el = el.next_sibling
       end
+
+      # while el && ingredients_block?(el)
+      #   # difference between this and #paragraph_ingredients_element_parse is that
+      #   # the ingredients live in text elements, and have nochildren, just its content
+      #   contents = el.content.lstrip.rstrip
+      #   if el.name == "i"
+      #     # if it's an italic element, change the behavior so that it's
+      #     # contents are appeneded to the previous element
+      #     #   -> 5 cups coffee (to drink for thirst)
+      #     ingredients.concatenate_last(contents)
+      #   else
+      #     ingredients << el.content
+      #   end
+      #
+      #   el = el.next_sibling
+      # end
 
       ingredients.reject(&:blank?).map{|x| clean(x)}
     end
