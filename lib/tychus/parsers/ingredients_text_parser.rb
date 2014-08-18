@@ -168,7 +168,16 @@ module Parsers
       # TODO: discern directions correctly
       ingredient.length < 150 || ingredient.match(/\A\d+/)
     end
+
+    def method_missing(name, *args)
+      str_name = name.to_s
+      return [] if name =~ /^parse_\w+/
+      super
+    end
   end
 
 end
+end
+
+class Test
 end
