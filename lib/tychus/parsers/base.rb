@@ -31,12 +31,18 @@ module Parsers
     def initialize(uri)
       @uri = uri
       @recipe = Recipe.new
-      @doc = Nokogiri::HTML(open(uri))
-      @recipe_doc = root_doc ? @doc.css(root_doc) : @doc
     end
 
     def clean_instructions(obj)
       obj
+    end
+
+    def doc
+      @doc ||= Nokogiri::HTML(open(uri))
+    end
+
+    def recipe_doc
+      @recipe_doc ||= root_doc ? doc.css(root_doc) : doc
     end
 
     def parse
