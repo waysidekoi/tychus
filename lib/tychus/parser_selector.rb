@@ -13,13 +13,10 @@ module Tychus
       end
 
       if parser.blank?
-        if meta_object.schema_org_microformat?
-          return Tychus::Parsers::SchemaOrgParser
-        end
-
-        raise("No parser found")
+        return Tychus::Parsers::SchemaOrgParser if meta_object.schema_org_microformat?
       end
-      parser
+
+      parser || Tychus::Parsers::IngredientsTextParser
     end
 
   end
