@@ -178,6 +178,3 @@ module Parsers
 
 end
 end
-
-class Test
-end
