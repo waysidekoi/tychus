@@ -171,7 +171,7 @@ module Parsers
 
     def method_missing(name, *args)
       str_name = name.to_s
-      return [] if name =~ /^parse_\w+/
+      return nil if name =~ /^parse_\w+/
       super
     end
   end

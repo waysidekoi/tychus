@@ -118,6 +118,43 @@ describe Tychus::Parsers::IngredientsTextParser do
 
   describe "ingredients parsing when 'Ingredients' text exists" do
 
+    it " hits when the 'Ingredients' text is plain text, and unsearchable using #search" do
+      urls = 
+        [
+          "http://harrietemilysmith.blogspot.co.uk/2014/08/chocolate-and-raspberry-ganache-pots.html",
+          "http://beascookbook.blogspot.co.uk/2014/08/puff-pastry-egg-and-kale-bakes.html"
+        ]
+      ingredients = [
+        [
+          # "http://harrietemilysmith.blogspot.co.uk/2014/08/chocolate-and-raspberry-ganache-pots.html",
+          "Raspberry Base:",
+          "1 cup raspberries",
+          "Chocolate Top:",
+          "1/3 cup cacao powder",
+          "1/3 cup coconut oil",
+          "1/6 cup rice syrup",
+          "1/6 cup light agave nectar",
+          "1/6 cup dark agave nectar"
+        ],
+        [
+          # http://beascookbook.blogspot.co.uk/2014/08/puff-pastry-egg-and-kale-bakes.html
+          "500 g butter puff pastry",
+          "6 eggs",
+          "40 g kale, chopped (weight without stalks)",
+          "egg, beaten",
+          "sesame seeds",
+          "salt, pepper",
+        ]
+      ]
+      urls.each_with_index do |url, i|
+        parser = Tychus::Parsers::IngredientsTextParser.new(url)
+
+        VCR.use_cassette(url[/\w+.co/]) do
+          expect(parser.parse_ingredients).to eq(ingredients[i])
+        end
+      end
+    end
+
     context " and the ingredients are in the same element as the 'Ingredients' node" do
       let(:urls) do
         [
@@ -247,6 +284,7 @@ describe Tychus::Parsers::IngredientsTextParser do
             "http://somethingnewfordinner.com/recipe/cherry-panna-cotta/",
             "http://butteredsideupblog.blogspot.com/2014/08/homemade-chocolate-syrup-for-chocolate.html",
             "http://colorfuleatsnutrition.com/recipes/grain-gluten-and-refined-sugar-free-lilikoi-cheesecake-with-macadamia-nut-crust",
+            "http://salmascookingdiary.blogspot.in/2014/08/crispy-stir-fried-green-beans.html",
           ]
         end
 
@@ -335,6 +373,18 @@ describe Tychus::Parsers::IngredientsTextParser do
               "8 oz heavy whipping cream",
               "1/4 cup shredded coconut flakes, lightly toasted"
             ],
+            [
+              "500 Grams Green Beans ( cut into 1 inch long pieces)",
+              "2 Tablespoon Olive Oil",
+              "1/2 Teaspoon Red Chilli powder",
+              "1/4 Teaspoon Turmeric Powder",
+              "Salt to taste",
+              "For the tempering ( optional)",
+              "1/2 Teaspoon Mustard Seeds",
+              "1/2 Teaspoon Urad dal",
+              "1/2 Teaspoon Channa dal",
+              "1 Dry red chilli",
+            ]
           ]
         end
 
@@ -342,7 +392,7 @@ describe Tychus::Parsers::IngredientsTextParser do
           urls.each_with_index do |url, i|
             parser = Tychus::Parsers::IngredientsTextParser.new(url)
 
-            VCR.use_cassette(url[/(\w+\.)+com/]) do
+            VCR.use_cassette(url[/(\w+\.)+(com|in)/]) do
               expect(parser.parse_ingredients).to eq(ingredients[i])
             end
           end
