@@ -21,15 +21,15 @@ http_interactions:
       Content-Type:
       - text/html; charset=UTF-8
       Expires:
-      - Wed, 13 Aug 2014 15:11:46 GMT
+      - Mon, 18 Aug 2014 03:46:37 GMT
       Date:
-      - Wed, 13 Aug 2014 15:11:46 GMT
+      - Mon, 18 Aug 2014 03:46:37 GMT
       Cache-Control:
       - private, max-age=0
       Last-Modified:
-      - Wed, 13 Aug 2014 15:11:09 GMT
+      - Mon, 18 Aug 2014 03:18:56 GMT
       Etag:
-      - '"57be50ff-658e-49df-a036-0b9848631b53"'
+      - '"bf525089-c4db-46a9-8ee7-5c7d23ef2af0"'
       X-Content-Type-Options:
       - nosniff
       X-Xss-Protection:
@@ -79,7 +79,7 @@ http_interactions:
         Garden Grazer: Wild Rice Spinach Salad with Lemon-Garlic Dressing</title>\n<link
         type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1535467126-widget_css_2_bundle.css'
         />\n<link type='text/css' rel='stylesheet' href='//www.google.com/uds/css/gsearch.css'
-        />\n<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=1156710504584737465&zx=57be50ff-658e-49df-a036-0b9848631b53'
+        />\n<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=1156710504584737465&zx=bf525089-c4db-46a9-8ee7-5c7d23ef2af0'
         />\n<style id='page-skin-1' type='text/css'><!--\n/*\n-----------------------------------------------\nBlogger
         Template Style\nName:     Simple\nDesigner: Josh Peterson\nURL:      www.noaesthetic.com\n-----------------------------------------------
         */\n/* Variable definitions\n====================\n<Variable name=\"keycolor\"
@@ -344,10 +344,7 @@ http_interactions:
         tabs-fauxborder-right'></div>\n<div class='region-inner tabs-inner'>\n<div
         class='tabs section' id='crosscol'><div class='widget PageList' id='PageList1'>\n<div
         class='widget-content'>\n<ul>\n<li><a href='http://www.thegardengrazer.com/'>Home</a></li>\n<li><a
-        href='http://www.thegardengrazer.com/p/vegan.html'>Vegan</a></li>\n<li><a
-        href='http://www.thegardengrazer.com/p/recipes.html'>Vegetarian</a></li>\n<li><a
-        href='http://www.thegardengrazer.com/p/gluten-free.html'>Gluten-Free</a></li>\n<li><a
-        href='http://www.thegardengrazer.com/p/projects.html'>Collections</a></li>\n<li><a
+        href='http://www.thegardengrazer.com/p/recipes.html'>Recipes</a></li>\n<li><a
         href='http://www.thegardengrazer.com/p/about.html'>About</a></li>\n<li><a
         href='http://www.thegardengrazer.com/p/contact.html'>Contact</a></li>\n</ul>\n<div
         class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
@@ -572,7 +569,7 @@ http_interactions:
         i love the addition of wild rice, so good!</p><span id='bc_0_1MN' class='comment-actions
         secondary-text' kind='m'><a kind='i' href='javascript:;' target='_self' o='r'>Reply</a><span
         class='item-control blog-admin pid-396347732'><a o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=1156710504584737465&amp;postID=989393101600530885'>Delete</a></span></span></div><div
-        id='bc_0_1BR' class='comment-replies'><span id='bc_0_1b+seedHOEtD' kind='d'><div
+        id='bc_0_1BR' class='comment-replies'><span id='bc_0_1b+seedZyG5D' kind='d'><div
         id='bc_0_0T' class='comment-thread inline-thread' kind='t'   t='0' u='0'><span
         id='bc_0_0TT' class='thread-toggle thread-expanded' kind='g'><span id='bc_0_0TA'
         class='thread-arrow'></span><span id='bc_0_0TN' class='thread-count'><span
@@ -605,8 +602,10 @@ http_interactions:
         type='text/javascript'>\n      BLOG_CMT_createIframe('https://www.blogger.com/rpc_relay.html');\n
         \   </script>\n</div>\n</p>\n<div id='backlinks-container'>\n<div id='Blog1_backlinks-container'>\n</div>\n</div>\n</div>\n</div>\n\n
         \       </div></div>\n      \n<!-- google_ad_section_end -->\n</div>\n<div
-        class='blog-pager' id='blog-pager'>\n<span id='blog-pager-older-link'>\n<a
-        class='blog-pager-older-link' href='http://www.thegardengrazer.com/2014/07/black-bean-avocado-enchiladas.html'
+        class='blog-pager' id='blog-pager'>\n<span id='blog-pager-newer-link'>\n<a
+        class='blog-pager-newer-link' href='http://www.thegardengrazer.com/2014/08/fiesta-bean-salad.html'
+        id='Blog1_blog-pager-newer-link' title='Newer Post'>Newer Post</a>\n</span>\n<span
+        id='blog-pager-older-link'>\n<a class='blog-pager-older-link' href='http://www.thegardengrazer.com/2014/07/black-bean-avocado-enchiladas.html'
         id='Blog1_blog-pager-older-link' title='Older Post'>Older Post</a>\n</span>\n<a
         class='home-link' href='http://www.thegardengrazer.com/'>Home</a>\n</div>\n<div
         class='clear'></div>\n<div class='post-feeds'>\n</div>\n<script type=\"text/javascript\">window.___gcfg
@@ -638,6 +637,45 @@ http_interactions:
         onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML3\"));'
         target='configHTML3' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
         width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML8'>\n<div class='widget-content'>\n<div class=\"separator\"
+        style=\"clear: both; text-align: center;\">\n<a href=\"http://www.thegardengrazer.com/p/about.html\"
+        target=\"_blank\"><img border=\"0\" src=\"http://3.bp.blogspot.com/-AgwR8UwIM0E/U-98i2AmyFI/AAAAAAAADz0/V2XSjFj3q4g/s1600/kaitlin%2B250px.png\"
+        /></a></div>\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n\n</div>\n<div
+        class=\"separator\" style=\"clear: both; text-align: center;\">\n<span style=\"font-family:
+        Calibri, sans-serif;\">Hi! I'm Kaitlin and welcome to The Garden Grazer. Take
+        a look around to see how easy healthy eating can be! Learn more here: <a href=\"http://www.thegardengrazer.com/p/about.html\"
+        target=\"_blank\">About</a></span></div>\n<div style=\"text-align: center;\"></div>\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=HTML&widgetId=HTML8&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML8\"));'
+        target='configHTML8' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML9'>\n<div class='widget-content'>\n<div class=\"separator\"
+        style=\"clear: both; text-align: center;\">\n<a href=\"http://www.thegardengrazer.com/2014/04/12-must-try-fresh-colorful-salads.html\"
+        target=\"_blank\"><img border=\"0\" src=\"http://3.bp.blogspot.com/-UDCjHsrFypY/U-_mEsd5knI/AAAAAAAAD4I/fGoaFUywuzs/s1600/sidebarsalad2.png\"
+        /></a></div>\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
+        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=HTML&widgetId=HTML9&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML9\"));'
+        target='configHTML9' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML2'>\n<div class='widget-content'>\n<!-- BLOGHER
+        ADS Begin supplemental 300 ad -->\n<script src=\"http://ads.blogherads.com/99/9930/300b.js\"
+        type=\"text/javascript\"></script>\n<!-- End supplemental 300 ad -->\n<br
+        />\n<!-- BLOGHER ADS Begin 300x250 main ad -->\n<script src=\"http://ads.blogherads.com/99/9930/300a.js\"
+        type=\"text/javascript\"></script>\n<!-- End 300x250 main ad -->\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML2\"));'
+        target='configHTML2' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML10'>\n<div class='widget-content'>\n<div class=\"separator\"
+        style=\"clear: both; text-align: center;\">\n<a href=\"http://www.thegardengrazer.com/2013/04/mexican-made-meatless.html\"
+        target=\"_blank\"><img border=\"0\" src=\"http://3.bp.blogspot.com/-Q7U0VjHyTe4/U--zfnyfVjI/AAAAAAAAD1k/ZKfY7wnLoZ8/s1600/meatlessmexican280.png\"
+        /></a></div>\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
+        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=HTML&widgetId=HTML10&action=editWidget&sectionId=sidebar-right-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML10\"));'
+        target='configHTML10' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
         class='widget CustomSearch' id='CustomSearch1'>\n<h2 class='title'>Search
         this site</h2>\n<div class='widget-content'>\n<div id='CustomSearch1_form'>\n<span
         class='cse-status'>Loading...</span>\n</div>\n</div>\n<style type='text/css'>\n
@@ -664,40 +702,6 @@ http_interactions:
         onclick='return _WidgetManager._PopupConfig(document.getElementById(\"CustomSearch1\"));'
         target='configCustomSearch1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
         width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
-        class='widget PopularPosts' id='PopularPosts1'>\n<h2>Popular Recipes</h2>\n<div
-        class='widget-content popular-posts'>\n<ul>\n<li>\n<div class='item-thumbnail-only'>\n<div
-        class='item-thumbnail'>\n<a href='http://www.thegardengrazer.com/2013/04/southwestern-chopped-salad-with.html'
-        target='_blank'>\n<img alt='' border='0' height='72' src='http://3.bp.blogspot.com/-steLfoRM_fU/Uuzzs-vQZpI/AAAAAAAADHk/d2b3BMIPIKw/s72-c/southwesternsalad2.jpg'
-        width='72'/>\n</a>\n</div>\n<div class='item-title'><a href='http://www.thegardengrazer.com/2013/04/southwestern-chopped-salad-with.html'>Southwestern
-        Chopped Salad with Cilantro Dressing</a></div>\n</div>\n<div style='clear:
-        both;'></div>\n</li>\n<li>\n<div class='item-thumbnail-only'>\n<div class='item-thumbnail'>\n<a
-        href='http://www.thegardengrazer.com/2012/03/black-bean-spinach-enchiladas.html'
-        target='_blank'>\n<img alt='' border='0' height='72' src='http://4.bp.blogspot.com/-1UE73Tie74o/T2fVMFL77hI/AAAAAAAAASk/Jp9CTaI1Cuo/s72-c/vegenchilada2.jpg'
-        width='72'/>\n</a>\n</div>\n<div class='item-title'><a href='http://www.thegardengrazer.com/2012/03/black-bean-spinach-enchiladas.html'>Black
-        Bean Spinach Enchiladas</a></div>\n</div>\n<div style='clear: both;'></div>\n</li>\n<li>\n<div
-        class='item-thumbnail-only'>\n<div class='item-thumbnail'>\n<a href='http://www.thegardengrazer.com/2013/04/creamy-cilantro-lime-dressing.html'
-        target='_blank'>\n<img alt='' border='0' height='72' src='http://2.bp.blogspot.com/-U8qubJG82qU/Uu0VPvoYNTI/AAAAAAAADIQ/BPRhbPZx5NI/s72-c/cilantrodressing.jpg'
-        width='72'/>\n</a>\n</div>\n<div class='item-title'><a href='http://www.thegardengrazer.com/2013/04/creamy-cilantro-lime-dressing.html'>Creamy
-        Cilantro-Lime Dressing</a></div>\n</div>\n<div style='clear: both;'></div>\n</li>\n<li>\n<div
-        class='item-thumbnail-only'>\n<div class='item-thumbnail'>\n<a href='http://www.thegardengrazer.com/2013/02/quinoa-vegetable-salad-with-lemon-basil.html'
-        target='_blank'>\n<img alt='' border='0' height='72' src='http://1.bp.blogspot.com/-hONaUf2ZdHE/USvyWBIsI4I/AAAAAAAACXA/z-idXFae0dQ/s72-c/quinoavegsalad.jpg'
-        width='72'/>\n</a>\n</div>\n<div class='item-title'><a href='http://www.thegardengrazer.com/2013/02/quinoa-vegetable-salad-with-lemon-basil.html'>Quinoa
-        Vegetable Salad with Lemon-Basil Dressing</a></div>\n</div>\n<div style='clear:
-        both;'></div>\n</li>\n</ul>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
-        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar-right-1'
-        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"PopularPosts1\"));'
-        target='configPopularPosts1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
-        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div>\n</div><div
-        class='widget HTML' id='HTML2'>\n<div class='widget-content'>\n<!-- BLOGHER
-        ADS Begin supplemental 300 ad -->\n<script src=\"http://ads.blogherads.com/99/9930/300b.js\"
-        type=\"text/javascript\"></script>\n<!-- End supplemental 300 ad -->\n<br
-        />\n<!-- BLOGHER ADS Begin 300x250 main ad -->\n<script src=\"http://ads.blogherads.com/99/9930/300a.js\"
-        type=\"text/javascript\"></script>\n<!-- End 300x250 main ad -->\n</div>\n<div
-        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
-        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1'
-        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML2\"));'
-        target='configHTML2' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
-        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
         class='widget AdSense' id='AdSense4'>\n<div class='widget-content'>\n<script
         type=\"text/javascript\"><!--\ngoogle_ad_client = \"ca-pub-9037856148793214\";\ngoogle_ad_host
         = \"ca-host-pub-1556223355139109\";\ngoogle_ad_host_channel = \"L0001\";\n/*
@@ -718,14 +722,6 @@ http_interactions:
         onclick='return _WidgetManager._PopupConfig(document.getElementById(\"AdSense1\"));'
         target='configAdSense1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
         width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div>\n</div><div
-        class='widget Image' id='Image2'>\n<h2>Ole! Ole!</h2>\n<div class='widget-content'>\n<a
-        href='http://www.thegardengrazer.com/2013/04/mexican-made-meatless.html'>\n<img
-        alt='Ole! Ole!' height='540' id='Image2_img' src='http://4.bp.blogspot.com/-ie_iLY6055k/UtvvRAdeAAI/AAAAAAAADEo/Df_8VMuMvcQ/s1600/mexicanmademeatless2.jpg'
-        width='250'/>\n</a>\n<br/>\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
-        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=Image&widgetId=Image2&action=editWidget&sectionId=sidebar-right-1'
-        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"Image2\"));'
-        target='configImage2' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
-        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
         class='widget HTML' id='HTML1'>\n<div class='widget-content'>\n<script async
         src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<!--
         Top 3 Adsense sidebar 300x250_as -->\n<ins class=\"adsbygoogle\"\n     style=\"display:inline-block;width:300px;height:250px\"\n
@@ -748,9 +744,17 @@ http_interactions:
         class='footer-outer'>\n<div class='footer-cap-top cap-top'>\n<div class='cap-left'></div>\n<div
         class='cap-right'></div>\n</div>\n<div class='fauxborder-left footer-fauxborder-left'>\n<div
         class='fauxborder-right footer-fauxborder-right'></div>\n<div class='region-inner
-        footer-inner'>\n<div class='foot section' id='footer-1'>\n<div class='widget
-        HTML' id='HTML5'>\n<div class='widget-content'>\n<!-- BuySellAds Zone Code
-        -->\n<div id=\"bsap_1297206\" class=\"bsarocks bsap_a8f9b89243bce08cad1ca32eb49badc7\"></div>\n<!--
+        footer-inner'>\n<div class='foot section' id='footer-1'><div class='widget
+        HTML' id='HTML7'>\n<h2 class='title'>My Mobile Ad</h2>\n<div class='widget-content'>\n<!--
+        BLOGHER ADS Begin supplemental mobile ad -->\n<script src=\"http://ads.blogherads.com/99/9930/mfooter.js\"
+        type=\"text/javascript\"></script>\n<!-- End supplemental mobile ad -->\n</div>\n<div
+        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
+        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=footer-1'
+        onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML7\"));'
+        target='configHTML7' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
+        width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div><div
+        class='widget HTML' id='HTML5'>\n<div class='widget-content'>\n<!-- BuySellAds
+        Zone Code -->\n<div id=\"bsap_1297206\" class=\"bsarocks bsap_a8f9b89243bce08cad1ca32eb49badc7\"></div>\n<!--
         End BuySellAds Zone Code -->\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
         class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=footer-1'
         onclick='return _WidgetManager._PopupConfig(document.getElementById(\"HTML5\"));'
@@ -758,11 +762,10 @@ http_interactions:
         width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div></div>\n<!--
         outside of the include in order to lock Attribution widget -->\n<div class='foot
         section' id='footer-3'><div class='widget Attribution' id='Attribution1'>\n<div
-        class='widget-content' style='text-align: center;'>\nAll photography, communications,
-        and writings Copyright &#169; 2012-2014 The Garden Grazer. Simple template.
-        Powered by <a href='http://www.blogger.com' target='_blank'>Blogger</a>.\n</div>\n<div
-        class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
-        blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3'
+        class='widget-content' style='text-align: center;'>\nCopyright &#169; 2014
+        The Garden Grazer. Simple template. Powered by <a href='http://www.blogger.com'
+        target='_blank'>Blogger</a>.\n</div>\n<div class='clear'></div>\n<span class='widget-item-control'>\n<span
+        class='item-control blog-admin'>\n<a class='quickedit' href='//www.blogger.com/rearrange?blogID=1156710504584737465&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3'
         onclick='return _WidgetManager._PopupConfig(document.getElementById(\"Attribution1\"));'
         target='configAttribution1' title='Edit'>\n<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png'
         width='18'/>\n</a>\n</span>\n</span>\n<div class='clear'></div>\n</div></div>\n</div>\n</div>\n<div
@@ -866,17 +869,21 @@ http_interactions:
         {'name': 'timeslide', 'url': '?view\\75timeslide'}}}]);\n_WidgetManager._RegisterWidget('_PageListView',
         new _WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'),
         {'title': '', 'links': [{'href': 'http://www.thegardengrazer.com/', 'title':
-        'Home', 'isCurrentPage': false}, {'href': 'http://www.thegardengrazer.com/p/vegan.html',
-        'title': 'Vegan', 'isCurrentPage': false, 'id': '3265220363797450699'}, {'href':
-        'http://www.thegardengrazer.com/p/recipes.html', 'title': 'Vegetarian', 'isCurrentPage':
-        false, 'id': '7431225111410675392'}, {'href': 'http://www.thegardengrazer.com/p/gluten-free.html',
-        'title': 'Gluten-Free', 'isCurrentPage': false, 'id': '2071490702030223901'},
-        {'href': 'http://www.thegardengrazer.com/p/projects.html', 'title': 'Collections',
-        'isCurrentPage': false, 'id': '5722286243253457623'}, {'href': 'http://www.thegardengrazer.com/p/about.html',
-        'title': 'About', 'isCurrentPage': false, 'id': '3377838099063102220'}, {'href':
-        'http://www.thegardengrazer.com/p/contact.html', 'title': 'Contact', 'isCurrentPage':
-        false, 'id': '4050423245330509612'}], 'mobile': false}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView',
+        'Home', 'isCurrentPage': false}, {'href': 'http://www.thegardengrazer.com/p/recipes.html',
+        'title': 'Recipes', 'isCurrentPage': false, 'id': '7431225111410675392'},
+        {'href': 'http://www.thegardengrazer.com/p/about.html', 'title': 'About',
+        'isCurrentPage': false, 'id': '3377838099063102220'}, {'href': 'http://www.thegardengrazer.com/p/contact.html',
+        'title': 'Contact', 'isCurrentPage': false, 'id': '4050423245330509612'}],
+        'mobile': false}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView',
         new _WidgetInfo('HTML3', 'sidebar-right-1', null, document.getElementById('HTML3'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML8', 'sidebar-right-1', null, document.getElementById('HTML8'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML9', 'sidebar-right-1', null, document.getElementById('HTML9'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML10', 'sidebar-right-1', null, document.getElementById('HTML10'),
         {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_CustomSearchView',
         new _WidgetInfo('CustomSearch1', 'sidebar-right-1', null, document.getElementById('CustomSearch1'),
         {'title': 'Search this site', 'includeBlog': true, 'includePostLinks': true,
@@ -885,35 +892,29 @@ http_interactions:
         'Linked From Here', 'theWebMsg': 'The Web', 'backgroundColor': '#ffffff',
         'textColor': '#000000', 'dateColor': '#000000', 'linkColor': '#477632', 'urlColor':
         '#477632', 'visitedLinkColor': '#477632', 'borderColor': '#dddddd', 'activeBorderColor':
-        '#dddddd'}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_PopularPostsView',
-        new _WidgetInfo('PopularPosts1', 'sidebar-right-1', null, document.getElementById('PopularPosts1'),
-        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
-        _WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'),
-        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AdSenseView', new
-        _WidgetInfo('AdSense4', 'sidebar-right-1', null, document.getElementById('AdSense4'),
+        '#dddddd'}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AdSenseView',
+        new _WidgetInfo('AdSense4', 'sidebar-right-1', null, document.getElementById('AdSense4'),
         {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AdSenseView', new
         _WidgetInfo('AdSense1', 'sidebar-right-1', null, document.getElementById('AdSense1'),
-        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_ImageView', new
-        _WidgetInfo('Image2', 'sidebar-right-1', null, document.getElementById('Image2'),
-        {'resize': true}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView',
-        new _WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
+        _WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'),
         {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
         _WidgetInfo('HTML4', 'sidebar-right-1', null, document.getElementById('HTML4'),
         {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AttributionView',
         new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'),
-        {'attribution': 'All photography, communications, and writings Copyright &#169;
-        2012-2014 The Garden Grazer. Simple template. Powered by \\74a href\\75\\47http://www.blogger.com\\47
-        target\\75\\47_blank\\47\\76Blogger\\74/a\\76.'}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView',
-        new _WidgetInfo('HTML7', 'footer-1', null, document.getElementById('HTML7'),
-        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new
-        _WidgetInfo('HTML5', 'footer-1', null, document.getElementById('HTML5'), {},
-        'displayModeFull'));\n_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1',
-        'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_BlogView',
-        new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled':
+        {'attribution': 'Copyright &#169; 2014 The Garden Grazer. Simple template.
+        Powered by \\74a href\\75\\47http://www.blogger.com\\47 target\\75\\47_blank\\47\\76Blogger\\74/a\\76.'},
+        'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7',
+        'footer-1', null, document.getElementById('HTML7'), {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView',
+        new _WidgetInfo('HTML5', 'footer-1', null, document.getElementById('HTML5'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_HeaderView', new
+        _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'),
+        {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_BlogView', new
+        _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled':
         false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/595105622-lbx.js',
         'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/2392111094-lightbox_bundle.css'},
         'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6',
         'main', null, document.getElementById('HTML6'), {}, 'displayModeFull'));\n</script>\n</body>\n</html>"
     http_version: 
-  recorded_at: Wed, 13 Aug 2014 15:11:47 GMT
+  recorded_at: Mon, 18 Aug 2014 03:46:36 GMT
 recorded_with: VCR 2.9.2

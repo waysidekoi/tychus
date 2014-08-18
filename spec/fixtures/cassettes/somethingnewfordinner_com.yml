@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=UTF-8
       Date:
-      - Tue, 12 Aug 2014 15:59:43 GMT
+      - Mon, 18 Aug 2014 03:46:43 GMT
       X-Pingback:
       - http://somethingnewfordinner.com/xmlrpc.php
       Transfer-Encoding:
@@ -32,7 +32,7 @@ http_interactions:
       - Keep-Alive
       Set-Cookie:
       - X-Mapping-mknjaipp=F2A6FE5686218C93B55ABF63AA54999F; path=/
-      - bb2_screener_=1407859184+107.188.57.175+107.188.57.175; path=/
+      - bb2_screener_=1408333603+67.82.106.107+67.82.106.107; path=/
     body:
       encoding: UTF-8
       string: "<!doctype html>\r\n<html dir=\"ltr\" lang=\"en-US\">\r\n<head>\r\n\t\t<meta
@@ -142,14 +142,14 @@ http_interactions:
         />\n<link rel='next' title='Peach, caramelized onion &amp; goat cheese crostini'
         href='http://somethingnewfordinner.com/recipe/peach-caramelized-onion-goat-cheese-crostini/'
         />\n<meta name=\"generator\" content=\"WordPress 3.4.1\" />\n\n<!-- Bad Behavior
-        2.2.15 run time: 109.783 ms -->\n<script type=\"text/javascript\">\n<!--\nfunction
+        2.2.15 run time: 27.649 ms -->\n<script type=\"text/javascript\">\n<!--\nfunction
         bb2_addLoadEvent(func) {\n\tvar oldonload = window.onload;\n\tif (typeof window.onload
         != 'function') {\n\t\twindow.onload = func;\n\t} else {\n\t\twindow.onload
         = function() {\n\t\t\toldonload();\n\t\t\tfunc();\n\t\t}\n\t}\n}\n\nbb2_addLoadEvent(function()
         {\n\tfor ( i=0; i < document.forms.length; i++ ) {\n\t\tif (document.forms[i].method
         == 'post') {\n\t\t\tvar myElement = document.createElement('input');\n\t\t\tmyElement.setAttribute('type',
         'hidden');\n\t\t\tmyElement.name = 'bb2_screener_';\n\t\t\tmyElement.value
-        = '1407859184 107.188.57.175 107.188.57.175';\n\t\t\tdocument.forms[i].appendChild(myElement);\n\t\t}\n\t}\n});\n//
+        = '1408333603 67.82.106.107 67.82.106.107';\n\t\t\tdocument.forms[i].appendChild(myElement);\n\t\t}\n\t}\n});\n//
         --></script>\n\t\t\t<script type=\"text/javascript\">\n\t\tjQuery(function($)
         {\n\t\t\t$('.date-pick').datepicker({\n\t\t\t\tautoFocusNextInput: true,\n\t\t\t\tconstrainInput:
         false,\n\t\t\t\tchangeMonth: true,\n\t\t\t\tchangeYear: true,\n\t\t\t\tbeforeShow:
@@ -161,9 +161,9 @@ http_interactions:
         inst) { $('#ui-datepicker-div').removeClass('show'); },\n\t\t\t\tdateFormat:
         'mm/dd',\n\t\t\t});\n\t\t\t\n\t\t\t\t\n\t\t});\n\t</script>\n\t<link rel='canonical'
         href='http://somethingnewfordinner.com/recipe/cherry-panna-cotta/' />\n<script
-        type=\"text/javascript\" src=\"http://somethingnewfordinner.com/wp-content/plugins/ziplist-recipe-plugin/zlrecipe_print.js\"></script>\n<link
+        type=\"text/javascript\" src=\"http://somethingnewfordinner.com/wp-content/plugins/ziplist-recipe-plugin/zlrecipe_print.js\"></script>\r\n<link
         charset=\"utf-8\" href=\"http://www.zlcdn.com/stylesheets/minibox/zlrecipe-std.css\"
-        rel=\"stylesheet\" type=\"text/css\" />\n\n<!-- All in One SEO Pack 2.1.3
+        rel=\"stylesheet\" type=\"text/css\" />\r\n\n<!-- All in One SEO Pack 2.1.3
         by Michael Torbert of Semper Fi Web Design[136,250] -->\n<meta name=\"description\"
         content=\"Cherry panna cotta makes a wonderful, cool, summer dessert. Best
         of all, it can be made ahead of time.\" />\n\n<meta name=\"keywords\" content=\"panna
@@ -207,7 +207,7 @@ http_interactions:
         \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n
         \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n
         \ ga('create', 'UA-35591666-1', 'somethingnewfordinner.com');\r\n  ga('send',
-        'pageview');\r\n\r\n</script>\r\n  \r\n<link rel=\"author\" href=\"https://plus.google.com/+Somethingnewfordinner/posts\"/>\r\n</head>\r\n<!--[if
+        'pageview');\r\n\r\n</script>\r\n  \r\n<link rel=\"publisher\" href=\"https://plus.google.com/+Somethingnewfordinner/posts\"/>\r\n</head>\r\n<!--[if
         lt IE 7 ]> <body class=\"single single-recipe postid-7107 ie6\"> <![endif]-->\r\n<!--[if
         IE 7 ]>    <body class=\"single single-recipe postid-7107 ie7\"> <![endif]-->\r\n<!--[if
         IE 8 ]>    <body class=\"single single-recipe postid-7107 ie8\"> <![endif]-->\r\n<!--[if
@@ -274,15 +274,11 @@ http_interactions:
         -->\r\n\t\t\r\n        <div id=\"container\">\r\n                \r\n                        \r\n\t\t
         \       <!-- ============= CONTENT AREA STARTS HERE ============== -->\r\n\t\t\t\t<div
         id=\"content\" class=\"clearfix\">\r\n                <span class=\"grey-container-divider\"></span>\t\t\t\t\t\t<div
-        id=\"left-area\" class=\"clearfix hrecipe\" itemscope itemtype=\"http://schema.org/Recipe\">\r\n
-        \                       \t\t\r\n                                <!-- Starting
-        Default Loop -->                        \t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t
-        \                           \t\t<h2 class=\"title fn\" itemprop=\"name\" >Cherry
-        panna cotta</h2>\r\n\t\t\t\t\t\t\t\t\t\t<!-- for Schema.org microdata -->\r\n\t\t\t\t\t\t\t\t\t\t<meta
-        itemprop=\"datePublished\" content=\"2014-08-04\" />\r\n\t\t\t\t\t\t\t\t\t\t<span
-        class=\"published\">2014-08-04</span>\r\n\t\t\t\t\t\t\t\t\t\t<meta itemprop=\"image\"
-        content=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-1-250x212.jpg\"
-        /> \t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<!--
+        id=\"left-area\">\r\n                        \t\t\r\n                                <!--
+        Starting Default Loop -->                        \t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t
+        \                           \t\t<h2 class=\"title fn\">Cherry panna cotta</h2>\r\n\t\t\t\t\t\t\t\t\t\t<!--
+        for Schema.org microdata -->\r\n\t\t\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t\t\t\t<span
+        class=\"published\">2014-08-04</span>\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<!--
         Recipe Single Image -->\r\n\t\t  \t\t\t\t\t\t\t\t<div class=\"single-img-box\">\r\n\t\t
         \ \t\t\t\t\t\t\t\t\t\t<div class=\"single-slider\" >\r\n                                                \t\t<img
         width=\"480\" height=\"400\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Fresh-cherry-panna-cotta-1.jpg\"
@@ -463,7 +459,7 @@ http_interactions:
         />\n\t\t\t\t<input type='hidden' name='comment_post_ID' value='7107' id='comment_post_ID'
         />\n<input type='hidden' name='comment_parent' id='comment_parent' value='0'
         />\n\t\t</p>\n\t\t\n\t\t<p style=\"display: none;\"><input type=\"hidden\"
-        id=\"akismet_comment_nonce\" name=\"akismet_comment_nonce\" value=\"6683b2b7d1\"
+        id=\"akismet_comment_nonce\" name=\"akismet_comment_nonce\" value=\"75e04a7be3\"
         /></p>\t\t\n\t\t</form>\n\n\n</div>\n\n                                </div><!--
         end of comments div -->\r\n                                \r\n                                </div><!--
         end of left-area -->\r\n\t\t\t\t        <!-- LEFT AREA ENDS HERE -->\r\n                                \r\n
@@ -471,15 +467,12 @@ http_interactions:
         class=\"rating-title\">Ratings </h2>\r\n\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<!--
         Rating Icons -->\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"rate-box\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
         \                                               \r\n\t\t<h6>Average Member
-        Rating</h6>\r\n\t\t\r\n\t\t<p class=\"ex-rates\" itemprop=\"reviews\" itemscope
-        itemtype=\"http://schema.org/AggregateRating\">\r\n\t\t\t<span class=\"on\"></span><span
+        Rating</h6>\r\n\t\t\r\n\t\t<p class=\"ex-rates\" itemid=\"aggregate-rating-data\"
+        itemscope itemtype=\"http://schema.org/AggregateRating\">\r\n\t\t\t<span class=\"on\"></span><span
         class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
         class=\"off\"></span>\t\t\t(4.5 / 5)\t\t\r\n\t\t\t<meta itemprop=\"ratingValue\"
-        content=\"4.5\" />\r\n    \t\t<meta itemprop=\"bestRating\" content=\"5\"
-        />\r\n\t\t\t<meta itemprop=\"ratingCount\" content=\"2\" /> \t\t\t\t\t\t                                                        \r\n\t\t</p>\r\n\t\t\r\n\t\t<div
-        class=\"hreview-aggregate\">\r\n\t\t\t<span class=\"rating\">\r\n\t\t\t\t<span
-        class=\"average\">4.5</span>\r\n\t\t\t\t<span class=\"best\">5</span>\r\n\t\t\t\t<span
-        class=\"count\">2</span>\r\n\t\t\t</span>\r\n\t\t</div>\r\n\t\t\r\n\t\t\t\t\t\t<form
+        content=\"4.5\" />\r\n\t\t\t<meta itemprop=\"ratingCount\" content=\"2\" />
+        \t\t\t\t\t\t                                                        \r\n\t\t</p>\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t<form
         action=\"http://somethingnewfordinner.com/wp-admin/admin-ajax.php\" method=\"post\"
         id=\"rate-product\" onsubmit=\"ratingFunction();\">\r\n\t\t\t\t\t<h6>Rate
         this recipe</h6>\r\n\t\t\t\t\t<p class=\"rates\">\r\n\t\t\t\t\t\t\t<span class=\"off\"></span>\r\n\t\t\t\t\t\t\t<span
@@ -562,34 +555,33 @@ http_interactions:
         class=\"on\"></span><span class=\"on\"></span>\t\t\t\t\t\t\t\t\t\t\t(5 / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t
         \                        \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
         </div><!-- end of block div --><div class=\"block\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
-        class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a href=\"http://somethingnewfordinner.com/recipe/spinach-and-goat-cheese-quiche-minis/\"
-        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/04/Spinach-tomato-goat-cheese-quiche-minis-1-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Spinach, tomato &amp;
-        goat cheese quiche minis 1\" title=\"Spinach, tomato &amp; goat cheese quiche
-        minis 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/spinach-and-goat-cheese-quiche-minis/\">Spinach
-        and goat cheese quiche minis</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
-        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
-        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
-        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4.5
-        / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
-        href=\"http://somethingnewfordinner.com/recipe/garlic-sausage-and-de-puy-lentil-soup/\"
-        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/01/Lentil-garlic-sausage-stew-1-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Lentil &amp; garlic
-        sausage stew 1\" title=\"Lentil &amp; garlic sausage stew 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a
-        href=\"http://somethingnewfordinner.com/recipe/garlic-sausage-and-de-puy-lentil-soup/\">French
-        lentil &#038; garlic sausage soup</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a href=\"http://somethingnewfordinner.com/recipe/beet-and-kale-gratin/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/06/Beet-and-kale-gratin-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Beet and kale gratin
+        1\" title=\"Beet and kale gratin 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/beet-and-kale-gratin/\">Beet
+        and kale gratin</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
         \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
         class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
         class=\"on\"></span><span class=\"on\"></span>\t\t\t\t\t\t\t\t\t\t\t(5 / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t
         \                        \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
-        href=\"http://somethingnewfordinner.com/recipe/french-onion-soup/\" class=\"img-box\"><img
-        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/03/French-onion-soup-8-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"French onion soup 8\"
-        title=\"French onion soup 8\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/french-onion-soup/\">French
-        onion soup</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        href=\"http://somethingnewfordinner.com/recipe/tropical-fruit-salsa/\" class=\"img-box\"><img
+        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/03/Tropical-fruit-salsa-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Tropical fruit salsa
+        1\" title=\"Tropical fruit salsa 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/tropical-fruit-salsa/\">Tropical
+        fruit salsa</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
         \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
         class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
-        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4.5
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4 /
+        5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/chicken-tortilla-soup/\" class=\"img-box\"><img
+        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/04/Chicken-tortilla-soup-2014-a-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Chicken tortilla soup
+        2014 a\" title=\"Chicken tortilla soup 2014 a\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a
+        href=\"http://somethingnewfordinner.com/recipe/chicken-tortilla-soup/\">Chicken
+        tortilla soup</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4.2
         / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
         </div><!-- end of block div --><div class=\"bot-border\"></div>\n\t\t\t\t\t\t\t\t\t\t\t</div><!--
         end of tabed div -->\n\t\t\t\t\t\t\t\t\t</div><!-- end of fav-recipes widget
@@ -598,7 +590,7 @@ http_interactions:
         type=\"hidden\" id=\"mc_submit_type\" name=\"mc_submit_type\" value=\"html\"
         />\n\t\t<input type=\"hidden\" name=\"mcsf_action\" value=\"mc_submit_signup_form\"
         />\n\t\t<input type=\"hidden\" id=\"_mc_submit_signup_form_nonce\" name=\"_mc_submit_signup_form_nonce\"
-        value=\"0e66a5a2c4\" />\t\t\n\t\t\t<div id=\"mc_subheader\">\n\t\t\tSubscribe
+        value=\"7bdc54aee0\" />\t\t\n\t\t\t<div id=\"mc_subheader\">\n\t\t\tSubscribe
         to receive the latest recipes and blog posts.\t\t</div><!-- /mc_subheader
         -->\n\t\t\t\n\t<div class=\"mc_form_inside\">\n\t\t\n\t\t<div class=\"updated\"
         id=\"mc_message\">\n\t\t\t\t\t</div><!-- /mc_message -->\n\n\t\t\n<div class=\"mc_merge_var\">\n\t\t<label
@@ -651,8 +643,8 @@ http_interactions:
         class=\"level-0\" value=\"1779\">From our archives&nbsp;&nbsp;(4)</option>\n\t<option
         class=\"level-0\" value=\"1683\">Gardening&nbsp;&nbsp;(2)</option>\n\t<option
         class=\"level-0\" value=\"1840\">Gift guide&nbsp;&nbsp;(1)</option>\n\t<option
-        class=\"level-0\" value=\"1036\">Give away contests&nbsp;&nbsp;(2)</option>\n\t<option
         class=\"level-0\" value=\"1957\">Giveaway&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"1036\">Giveaway contests&nbsp;&nbsp;(2)</option>\n\t<option
         class=\"level-0\" value=\"1341\">Holiday menus&nbsp;&nbsp;(10)</option>\n\t<option
         class=\"level-0\" value=\"42\">Inspiring ingredients&nbsp;&nbsp;(62)</option>\n\t<option
         class=\"level-0\" value=\"2038\">Keeping it clean&nbsp;&nbsp;(1)</option>\n\t<option
@@ -792,5 +784,5 @@ http_interactions:
         \ src=\"http://ardrone.swoop.com/js/spxw.js\"\n  data-domain=\"SW-86917615-45013\"\n
         \ data-serverbase=\"http://ardrone.swoop.com/\">\n</script>\n<!-- -SWOOP -->\n</html>"
     http_version: 
-  recorded_at: Tue, 12 Aug 2014 15:59:46 GMT
+  recorded_at: Mon, 18 Aug 2014 03:46:45 GMT
 recorded_with: VCR 2.9.2
