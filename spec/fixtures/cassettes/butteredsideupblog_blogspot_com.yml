@@ -21,15 +21,15 @@ http_interactions:
       Content-Type:
       - text/html; charset=UTF-8
       Expires:
-      - Mon, 18 Aug 2014 03:49:29 GMT
+      - Mon, 25 Aug 2014 21:41:11 GMT
       Date:
-      - Mon, 18 Aug 2014 03:49:29 GMT
+      - Mon, 25 Aug 2014 21:41:11 GMT
       Cache-Control:
       - private, max-age=0
       Last-Modified:
-      - Sun, 17 Aug 2014 21:11:05 GMT
+      - Mon, 25 Aug 2014 21:16:27 GMT
       Etag:
-      - '"22793671-20d7-4f04-ae90-ecffad198e40"'
+      - '"3bb8c072-40df-4c39-a3f0-b6c2667b1951"'
       X-Content-Type-Options:
       - nosniff
       X-Xss-Protection:
@@ -68,7 +68,7 @@ http_interactions:
         Side Up - Atom\" href=\"http://www.blogger.com/feeds/4936963917511601310/posts/default\"
         />\n\n<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Buttered
         Side Up - Atom\" href=\"http://butteredsideupblog.blogspot.com/feeds/5285543502349510565/comments/default\"
-        />\n<!--[if IE]><script type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/jsbin/3620911004-ieretrofit.js\"></script>\n<![endif]-->\n<link
+        />\n<!--[if IE]><script type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/jsbin/836876192-ieretrofit.js\"></script>\n<![endif]-->\n<link
         href='//assets.pinterest.com/images/pidgets/pin_it_button.png' rel='image_src'/>\n<!--[if
         IE]> <script> (function() { var html5 = (\"abbr,article,aside,audio,canvas,datalist,details,\"
         + \"figure,footer,header,hgroup,mark,menu,meter,nav,output,\" + \"progress,section,time,video\").split(',');
@@ -93,7 +93,7 @@ http_interactions:
         .comments h4 {\n  font-family: serif;\n}\n.wf-inactive h2, .wf-neuton-i4-loading
         h2, .wf-neuton-i4-inactive h2 {\n  font-family: serif;\n}\n</style>\n<link
         type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1535467126-widget_css_2_bundle.css'
-        />\n<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4936963917511601310&zx=22793671-20d7-4f04-ae90-ecffad198e40'
+        />\n<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4936963917511601310&zx=3bb8c072-40df-4c39-a3f0-b6c2667b1951'
         />\n<style id='page-skin-1' type='text/css'><!--\n/*\n-----------------------------------------------\nBlogger
         Template Style\nName:     The Georgia\nDesigner: Angie Baldelomar\nURL:      www.angiemakes.com\n-----------------------------------------------
         */\n/* Variable definitions\n====================\n<Variable name=\"keycolor\"
@@ -608,7 +608,7 @@ http_interactions:
         id='bc_0_1MN' class='comment-actions secondary-text' kind='m'><a kind='i'
         href='javascript:;' target='_self' o='r'>Reply</a><span class='item-control
         blog-admin pid-1847012365'><a o='d' target='_self' href='http://www.blogger.com/delete-comment.g?blogID=4936963917511601310&amp;postID=4938868556474602251'>Delete</a></span></span></div><div
-        id='bc_0_1BR' class='comment-replies'><span id='bc_0_1b+seedbdIeD' kind='d'><div
+        id='bc_0_1BR' class='comment-replies'><span id='bc_0_1b+seedV85dD' kind='d'><div
         id='bc_0_0T' class='comment-thread inline-thread' kind='t'   t='0' u='0'><span
         id='bc_0_0TT' class='thread-toggle thread-expanded' kind='g'><span id='bc_0_0TA'
         class='thread-arrow'></span><span id='bc_0_0TN' class='thread-count'><span
@@ -650,7 +650,7 @@ http_interactions:
         id='comment-editor-src'></a>\n<iframe allowtransparency='true' class='blogger-iframe-colorize
         blogger-comment-from-post' frameborder='0' height='410' id='comment-editor'
         name='comment-editor' src='' width='100%'></iframe>\n<script type=\"text/javascript\"
-        src=\"https://www.blogger.com/static/v1/jsbin/3903788214-comment_from_post_iframe.js\"></script>\n<script
+        src=\"https://www.blogger.com/static/v1/jsbin/2876379539-comment_from_post_iframe.js\"></script>\n<script
         type='text/javascript'>\n      BLOG_CMT_createIframe('https://www.blogger.com/rpc_relay.html');\n
         \   </script>\n</div>\n</p>\n<div id='backlinks-container'>\n<div id='Blog1_backlinks-container'>\n</div>\n</div>\n</div>\n</div>\n<!--
         google_ad_section_end(name=default) -->\n<div class='inline-ad'>\n<script
@@ -659,8 +659,10 @@ http_interactions:
         butteredsideupblog_main_Blog1_300x250_as */\ngoogle_ad_slot = \"3065571190\";\ngoogle_ad_width
         = 300;\ngoogle_ad_height = 250;\n//-->\n</script>\n<script type=\"text/javascript\"\nsrc=\"//pagead2.googlesyndication.com/pagead/show_ads.js\">\n</script>\n</div>\n<!--
         google_ad_section_start -->\n\n        </div></div>\n      \n<!-- google_ad_section_end
-        -->\n</div>\n<div class='blog-pager' id='blog-pager'>\n<span id='blog-pager-older-link'>\n<a
-        class='blog-pager-older-link' href='http://butteredsideupblog.blogspot.com/2014/07/how-to-grill-pizza.html'
+        -->\n</div>\n<div class='blog-pager' id='blog-pager'>\n<span id='blog-pager-newer-link'>\n<a
+        class='blog-pager-newer-link' href='http://butteredsideupblog.blogspot.com/2014/08/thai-chicken-salad.html'
+        id='Blog1_blog-pager-newer-link' title='Newer Post'>Newer Post</a>\n</span>\n<span
+        id='blog-pager-older-link'>\n<a class='blog-pager-older-link' href='http://butteredsideupblog.blogspot.com/2014/07/how-to-grill-pizza.html'
         id='Blog1_blog-pager-older-link' title='Older Post'>Older Post</a>\n</span>\n<a
         class='home-link' href='http://butteredsideupblog.blogspot.com/'>Home</a>\n</div>\n<div
         class='clear'></div>\n<div class='post-feeds'>\n<div class='feed-links'>\nSubscribe
@@ -758,14 +760,14 @@ http_interactions:
         Post</a>\n<span dir='ltr'>(10)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Ice%20Cream'>Ice
         Cream</a>\n<span dir='ltr'>(3)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Inspiration'>Inspiration</a>\n<span
         dir='ltr'>(3)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Life%20Updates'>Life
-        Updates</a>\n<span dir='ltr'>(3)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Lunch'>Lunch</a>\n<span
-        dir='ltr'>(3)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Pancakes%20and%20Waffles'>Pancakes
+        Updates</a>\n<span dir='ltr'>(4)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Lunch'>Lunch</a>\n<span
+        dir='ltr'>(4)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Pancakes%20and%20Waffles'>Pancakes
         and Waffles</a>\n<span dir='ltr'>(1)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Pasta'>Pasta</a>\n<span
         dir='ltr'>(3)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Pie'>Pie</a>\n<span
         dir='ltr'>(2)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Quick%20Bread'>Quick
         Bread</a>\n<span dir='ltr'>(2)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Recipe'>Recipe</a>\n<span
         dir='ltr'>(6)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Savory'>Savory</a>\n<span
-        dir='ltr'>(13)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Side%20Dish'>Side
+        dir='ltr'>(14)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Side%20Dish'>Side
         Dish</a>\n<span dir='ltr'>(2)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Supper'>Supper</a>\n<span
         dir='ltr'>(4)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Sweet'>Sweet</a>\n<span
         dir='ltr'>(23)</span>\n</li>\n<li>\n<a dir='ltr' href='http://butteredsideupblog.blogspot.com/search/label/Tea'>Tea</a>\n<span
@@ -842,7 +844,7 @@ http_interactions:
         class='widget BlogArchive' id='BlogArchive1'>\n<h2>Archives</h2>\n<div class='widget-content'>\n<div
         id='ArchiveList'>\n<div id='BlogArchive1_ArchiveList'>\n<select id='BlogArchive1_ArchiveMenu'>\n<option
         value=''>Archives</option>\n<option value='http://butteredsideupblog.blogspot.com/2014_08_01_archive.html'>August
-        (1)</option>\n<option value='http://butteredsideupblog.blogspot.com/2014_07_01_archive.html'>July
+        (3)</option>\n<option value='http://butteredsideupblog.blogspot.com/2014_07_01_archive.html'>July
         (3)</option>\n<option value='http://butteredsideupblog.blogspot.com/2014_06_01_archive.html'>June
         (6)</option>\n<option value='http://butteredsideupblog.blogspot.com/2014_05_01_archive.html'>May
         (4)</option>\n<option value='http://butteredsideupblog.blogspot.com/2014_04_01_archive.html'>April
@@ -925,7 +927,7 @@ http_interactions:
         = document.body.className.replace('loading', '');\n      }, 10);\n  </script>\n<script
         src='//assets.pinterest.com/js/pinit.js'></script>\n<script type=\"text/javascript\">\nif
         (window.jstiming) window.jstiming.load.tick('widgetJsBefore');\n</script><script
-        type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/widgets/3394219502-widgets.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/widgets/461032527-widgets.js\"></script>\n<script
         type=\"text/javascript\" src=\"https://apis.google.com/js/plusone.js\"></script>\n<script
         type='text/javascript'>\nif (typeof(BLOG_attachCsiOnload) != 'undefined' &&
         BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id']
@@ -966,7 +968,7 @@ http_interactions:
         l\\75!1;function m(){l||(l\\75!0,b[k].load[g](\\42firstScrollTime\\42))}b.addEventListener?b.addEventListener(\\42scroll\\42,m,!1):b.attachEvent(\\42onscroll\\42,m);\\n
         })();\\74/script\\076', 'mobileHeadScript': '', 'adsenseClientId': 'ca-pub-2648994066234267',
         'ieCssRetrofitLinks': '\\74!--[if IE]\\76\\74script type\\75\\42text/javascript\\42
-        src\\75\\42https://www.blogger.com/static/v1/jsbin/3620911004-ieretrofit.js\\42\\76\\74/script\\76\\n\\74![endif]--\\076',
+        src\\75\\42https://www.blogger.com/static/v1/jsbin/836876192-ieretrofit.js\\42\\76\\74/script\\76\\n\\74![endif]--\\076',
         'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
         'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/76f25a6f2e06af76',
         'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n', 'tf':
@@ -1063,10 +1065,10 @@ http_interactions:
         _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'),
         {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_BlogView', new
         _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled':
-        false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/595105622-lbx.js',
+        false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2820666533-lbx.js',
         'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/2392111094-lightbox_bundle.css'},
         'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2',
         'main', null, document.getElementById('HTML2'), {}, 'displayModeFull'));\n</script>\n</body>\n</html>"
     http_version: 
-  recorded_at: Mon, 18 Aug 2014 03:49:29 GMT
+  recorded_at: Mon, 25 Aug 2014 21:41:12 GMT
 recorded_with: VCR 2.9.2

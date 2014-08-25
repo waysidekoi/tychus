@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=UTF-8
       Date:
-      - Mon, 18 Aug 2014 03:46:43 GMT
+      - Mon, 25 Aug 2014 21:41:15 GMT
       X-Pingback:
       - http://somethingnewfordinner.com/xmlrpc.php
       Transfer-Encoding:
@@ -31,8 +31,8 @@ http_interactions:
       Connection:
       - Keep-Alive
       Set-Cookie:
-      - X-Mapping-mknjaipp=F2A6FE5686218C93B55ABF63AA54999F; path=/
-      - bb2_screener_=1408333603+67.82.106.107+67.82.106.107; path=/
+      - X-Mapping-mknjaipp=6E42DC0CE1C3241FBFC834568E589FD4; path=/
+      - bb2_screener_=1409002876+12.160.183.74+12.160.183.74; path=/
     body:
       encoding: UTF-8
       string: "<!doctype html>\r\n<html dir=\"ltr\" lang=\"en-US\">\r\n<head>\r\n\t\t<meta
@@ -142,14 +142,14 @@ http_interactions:
         />\n<link rel='next' title='Peach, caramelized onion &amp; goat cheese crostini'
         href='http://somethingnewfordinner.com/recipe/peach-caramelized-onion-goat-cheese-crostini/'
         />\n<meta name=\"generator\" content=\"WordPress 3.4.1\" />\n\n<!-- Bad Behavior
-        2.2.15 run time: 27.649 ms -->\n<script type=\"text/javascript\">\n<!--\nfunction
+        2.2.15 run time: 124.976 ms -->\n<script type=\"text/javascript\">\n<!--\nfunction
         bb2_addLoadEvent(func) {\n\tvar oldonload = window.onload;\n\tif (typeof window.onload
         != 'function') {\n\t\twindow.onload = func;\n\t} else {\n\t\twindow.onload
         = function() {\n\t\t\toldonload();\n\t\t\tfunc();\n\t\t}\n\t}\n}\n\nbb2_addLoadEvent(function()
         {\n\tfor ( i=0; i < document.forms.length; i++ ) {\n\t\tif (document.forms[i].method
         == 'post') {\n\t\t\tvar myElement = document.createElement('input');\n\t\t\tmyElement.setAttribute('type',
         'hidden');\n\t\t\tmyElement.name = 'bb2_screener_';\n\t\t\tmyElement.value
-        = '1408333603 67.82.106.107 67.82.106.107';\n\t\t\tdocument.forms[i].appendChild(myElement);\n\t\t}\n\t}\n});\n//
+        = '1409002876 12.160.183.74 12.160.183.74';\n\t\t\tdocument.forms[i].appendChild(myElement);\n\t\t}\n\t}\n});\n//
         --></script>\n\t\t\t<script type=\"text/javascript\">\n\t\tjQuery(function($)
         {\n\t\t\t$('.date-pick').datepicker({\n\t\t\t\tautoFocusNextInput: true,\n\t\t\t\tconstrainInput:
         false,\n\t\t\t\tchangeMonth: true,\n\t\t\t\tchangeYear: true,\n\t\t\t\tbeforeShow:
@@ -459,7 +459,7 @@ http_interactions:
         />\n\t\t\t\t<input type='hidden' name='comment_post_ID' value='7107' id='comment_post_ID'
         />\n<input type='hidden' name='comment_parent' id='comment_parent' value='0'
         />\n\t\t</p>\n\t\t\n\t\t<p style=\"display: none;\"><input type=\"hidden\"
-        id=\"akismet_comment_nonce\" name=\"akismet_comment_nonce\" value=\"75e04a7be3\"
+        id=\"akismet_comment_nonce\" name=\"akismet_comment_nonce\" value=\"76326a54c7\"
         /></p>\t\t\n\t\t</form>\n\n\n</div>\n\n                                </div><!--
         end of comments div -->\r\n                                \r\n                                </div><!--
         end of left-area -->\r\n\t\t\t\t        <!-- LEFT AREA ENDS HERE -->\r\n                                \r\n
@@ -499,33 +499,36 @@ http_interactions:
         <span>Recipes</span></h2>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"tabed\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
         class=\"tabs clearfix\"><li class=\"current\">Recent<span></span></li><li>Popular<span></span></li><li>Random<span></span></li></ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div
         class=\"block current\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
-        href=\"http://somethingnewfordinner.com/recipe/pimms-cup/\" class=\"img-box\"><img
-        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Pimms-cup-1-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Pimm&#039;s cup 1\"
-        title=\"Pimm&#039;s cup 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/pimms-cup/\">Pimm&#8217;s
-        cup</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t                            <p
-        class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"on\"></span><span class=\"on\"></span><span
-        class=\"on\"></span><span class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4
-        / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
-        href=\"http://somethingnewfordinner.com/recipe/minted-fresh-fruit-salad/\"
-        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/08/minted-fruit-salad-1-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"minted fruit salad 1\"
-        title=\"minted fruit salad 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/minted-fresh-fruit-salad/\">Minted
-        fresh fruit salad</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        href=\"http://somethingnewfordinner.com/recipe/peach-and-warm-goat-cheese-salad/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/08/Peach-warm-goat-cheese-salad-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Peach &amp; warm goat
+        cheese salad 1\" title=\"Peach &amp; warm goat cheese salad 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a
+        href=\"http://somethingnewfordinner.com/recipe/peach-and-warm-goat-cheese-salad/\">Peach
+        and warm goat cheese salad</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
+        class=\"on\"></span><span class=\"on\"></span>\t\t\t\t\t\t\t\t\t\t\t(5 / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t
+        \                        \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/chicken-potato-prosciutto-kabobs/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/08/Chicken-potato-prochuitto-kabobs-0-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Chicken, potato &amp;
+        prosciutto kabobs 0\" title=\"Chicken, potato &amp; prosciutto kabobs 0\"
+        /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/chicken-potato-prosciutto-kabobs/\">Chicken,
+        potato &amp; prosciutto kabobs</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
         \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
         class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
         class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4 /
         5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
-        href=\"http://somethingnewfordinner.com/recipe/peach-caramelized-onion-goat-cheese-crostini/\"
-        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/07/Peach-caramelized-onion-goat-cheese-crostini-1-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Peach, caramelized onion
-        &amp; goat cheese crostini 1\" title=\"Peach, caramelized onion &amp; goat
-        cheese crostini 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/peach-caramelized-onion-goat-cheese-crostini/\">Peach,
-        caramelized onion &amp; goat cheese crostini</a></h5>\t\t\t\t\t\t\t\n\t\t
-        \                           \n\t\t                            <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        href=\"http://somethingnewfordinner.com/recipe/hawaiian-style-fried-rice/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/08/Hawaiian-style-fried-rice-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Hawaiian-style fried
+        rice 1\" title=\"Hawaiian-style fried rice 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a
+        href=\"http://somethingnewfordinner.com/recipe/hawaiian-style-fried-rice/\">Hawaiian-style
+        fried rice</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
         class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
-        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4 /
-        5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
+        class=\"on\"></span><span class=\"on\"></span>\t\t\t\t\t\t\t\t\t\t\t(5 / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t
+        \                        \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
         </div><!-- end of block div --><div class=\"block\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
         class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a href=\"http://somethingnewfordinner.com/recipe/watermelon-tomato-and-strawberry-salad-with-burrata/\"
         class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/07/Watermelon-tomato-and-strawberry-salad-1-63x53.jpg\"
@@ -555,34 +558,32 @@ http_interactions:
         class=\"on\"></span><span class=\"on\"></span>\t\t\t\t\t\t\t\t\t\t\t(5 / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t
         \                        \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
         </div><!-- end of block div --><div class=\"block\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
-        class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a href=\"http://somethingnewfordinner.com/recipe/beet-and-kale-gratin/\"
-        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/06/Beet-and-kale-gratin-1-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Beet and kale gratin
-        1\" title=\"Beet and kale gratin 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/beet-and-kale-gratin/\">Beet
-        and kale gratin</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
-        \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"highest\">\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a href=\"http://somethingnewfordinner.com/recipe/simple-butter-lettuce-salad-with-fine-herbs-and-walnut-oil-dressing/\"
+        class=\"img-box\"></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/simple-butter-lettuce-salad-with-fine-herbs-and-walnut-oil-dressing/\">Butter
+        lettuce salad with fines herbs and walnut oil dressing</a></h5>\t\t\t\t\t\t\t\n\t\t
+        \                           \n\t\t                            <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
         class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
         class=\"on\"></span><span class=\"on\"></span>\t\t\t\t\t\t\t\t\t\t\t(5 / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t
         \                        \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
-        href=\"http://somethingnewfordinner.com/recipe/tropical-fruit-salsa/\" class=\"img-box\"><img
-        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/03/Tropical-fruit-salsa-1-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Tropical fruit salsa
-        1\" title=\"Tropical fruit salsa 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/tropical-fruit-salsa/\">Tropical
-        fruit salsa</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        href=\"http://somethingnewfordinner.com/recipe/the-best-chicken-and-vegetable-tacos/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2012/08/DSC01878-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Killer tacos 1\" title=\"Killer
+        tacos 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a href=\"http://somethingnewfordinner.com/recipe/the-best-chicken-and-vegetable-tacos/\">Killer
+        chicken tacos</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
         \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
         class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
-        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4 /
-        5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
-        href=\"http://somethingnewfordinner.com/recipe/chicken-tortilla-soup/\" class=\"img-box\"><img
-        width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2014/04/Chicken-tortilla-soup-2014-a-63x53.jpg\"
-        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Chicken tortilla soup
-        2014 a\" title=\"Chicken tortilla soup 2014 a\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a
-        href=\"http://somethingnewfordinner.com/recipe/chicken-tortilla-soup/\">Chicken
-        tortilla soup</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
+        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4.3
+        / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a
+        href=\"http://somethingnewfordinner.com/recipe/raspberry-and-almond-trifle/\"
+        class=\"img-box\"><img width=\"63\" height=\"53\" src=\"http://somethingnewfordinner.com/wp-content/uploads/2013/11/Raspberry-and-almond-trifle-1-63x53.jpg\"
+        class=\"attachment-sidebar-tabs wp-post-image\" alt=\"Raspberry and almond
+        trifle 1\" title=\"Raspberry and almond trifle 1\" /></a>\n\t\t\t\t\t\t\t\t\t<h5><a
+        href=\"http://somethingnewfordinner.com/recipe/raspberry-and-almond-trifle/\">Raspberry
+        and almond trifle</a></h5>\t\t\t\t\t\t\t\n\t\t                            \n\t\t
         \                           <p class=\"rate\">\n\t\t\t\t\t\t\t\t\t\t\t<span
         class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span
-        class=\"on\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(4.2
-        / 5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
+        class=\"off\"></span><span class=\"off\"></span>\t\t\t\t\t\t\t\t\t\t\t(3 /
+        5)\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t
         </div><!-- end of block div --><div class=\"bot-border\"></div>\n\t\t\t\t\t\t\t\t\t\t\t</div><!--
         end of tabed div -->\n\t\t\t\t\t\t\t\t\t</div><!-- end of fav-recipes widget
         --><div class=\"widget\"><h2 class=\"widget-title\">Subscribe</h2>\t\n<div
@@ -590,7 +591,7 @@ http_interactions:
         type=\"hidden\" id=\"mc_submit_type\" name=\"mc_submit_type\" value=\"html\"
         />\n\t\t<input type=\"hidden\" name=\"mcsf_action\" value=\"mc_submit_signup_form\"
         />\n\t\t<input type=\"hidden\" id=\"_mc_submit_signup_form_nonce\" name=\"_mc_submit_signup_form_nonce\"
-        value=\"7bdc54aee0\" />\t\t\n\t\t\t<div id=\"mc_subheader\">\n\t\t\tSubscribe
+        value=\"e1c974b9b0\" />\t\t\n\t\t\t<div id=\"mc_subheader\">\n\t\t\tSubscribe
         to receive the latest recipes and blog posts.\t\t</div><!-- /mc_subheader
         -->\n\t\t\t\n\t<div class=\"mc_form_inside\">\n\t\t\n\t\t<div class=\"updated\"
         id=\"mc_message\">\n\t\t\t\t\t</div><!-- /mc_message -->\n\n\t\t\n<div class=\"mc_merge_var\">\n\t\t<label
@@ -618,47 +619,48 @@ http_interactions:
         = window.adsbygoogle || []).push({});\r\n</script></div>\n\t\t</div><div class=\"widget
         newsEvent\">\n\t\t\t\t\t<h2 class=\"blog-widget-title\">Recent <span>Blog
         Posts</span></h2>\n\t\t\t\t\t<ul class=\"list\">                \n\t\t\t\t\t<li>\n
-        \                           <h5><a href=\"http://somethingnewfordinner.com/einstein-tips/7-tricks-for-cleaning-your-garbage-disposal/\">7
-        tricks for cleaning your garbage disposal</a></h5>\n                            <p>Does
-        your garbage disposal ever get a case of bad breath? As much as I hate to
-        admit it mine...</p>\n                    </li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t
-        \               \n\t\t\t\t\t<li>\n                            <h5><a href=\"http://somethingnewfordinner.com/inspiring-ingredients/why-you-should-eat-cherries/\">Why
-        you should eat cherries</a></h5>\n                            <p>Cherries
-        are one of my favorite summer fruits. They are low in calories at 87 calories
-        per cup, have a...</p>\n                    </li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t
-        \               \n\t\t\t\t\t<li>\n                            <h5><a href=\"http://somethingnewfordinner.com/culinary-concepts/the-difference-between-crostini-and-bruschetta/\">The
-        difference between crostini and bruschetta?</a></h5>\n                            <p>Bruschetta
-        and crostini are both antipasti, or little dishes that are served before the
-        meal to stimulate the appetite. Both...</p>\n                    </li>\t\t\t
-        \                        \t\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t\t</div><!-- end
-        of fav-recipes widget --><div class=\"widget\"><h2 class=\"widget-title\">Blog
+        \                           <h5><a href=\"http://somethingnewfordinner.com/einstein-tips/13-grillingtips-for-reducing-carcinogens-when-you-grill-meat/\">13
+        grilling tips for reducing carcinogens</a></h5>\n                            <p>We
+        all love to grill, particularly, in the summer when it is too hot to turn
+        on the stove, but...</p>\n                    </li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t
+        \               \n\t\t\t\t\t<li>\n                            <h5><a href=\"http://somethingnewfordinner.com/travel-opportunity/my-4-travel-rules/\">My
+        4 travel rules</a></h5>\n                            <p>I love to travel.
+        I think there is nothing like travel to expand your horizons, learn about
+        other people and...</p>\n                    </li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t
+        \               \n\t\t\t\t\t<li>\n                            <h5><a href=\"http://somethingnewfordinner.com/giveaway-contests/anolon-stainless-steel-stir-fry-pan-giveaway/\">Anolon
+        stainless steel stir fry pan giveaway</a></h5>\n                            <p>The
+        nice folks at Anolon are sponsoring a giveaway for Something New For Dinner
+        readers. We are giving away an...</p>\n                    </li>\t\t\t                         \t\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t\t</div><!--
+        end of fav-recipes widget --><div class=\"widget\"><h2 class=\"widget-title\">Blog
         Categories</h2><select name='cat' id='cat' class='postform' >\n\t<option value='-1'>Select
         Category</option>\n\t<option class=\"level-0\" value=\"743\">Amazon Store&nbsp;&nbsp;(21)</option>\n\t<option
         class=\"level-0\" value=\"1394\">Anniversaries&nbsp;&nbsp;(1)</option>\n\t<option
         class=\"level-0\" value=\"147\">Comparison testing&nbsp;&nbsp;(1)</option>\n\t<option
-        class=\"level-0\" value=\"162\">Culinary concepts&nbsp;&nbsp;(12)</option>\n\t<option
-        class=\"level-0\" value=\"83\">Culinary history&nbsp;&nbsp;(17)</option>\n\t<option
-        class=\"level-0\" value=\"43\">Einstein tips&nbsp;&nbsp;(29)</option>\n\t<option
+        class=\"level-0\" value=\"162\">Culinary concepts&nbsp;&nbsp;(13)</option>\n\t<option
+        class=\"level-0\" value=\"83\">Culinary history&nbsp;&nbsp;(18)</option>\n\t<option
+        class=\"level-0\" value=\"43\">Einstein tips&nbsp;&nbsp;(31)</option>\n\t<option
         class=\"level-0\" value=\"710\">Flowers&nbsp;&nbsp;(8)</option>\n\t<option
         class=\"level-0\" value=\"1779\">From our archives&nbsp;&nbsp;(4)</option>\n\t<option
         class=\"level-0\" value=\"1683\">Gardening&nbsp;&nbsp;(2)</option>\n\t<option
         class=\"level-0\" value=\"1840\">Gift guide&nbsp;&nbsp;(1)</option>\n\t<option
         class=\"level-0\" value=\"1957\">Giveaway&nbsp;&nbsp;(1)</option>\n\t<option
-        class=\"level-0\" value=\"1036\">Giveaway contests&nbsp;&nbsp;(2)</option>\n\t<option
+        class=\"level-0\" value=\"1036\">Giveaway contests&nbsp;&nbsp;(3)</option>\n\t<option
         class=\"level-0\" value=\"1341\">Holiday menus&nbsp;&nbsp;(10)</option>\n\t<option
-        class=\"level-0\" value=\"42\">Inspiring ingredients&nbsp;&nbsp;(62)</option>\n\t<option
-        class=\"level-0\" value=\"2038\">Keeping it clean&nbsp;&nbsp;(1)</option>\n\t<option
-        class=\"level-0\" value=\"84\">Methods&nbsp;&nbsp;(41)</option>\n\t<option
-        class=\"level-0\" value=\"117\">Mini recipe&nbsp;&nbsp;(12)</option>\n\t<option
+        class=\"level-0\" value=\"2166\">How to&#8217;s&nbsp;&nbsp;(1)</option>\n\t<option
+        class=\"level-0\" value=\"42\">Inspiring ingredients&nbsp;&nbsp;(63)</option>\n\t<option
+        class=\"level-0\" value=\"2038\">Keeping it clean&nbsp;&nbsp;(2)</option>\n\t<option
+        class=\"level-0\" value=\"84\">Methods&nbsp;&nbsp;(42)</option>\n\t<option
+        class=\"level-0\" value=\"117\">Mini recipe&nbsp;&nbsp;(13)</option>\n\t<option
         class=\"level-0\" value=\"1780\">Mixology&nbsp;&nbsp;(1)</option>\n\t<option
-        class=\"level-0\" value=\"125\">Nutritional knowledge&nbsp;&nbsp;(40)</option>\n\t<option
+        class=\"level-0\" value=\"125\">Nutritional knowledge&nbsp;&nbsp;(41)</option>\n\t<option
         class=\"level-0\" value=\"1565\">Party ideas&nbsp;&nbsp;(3)</option>\n\t<option
         class=\"level-0\" value=\"882\">Pay it forward&nbsp;&nbsp;(3)</option>\n\t<option
+        class=\"level-0\" value=\"2092\">Restaurant recommendations&nbsp;&nbsp;(1)</option>\n\t<option
         class=\"level-0\" value=\"77\">Serving it up in style&nbsp;&nbsp;(4)</option>\n\t<option
         class=\"level-0\" value=\"730\">Sustainability&nbsp;&nbsp;(2)</option>\n\t<option
         class=\"level-0\" value=\"1811\">Thoughts on living&nbsp;&nbsp;(1)</option>\n\t<option
         class=\"level-0\" value=\"13\">Tools I love&nbsp;&nbsp;(20)</option>\n\t<option
-        class=\"level-0\" value=\"126\">Travel opportunity&nbsp;&nbsp;(8)</option>\n\t<option
+        class=\"level-0\" value=\"126\">Travel opportunity&nbsp;&nbsp;(9)</option>\n\t<option
         class=\"level-0\" value=\"1\">Uncategorized&nbsp;&nbsp;(13)</option>\n</select>\n\n<script
         type='text/javascript'>\n/* <![CDATA[ */\n\tvar dropdown = document.getElementById(\"cat\");\n\tfunction
         onCatChange() {\n\t\tif ( dropdown.options[dropdown.selectedIndex].value >
@@ -679,8 +681,8 @@ http_interactions:
         src=\"http://ap.lijit.com///www/delivery/fpi.js?z=251052&u=NewForDinner&width=300&height=250\"></script></div>\n\t\t</div>
         \       </div><!-- end of sidebar -->\r\n<!---Analytics Tracking -->\r\n\r\n<script>\r\n//rating
         tracking\r\njQuery('form#rate-product').click(function(){\r\n\tratingFunction();
-        \r\n});\r\n\tfunction ratingFunction(){\r\n\t\tvar recipeName = \"The difference
-        between crostini and bruschetta?\";\r\n\t\tvar rating = jQuery('#selected_rating').val();\r\n\t\tga('send',
+        \r\n});\r\n\tfunction ratingFunction(){\r\n\t\tvar recipeName = \"Anolon stainless
+        steel stir fry pan giveaway\";\r\n\t\tvar rating = jQuery('#selected_rating').val();\r\n\t\tga('send',
         'event', 'Recipe Rated', recipeName, rating, parseInt(rating));\r\n//\t\t_kmq.push(['record',
         'Recipe Rated', {'RecipeName':recipeName}]);\r\n//\tconsole.log(rating);\r\n\t}\r\njQuery(document).ready(function(){\r\n\t//track
         mailchimp subscribes\r\n\tjQuery('form#mc_signup_form').submit(function(){\r\n\tga('send',
@@ -784,5 +786,5 @@ http_interactions:
         \ src=\"http://ardrone.swoop.com/js/spxw.js\"\n  data-domain=\"SW-86917615-45013\"\n
         \ data-serverbase=\"http://ardrone.swoop.com/\">\n</script>\n<!-- -SWOOP -->\n</html>"
     http_version: 
-  recorded_at: Mon, 18 Aug 2014 03:46:45 GMT
+  recorded_at: Mon, 25 Aug 2014 21:41:10 GMT
 recorded_with: VCR 2.9.2

@@ -21,15 +21,15 @@ http_interactions:
       Content-Type:
       - text/html; charset=UTF-8
       Expires:
-      - Mon, 18 Aug 2014 13:50:55 GMT
+      - Mon, 25 Aug 2014 21:40:00 GMT
       Date:
-      - Mon, 18 Aug 2014 13:50:55 GMT
+      - Mon, 25 Aug 2014 21:40:00 GMT
       Cache-Control:
       - private, max-age=0
       Last-Modified:
-      - Mon, 18 Aug 2014 04:55:03 GMT
+      - Mon, 25 Aug 2014 15:46:41 GMT
       Etag:
-      - '"1bf5ac26-c08f-4611-a094-1ed448a13f82"'
+      - '"344a7868-a52b-4f69-990e-9ae168575b19"'
       X-Content-Type-Options:
       - nosniff
       X-Xss-Protection:
@@ -66,7 +66,7 @@ http_interactions:
         For Dinner - Atom\" href=\"http://www.blogger.com/feeds/5305857107701550267/posts/default\"
         />\n\n<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Eat Cake
         For Dinner - Atom\" href=\"http://www.eatcakefordinner.net/feeds/3255487602943514004/comments/default\"
-        />\n<!--[if IE]><script type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/jsbin/3620911004-ieretrofit.js\"></script>\n<![endif]-->\n<link
+        />\n<!--[if IE]><script type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/jsbin/836876192-ieretrofit.js\"></script>\n<![endif]-->\n<link
         href='http://3.bp.blogspot.com/-TET2jn_LRjE/U96ULVpdE1I/AAAAAAAAOw0/oSZhK5y-qkA/s1600/sunrisemuffintallwords.jpg'
         rel='image_src'/>\n<!--[if IE]> <script> (function() { var html5 = (\"abbr,article,aside,audio,canvas,datalist,details,\"
         + \"figure,footer,header,hgroup,mark,menu,meter,nav,output,\" + \"progress,section,time,video\").split(',');
@@ -92,7 +92,7 @@ http_interactions:
         h4 {\n  font-family: sans-serif;\n}\n.wf-inactive h2, .wf-josefinsans-n4-loading
         h2, .wf-josefinsans-n4-inactive h2 {\n  font-family: sans-serif;\n}\n</style>\n<link
         type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1535467126-widget_css_2_bundle.css'
-        />\n<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5305857107701550267&zx=1bf5ac26-c08f-4611-a094-1ed448a13f82'
+        />\n<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5305857107701550267&zx=344a7868-a52b-4f69-990e-9ae168575b19'
         />\n<style id='page-skin-1' type='text/css'><!--\n/*\n-----------------------------------------------\nBlogger
         Template Style\nName:     Simple\nDesigner: Josh Peterson\nURL:      www.noaesthetic.com\n-----------------------------------------------
         */\n/* Variable definitions\n====================\n<Variable name=\"keycolor\"
@@ -730,7 +730,7 @@ http_interactions:
         id='comment-editor-src'></a>\n<iframe allowtransparency='true' class='blogger-iframe-colorize
         blogger-comment-from-post' frameborder='0' height='410' id='comment-editor'
         name='comment-editor' src='' width='100%'></iframe>\n<script type=\"text/javascript\"
-        src=\"https://www.blogger.com/static/v1/jsbin/3903788214-comment_from_post_iframe.js\"></script>\n<script
+        src=\"https://www.blogger.com/static/v1/jsbin/2876379539-comment_from_post_iframe.js\"></script>\n<script
         type='text/javascript'>\n      BLOG_CMT_createIframe('https://www.blogger.com/rpc_relay.html');\n
         \   </script>\n</div>\n</p>\n<div id='backlinks-container'>\n<div id='Blog1_backlinks-container'>\n</div>\n</div>\n</div>\n</div>\n<!--
         google_ad_section_end(name=default) -->\n<div class='inline-ad'>\n<script
@@ -868,7 +868,7 @@ http_interactions:
         = true;\n\n    gadgets.rpc.register('resize_iframe', function(height) {\n
         \     var el = document.getElementById(this['f']);\n      if (el) {\n        el.style.height
         = height + 'px';\n      }\n    });\n\n    \n    gadgets.rpc.register('set_pref',
-        function() {});\n\n    registerGetBlogUrls();\n  }\n  </script>\n<div id=\"div-m94d640fh0mx\"
+        function() {});\n\n    registerGetBlogUrls();\n  }\n  </script>\n<div id=\"div-1u521n59vicdw\"
         style=\"width: 100%; \"></div>\n<script type=\"text/javascript\">\n    var
         skin = {};\n    skin['FACE_SIZE'] = '32';\n    skin['HEIGHT'] = \"260\";\n
         \   skin['TITLE'] = \"\";\n    skin['BORDER_COLOR'] = \"transparent\";\n    skin['ENDCAP_BG_COLOR']
@@ -879,7 +879,7 @@ http_interactions:
         = \"#f83236\";\n    skin['CONTENT_SECONDARY_TEXT_COLOR'] = \"#999999\";\n
         \   skin['CONTENT_HEADLINE_COLOR'] = \"#75c5a2\";\n    skin['FONT_FACE'] =
         \"normal normal 15px Josefin Sans\";\n    google.friendconnect.container.setParentUrl(\"/\");\n
-        \   google.friendconnect.container[\"renderMembersGadget\"](\n    {id: \"div-m94d640fh0mx\",\n
+        \   google.friendconnect.container[\"renderMembersGadget\"](\n    {id: \"div-1u521n59vicdw\",\n
         \    height: 260,\n     \n     \n     \n     site: \"07786769672435421856\",\n
         \    \n     locale: 'en' },\n     skin);\n  </script>\n</div>\n</div>\n<div
         class='clear'></div>\n<span class='widget-item-control'>\n<span class='item-control
@@ -927,7 +927,7 @@ http_interactions:
         class='widget BlogArchive' id='BlogArchive1'>\n<h2><img src='http://i112.photobucket.com/albums/n179/eatcakefordinner/archive_zpsf0137e0b.png'/></h2>\n<div
         class='widget-content'>\n<div class='ltr' id='ArchiveList'>\n<div id='BlogArchive1_ArchiveList'>\n<select
         id='BlogArchive1_ArchiveMenu'>\n<option value=''>Blog Archive</option>\n<option
-        value='http://www.eatcakefordinner.net/2014_08_01_archive.html'>August (6)</option>\n<option
+        value='http://www.eatcakefordinner.net/2014_08_01_archive.html'>August (8)</option>\n<option
         value='http://www.eatcakefordinner.net/2014_07_01_archive.html'>July (12)</option>\n<option
         value='http://www.eatcakefordinner.net/2014_06_01_archive.html'>June (12)</option>\n<option
         value='http://www.eatcakefordinner.net/2014_05_01_archive.html'>May (13)</option>\n<option
@@ -1296,7 +1296,7 @@ http_interactions:
         by bloggersentral.com.\n// Visit http://www.bloggersentral.com/2012/11/pinterest-pin-it-button-on-image-hover.html
         for details.\n// Feel free to use and share, but please keep this notice intact.\n</script>\n<script
         type=\"text/javascript\">\nif (window.jstiming) window.jstiming.load.tick('widgetJsBefore');\n</script><script
-        type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/widgets/3394219502-widgets.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://www.blogger.com/static/v1/widgets/461032527-widgets.js\"></script>\n<script
         type=\"text/javascript\" src=\"https://apis.google.com/js/plusone.js\"></script>\n<script
         type='text/javascript'>\nif (typeof(BLOG_attachCsiOnload) != 'undefined' &&
         BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id']
@@ -1338,7 +1338,7 @@ http_interactions:
         l\\75!1;function m(){l||(l\\75!0,b[k].load[g](\\42firstScrollTime\\42))}b.addEventListener?b.addEventListener(\\42scroll\\42,m,!1):b.attachEvent(\\42onscroll\\42,m);\\n
         })();\\74/script\\076', 'mobileHeadScript': '', 'adsenseClientId': 'ca-pub-6790571205860376',
         'ieCssRetrofitLinks': '\\74!--[if IE]\\76\\74script type\\75\\42text/javascript\\42
-        src\\75\\42https://www.blogger.com/static/v1/jsbin/3620911004-ieretrofit.js\\42\\76\\74/script\\76\\n\\74![endif]--\\076',
+        src\\75\\42https://www.blogger.com/static/v1/jsbin/836876192-ieretrofit.js\\42\\76\\74/script\\76\\n\\74![endif]--\\076',
         'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
         'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/76f25a6f2e06af76',
         'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n', 'tf':
@@ -1502,10 +1502,10 @@ http_interactions:
         new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'),
         {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_BlogView', new
         _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled':
-        false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/595105622-lbx.js',
+        false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2820666533-lbx.js',
         'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/2392111094-lightbox_bundle.css'},
         'displayModeFull'));\n_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4',
         'main', null, document.getElementById('HTML4'), {}, 'displayModeFull'));\n</script>\n</body>\n</html>"
     http_version: 
-  recorded_at: Mon, 18 Aug 2014 13:50:55 GMT
+  recorded_at: Mon, 25 Aug 2014 21:40:01 GMT
 recorded_with: VCR 2.9.2
