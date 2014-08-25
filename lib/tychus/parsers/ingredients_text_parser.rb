@@ -56,14 +56,14 @@ module Parsers
     end
 
     def within_br_node?(node)
-      return false unless previous_sibling(node)
-      previous_sibling(node).name != "br" &&
+      return false unless node.previous_sibling
+      node.previous_sibling.name != "br" &&
         next_siblings(node, 3).any?{ |x| x.name == "br" }
     end
 
     def br_node?(node)
-      previous_sibling(node) &&
-        previous_sibling(node).name == "br" &&
+      node.previous_sibling &&
+        node.previous_sibling.name == "br" &&
         next_siblings(node, 3).any? {|x| x.name == "br" }
     end
 
@@ -146,10 +146,6 @@ module Parsers
         .reject(&:blank?)
         .map {|x| clean(x) }
         .take_while{|x| valid_ingredient?(x)}
-    end
-
-    def previous_sibling(node)
-      previous_siblings(node, 1).last
     end
 
     def previous_siblings(node, count=nil)
