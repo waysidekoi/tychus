@@ -164,7 +164,8 @@ describe Tychus::Parsers::IngredientsTextParser do
           "http://www.thegardengrazer.com/2014/07/wild-rice-spinach-salad-with-lemon.html",
           "http://www.theironyou.com/2014/08/raspberry-hibiscus-popsicles.html",
           # "http://www.from-thelionsden.com/2014/08/peach-mango-smoothie.html",
-          # "http://cleanwellness.ca/2/post/2014/08/whipped-pumpkin-seed-spinach-bean-dip.html"
+          "http://cleanwellness.ca/2/post/2014/08/whipped-pumpkin-seed-spinach-bean-dip.html",
+          "https://kenkokitchen.squarespace.com/blog/2014/8/10/vanilla-coconut-sundae-with-maple-caramelised-nuts-berry-sauce"
         ]
       end
       let(:ingredients) do
@@ -237,20 +238,27 @@ describe Tychus::Parsers::IngredientsTextParser do
           #    "1 Cup almond milk (or regular milk)",
           #    "1 Cup ice cubes"
           # ],
-          # [
-          #   # http://cleanwellness.ca/2/post/2014/08/whipped-pumpkin-seed-spinach-bean-dip.html
-          #   "1 clove garlic, peeled",
-          #   "2½ cups (about 2 2/3, 15 oz. cans) cooked chickpeas, drained and rinsed" ,
-          #   "¼ cup fresh lemon juice",
-          #   "¼ cup well-stirred Dastony Sprouted Pumpkin Seed Butter"   ,
-          #   "2 tsp ground cumin",
-          #   "2 tsp sea salt",
-          #   "1 tsp mild smoked paprika",
-          #   "Ground pepper, to taste",
-          #   "1 cup tightly-packed baby spinach",
-          #   "1/3 cup water",
-          #   "Crackers, veggies, or pita, for serving"
-          # ]
+          [
+            # http://cleanwellness.ca/2/post/2014/08/whipped-pumpkin-seed-spinach-bean-dip.html
+            "1 clove garlic, peeled",
+            "2½ cups (about 2 2/3, 15 oz. cans) cooked chickpeas, drained and rinsed" ,
+            "¼ cup fresh lemon juice",
+            "¼ cup well-stirred Dastony Sprouted Pumpkin Seed Butter"   ,
+            "2 tsp ground cumin",
+            "2 tsp sea salt",
+            "1 tsp mild smoked paprika",
+            "Ground pepper, to taste",
+            "1 cup tightly-packed baby spinach",
+            "1/3 cup water",
+            "Crackers, veggies, or pita, for serving"
+          ],
+          [
+            "800 ml coconut cream*" ,
+            "125 ml (1/2 cup) rice malt syrup",
+            "1 tbsp maple syrup",
+            "2 tsps vanilla paste or 2 vanilla beans (scraped)",
+            "pinch salt"
+          ]
         ]
       end
 

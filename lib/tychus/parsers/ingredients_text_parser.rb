@@ -40,7 +40,7 @@ module Parsers
     def ingredients_block?(el)
       # if this node is the beginning of a br_node block, check its inner contents
       # otherwise, go by its #contents
-      ingredients_end_regex = /\A(instructions|preparation|directions|process).?\s*\z/i
+      ingredients_end_regex = /\A(instructions|preparation|directions|process|method).?\s*\z/i
 
       return false if br_node?(el) && clean(nested_br_content(el).first).match(ingredients_end_regex)
       !clean(el.content).match(ingredients_end_regex)
@@ -62,9 +62,10 @@ module Parsers
     end
 
     def br_node?(node)
+      return false if node.name == "br"
       node.previous_sibling &&
         node.previous_sibling.name == "br" &&
-        next_siblings(node, 3).any? {|x| x.name == "br" }
+        next_siblings(node, 5).any? {|x| x.name == "br" }
     end
 
     def nested_tr_node?(node)
@@ -96,6 +97,7 @@ module Parsers
       #order matters
       return if within_br_node?(node)
       return nested_br_content(node) if br_node?(node)
+      return if node.text && node.content == "\n"
       return node.content if node.text? || node.name == "li"
       return nested_tr_content(node) if node.name == "tr"
       return nested_p_content(node) if nested_p_node?(node)
